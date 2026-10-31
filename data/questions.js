@@ -11,6 +11,17 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Pomáhám ___ (starý dědeček).",
+      "hover_refs": [
+        {
+          "word": "starý",
+          "table": "mladý"
+        },
+        {
+          "word": "dědeček",
+          "table": "pan",
+          "note": "-ek → -k: dědeček → dědečkovi"
+        }
+      ],
       "hint": "Dativ (Komu/Čemu?)",
       "options": [
         "starému dědečkovi",
@@ -33,6 +44,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Píšu dopis ___ (dlouhé pero).",
+      "hover_refs": [
+        {
+          "word": "dlouhé",
+          "table": "mladý"
+        },
+        {
+          "word": "pero",
+          "table": "město"
+        }
+      ],
       "hint": "Instrumentál (Čím?)",
       "options": [
         "dlouhým perem",
@@ -55,6 +76,21 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Rozumíš ___ (ta nová profesorka)?",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "nová",
+          "table": "mladý"
+        },
+        {
+          "word": "profesorka",
+          "table": "žena",
+          "note": "k→c: profesorka → profesorce"
+        }
+      ],
       "hint": "Dativ (Komu?)",
       "options": [
         "tou novou profesorkou",
@@ -77,6 +113,16 @@ const QUESTION_BANK = {
         "poss"
       ],
       "prompt": "Jdu do kina s ___ (moje sestřenice).",
+      "hover_refs": [
+        {
+          "word": "moje",
+          "table": "můj"
+        },
+        {
+          "word": "sestřenice",
+          "table": "růže"
+        }
+      ],
       "hint": "Instrumentál (S kým?)",
       "options": [
         "mojí sestrenici",
@@ -98,6 +144,16 @@ const QUESTION_BANK = {
         "masc_anim"
       ],
       "prompt": "Mluvím s ___ (pan ředitel).",
+      "hover_refs": [
+        {
+          "word": "pan",
+          "table": "pan"
+        },
+        {
+          "word": "ředitel",
+          "table": "muž"
+        }
+      ],
       "hint": "Instrumentál (S kým?)",
       "options": [
         "panu řediteli",
@@ -120,6 +176,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Dám ten dárek ___ (mladý bratr).",
+      "hover_refs": [
+        {
+          "word": "mladý",
+          "table": "mladý"
+        },
+        {
+          "word": "bratr",
+          "table": "pan"
+        }
+      ],
       "hint": "Dativ (Komu?)",
       "options": [
         "mladému bratrovi",
@@ -142,6 +208,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Cestujeme ___ (moderní vlak).",
+      "hover_refs": [
+        {
+          "word": "moderní",
+          "table": "jarní"
+        },
+        {
+          "word": "vlak",
+          "table": "hrad"
+        }
+      ],
       "hint": "Instrumentál (Čím?)",
       "options": [
         "modernímu vlaku",
@@ -164,6 +240,20 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Směju se ___ (ten vtipný film).",
+      "hover_refs": [
+        {
+          "word": "ten",
+          "table": "ten"
+        },
+        {
+          "word": "vtipný",
+          "table": "mladý"
+        },
+        {
+          "word": "film",
+          "table": "hrad"
+        }
+      ],
       "hint": "Dativ (Komu/Čemu?)",
       "options": [
         "tomu vtipnému filmu",
@@ -186,6 +276,20 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Přiblížili jsme se k ___ (ta velká budova).",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "velká",
+          "table": "mladý"
+        },
+        {
+          "word": "budova",
+          "table": "žena"
+        }
+      ],
       "hint": "Dativ (K čemu?)",
       "options": [
         "té velké budově",
@@ -208,6 +312,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Chleba s ___ (čerstvé máslo).",
+      "hover_refs": [
+        {
+          "word": "čerstvé",
+          "table": "mladý"
+        },
+        {
+          "word": "máslo",
+          "table": "město"
+        }
+      ],
       "hint": "Instrumentál (S čím?)",
       "options": [
         "čerstvým máslem",
@@ -231,6 +345,20 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Věřím ___ (můj nejlepší kamarád).",
+      "hover_refs": [
+        {
+          "word": "můj",
+          "table": "můj"
+        },
+        {
+          "word": "nejlepší",
+          "table": "jarní"
+        },
+        {
+          "word": "kamarád",
+          "table": "pan"
+        }
+      ],
       "hint": "Dativ (Komu?)",
       "options": [
         "mém nejlepším kamarádovi",
@@ -253,6 +381,17 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Míchám kávu ___ (malá lžička).",
+      "hover_refs": [
+        {
+          "word": "malá",
+          "table": "mladý"
+        },
+        {
+          "word": "lžička",
+          "table": "žena",
+          "note": "k→č: lžička → lžičkou"
+        }
+      ],
       "hint": "Instrumentál (Čím?)",
       "options": [
         "malou lžičkou",
@@ -275,6 +414,17 @@ const QUESTION_BANK = {
         "poss"
       ],
       "prompt": "Volám ___ (moje maminka).",
+      "hover_refs": [
+        {
+          "word": "moje",
+          "table": "můj"
+        },
+        {
+          "word": "maminka",
+          "table": "žena",
+          "note": "k→c: maminka → mamince"
+        }
+      ],
       "hint": "Dativ (Komu?)",
       "options": [
         "mojí mamince",
@@ -297,6 +447,17 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Sekám trávu ___ (nová sekačka).",
+      "hover_refs": [
+        {
+          "word": "nová",
+          "table": "mladý"
+        },
+        {
+          "word": "sekačka",
+          "table": "žena",
+          "note": "k→č: sekačka → sekačkou"
+        }
+      ],
       "hint": "Instrumentál (Čím?)",
       "options": [
         "novou sekačkou",
@@ -319,6 +480,20 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Nerozumím ___ (tento těžký úkol).",
+      "hover_refs": [
+        {
+          "word": "tento",
+          "table": "ten"
+        },
+        {
+          "word": "těžký",
+          "table": "mladý"
+        },
+        {
+          "word": "úkol",
+          "table": "hrad"
+        }
+      ],
       "hint": "Dativ (Čemu?)",
       "options": [
         "tento těžký úkol",
@@ -340,6 +515,13 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Napiš 3. pád slova Praha.",
+      "hover_refs": [
+        {
+          "word": "Praha",
+          "table": "žena",
+          "note": "h→z: Praha → Praze"
+        }
+      ],
       "hint": "Dativ",
       "answer": "Praze",
       "explanation": {
@@ -356,6 +538,13 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Děkuju ___ (kamarádka).",
+      "hover_refs": [
+        {
+          "word": "kamarádka",
+          "table": "žena",
+          "note": "k→c: kamarádka → kamarádce"
+        }
+      ],
       "hint": "Dativ (Komu?)",
       "options": [
         "kamarádce",
@@ -378,6 +567,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Rozumím ___ (učitel).",
+      "hover_refs": [
+        {
+          "word": "učitel",
+          "table": "muž"
+        }
+      ],
       "hint": "Dativ (Komu?)",
       "options": [
         "učiteli",
@@ -400,6 +595,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Pomáhám ___ (soused).",
+      "hover_refs": [
+        {
+          "word": "soused",
+          "table": "pan"
+        }
+      ],
       "hint": "Dativ (Komu?)",
       "options": [
         "sousedovi",
@@ -422,6 +623,13 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Odpovídám ___ (učitelka).",
+      "hover_refs": [
+        {
+          "word": "učitelka",
+          "table": "žena",
+          "note": "k→c: učitelka → učitelce"
+        }
+      ],
       "hint": "Dativ (Komu?)",
       "options": [
         "učitelce",
@@ -444,6 +652,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Volám ___ (doktor).",
+      "hover_refs": [
+        {
+          "word": "doktor",
+          "table": "pan"
+        }
+      ],
       "hint": "Dativ (Komu?)",
       "options": [
         "doktorovi",
@@ -466,6 +680,17 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Rozumíš ___ (ta otázka)?",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "otázka",
+          "table": "žena",
+          "note": "k→c: otázka → otázce"
+        }
+      ],
       "hint": "Dativ (Čemu?)",
       "options": [
         "té otázce",
@@ -510,6 +735,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Sloužím ___ (firma).",
+      "hover_refs": [
+        {
+          "word": "firma",
+          "table": "žena"
+        }
+      ],
       "hint": "Dativ (Čemu?)",
       "options": [
         "firmě",
@@ -532,6 +763,16 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Nerozumím ___ (ten problém).",
+      "hover_refs": [
+        {
+          "word": "ten",
+          "table": "ten"
+        },
+        {
+          "word": "problém",
+          "table": "hrad"
+        }
+      ],
       "hint": "Dativ (Čemu?)",
       "options": [
         "tomu problému",
@@ -554,6 +795,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Jedu ___ (auto).",
+      "hover_refs": [
+        {
+          "word": "auto",
+          "table": "město"
+        }
+      ],
       "hint": "Instrumentál (Čím?)",
       "options": [
         "autem",
@@ -576,6 +823,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Krájím chleba ___ (nůž).",
+      "hover_refs": [
+        {
+          "word": "nůž",
+          "table": "stroj"
+        }
+      ],
       "hint": "Instrumentál (Čím?)",
       "options": [
         "nožem",
@@ -620,6 +873,16 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Bavíme se s ___ (ta hra).",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "hra",
+          "table": "žena"
+        }
+      ],
       "hint": "Instrumentál (S čím?)",
       "options": [
         "tou hrou",
@@ -642,6 +905,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Zajímá se o ___ (umění).",
+      "hover_refs": [
+        {
+          "word": "umění",
+          "table": "stavení"
+        }
+      ],
       "hint": "Instrumentál (Čím?)",
       "options": [
         "uměním",
@@ -664,6 +933,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Píšu ___ (pero).",
+      "hover_refs": [
+        {
+          "word": "pero",
+          "table": "město"
+        }
+      ],
       "hint": "Instrumentál (Čím?)",
       "options": [
         "perem",
@@ -686,6 +961,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Cestuju ___ (vlak).",
+      "hover_refs": [
+        {
+          "word": "vlak",
+          "table": "hrad"
+        }
+      ],
       "hint": "Instrumentál (Čím?)",
       "options": [
         "vlakem",
@@ -708,6 +989,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Mluvím s ___ (ředitel).",
+      "hover_refs": [
+        {
+          "word": "ředitel",
+          "table": "muž"
+        }
+      ],
       "hint": "Instrumentál (S kým?)",
       "options": [
         "ředitelem",
@@ -730,6 +1017,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Chodím s ___ (kamarádka).",
+      "hover_refs": [
+        {
+          "word": "kamarádka",
+          "table": "žena"
+        }
+      ],
       "hint": "Instrumentál (S kým?)",
       "options": [
         "kamarádkou",
@@ -773,6 +1066,13 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Napiš 3. pád slova \"kniha\".",
+      "hover_refs": [
+        {
+          "word": "kniha",
+          "table": "žena",
+          "note": "h→z: kniha → knize"
+        }
+      ],
       "hint": "Dativ",
       "answer": "knize",
       "explanation": {
@@ -788,6 +1088,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Napiš 3. pád slova \"dítě\".",
+      "hover_refs": [
+        {
+          "word": "dítě",
+          "table": "kuře"
+        }
+      ],
       "hint": "Dativ",
       "answer": "dítěti",
       "explanation": {
@@ -803,6 +1109,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Napiš 7. pád slova \"kolo\".",
+      "hover_refs": [
+        {
+          "word": "kolo",
+          "table": "město"
+        }
+      ],
       "hint": "Instrumentál",
       "answer": "kolem",
       "explanation": {
@@ -818,6 +1130,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Napiš 3. pád slova \"město\".",
+      "hover_refs": [
+        {
+          "word": "město",
+          "table": "město"
+        }
+      ],
       "hint": "Dativ",
       "answer": "městu",
       "explanation": {
@@ -833,6 +1151,12 @@ const QUESTION_BANK = {
         "masc_inanim"
       ],
       "prompt": "Napiš 7. pád slova \"dům\".",
+      "hover_refs": [
+        {
+          "word": "dům",
+          "table": "hrad"
+        }
+      ],
       "hint": "Instrumentál",
       "answer": "domem",
       "explanation": {
@@ -851,6 +1175,17 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Bojím se ___ (velký pes).",
+      "hover_refs": [
+        {
+          "word": "velký",
+          "table": "mladý"
+        },
+        {
+          "word": "pes",
+          "table": "pan",
+          "note": "-e- vypuštěno: pes → psa"
+        }
+      ],
       "hint": "Genitiv (Koho/Čeho?)",
       "options": [
         "velkého psa",
@@ -873,6 +1208,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Vidím ___ (krásné město).",
+      "hover_refs": [
+        {
+          "word": "krásné",
+          "table": "mladý"
+        },
+        {
+          "word": "město",
+          "table": "město"
+        }
+      ],
       "hint": "Akuzativ (Koho/Co?)",
       "options": [
         "krásného města",
@@ -895,6 +1240,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Piju kávu bez ___ (bílý cukr).",
+      "hover_refs": [
+        {
+          "word": "bílý",
+          "table": "mladý"
+        },
+        {
+          "word": "cukr",
+          "table": "hrad"
+        }
+      ],
       "hint": "Genitiv (Bez koho/čeho?)",
       "options": [
         "bílého cukru",
@@ -917,6 +1272,16 @@ const QUESTION_BANK = {
         "plur"
       ],
       "prompt": "Mám rád ___ (česká piva).",
+      "hover_refs": [
+        {
+          "word": "česká",
+          "table": "mladý"
+        },
+        {
+          "word": "piva",
+          "table": "město"
+        }
+      ],
       "hint": "Akuzativ (Koho/Co?)",
       "options": [
         "českých piv",
@@ -939,6 +1304,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Jdu pro ___ (mladá lékařka).",
+      "hover_refs": [
+        {
+          "word": "mladá",
+          "table": "mladý"
+        },
+        {
+          "word": "lékařka",
+          "table": "žena"
+        }
+      ],
       "hint": "Akuzativ (Pro koho/co?)",
       "options": [
         "mladou lékařku",
@@ -961,6 +1336,16 @@ const QUESTION_BANK = {
         "poss"
       ],
       "prompt": "Zítra dosáhneme ___ (náš cíl).",
+      "hover_refs": [
+        {
+          "word": "náš",
+          "table": "náš"
+        },
+        {
+          "word": "cíl",
+          "table": "hrad"
+        }
+      ],
       "hint": "Genitiv (Koho/Čeho?)",
       "options": [
         "našeho cíle",
@@ -983,6 +1368,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Hledám ___ (ztracený klíč).",
+      "hover_refs": [
+        {
+          "word": "ztracený",
+          "table": "mladý"
+        },
+        {
+          "word": "klíč",
+          "table": "stroj"
+        }
+      ],
       "hint": "Akuzativ (Koho/Co?)",
       "options": [
         "ztraceného klíče",
@@ -1005,6 +1400,16 @@ const QUESTION_BANK = {
         "poss"
       ],
       "prompt": "Došel jsem tam bez ___ (tvoje pomoc).",
+      "hover_refs": [
+        {
+          "word": "tvoje",
+          "table": "můj"
+        },
+        {
+          "word": "pomoc",
+          "table": "kost"
+        }
+      ],
       "hint": "Genitiv (Bez koho/čeho?)",
       "options": [
         "tvoji pomoc",
@@ -1027,6 +1432,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Potkal jsem ___ (starý známý).",
+      "hover_refs": [
+        {
+          "word": "starý",
+          "table": "mladý"
+        },
+        {
+          "word": "známý",
+          "table": "mladý"
+        }
+      ],
       "hint": "Akuzativ (Koho/Co?)",
       "options": [
         "starého známého",
@@ -1049,6 +1464,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Koupil jsem ___ (nové auto).",
+      "hover_refs": [
+        {
+          "word": "nové",
+          "table": "mladý"
+        },
+        {
+          "word": "auto",
+          "table": "město"
+        }
+      ],
       "hint": "Akuzativ (Koho/Co?)",
       "options": [
         "nového auta",
@@ -1071,6 +1496,16 @@ const QUESTION_BANK = {
         "poss"
       ],
       "prompt": "Vedle ___ (naše škola) je park.",
+      "hover_refs": [
+        {
+          "word": "naše",
+          "table": "náš"
+        },
+        {
+          "word": "škola",
+          "table": "žena"
+        }
+      ],
       "hint": "Genitiv (Vedle?)",
       "options": [
         "naší škole",
@@ -1093,6 +1528,20 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Slyšíš ___ (ta hlasitá hudba)?",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "hlasitá",
+          "table": "mladý"
+        },
+        {
+          "word": "hudba",
+          "table": "žena"
+        }
+      ],
       "hint": "Akuzativ (Koho/Co?)",
       "options": [
         "té hlasité hudby",
@@ -1114,6 +1563,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Uprostřed ___ (náměstí) stojí kašna.",
+      "hover_refs": [
+        {
+          "word": "náměstí",
+          "table": "stavení"
+        }
+      ],
       "hint": "Genitiv (Uprostřed?)",
       "options": [
         "náměstí",
@@ -1136,6 +1591,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Čtu ___ (zajímavá kniha).",
+      "hover_refs": [
+        {
+          "word": "zajímavá",
+          "table": "mladý"
+        },
+        {
+          "word": "kniha",
+          "table": "žena"
+        }
+      ],
       "hint": "Akuzativ (Koho/Co?)",
       "options": [
         "zajímavé knihy",
@@ -1157,6 +1622,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Napiš 2. pád slova voda.",
+      "hover_refs": [
+        {
+          "word": "voda",
+          "table": "žena"
+        }
+      ],
       "hint": "Genitiv",
       "answer": "vody",
       "explanation": {
@@ -1173,6 +1644,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Vracím se z ___ (práce).",
+      "hover_refs": [
+        {
+          "word": "práce",
+          "table": "růže"
+        }
+      ],
       "hint": "Genitiv (Z čeho?)",
       "options": [
         "práce",
@@ -1195,6 +1672,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Během ___ (přednáška) jsem usnul.",
+      "hover_refs": [
+        {
+          "word": "přednáška",
+          "table": "žena"
+        }
+      ],
       "hint": "Genitiv (Během čeho?)",
       "options": [
         "přednášky",
@@ -1217,6 +1700,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Místo ___ (káva) piju čaj.",
+      "hover_refs": [
+        {
+          "word": "káva",
+          "table": "žena"
+        }
+      ],
       "hint": "Genitiv (Místo čeho?)",
       "options": [
         "kávy",
@@ -1239,6 +1728,16 @@ const QUESTION_BANK = {
         "poss"
       ],
       "prompt": "U ___ (náš dům) je zahrada.",
+      "hover_refs": [
+        {
+          "word": "náš",
+          "table": "náš"
+        },
+        {
+          "word": "dům",
+          "table": "hrad"
+        }
+      ],
       "hint": "Genitiv (U čeho?)",
       "options": [
         "našeho domu",
@@ -1261,6 +1760,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Bojím se ___ (tma).",
+      "hover_refs": [
+        {
+          "word": "tma",
+          "table": "žena"
+        }
+      ],
       "hint": "Genitiv (Čeho?)",
       "options": [
         "tmy",
@@ -1304,6 +1809,16 @@ const QUESTION_BANK = {
         "poss"
       ],
       "prompt": "Bez ___ (tvůj bratr) nejdu.",
+      "hover_refs": [
+        {
+          "word": "tvůj",
+          "table": "můj"
+        },
+        {
+          "word": "bratr",
+          "table": "pan"
+        }
+      ],
       "hint": "Genitiv (Bez koho?)",
       "options": [
         "tvého bratra",
@@ -1326,6 +1841,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Ptám se na ___ (ta otázka).",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "otázka",
+          "table": "žena"
+        }
+      ],
       "hint": "Genitiv (Na koho/co? po \"ptát se\")",
       "options": [
         "té otázky",
@@ -1348,6 +1873,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Vidím ___ (ta žena).",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "žena",
+          "table": "žena"
+        }
+      ],
       "hint": "Akuzativ (Koho/Co?)",
       "options": [
         "tu ženu",
@@ -1370,6 +1905,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Přes ___ (most) neprojedeš.",
+      "hover_refs": [
+        {
+          "word": "most",
+          "table": "stroj"
+        }
+      ],
       "hint": "Akuzativ (Přes co?)",
       "options": [
         "most",
@@ -1392,6 +1933,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Na ___ (stůl) polož knihu.",
+      "hover_refs": [
+        {
+          "word": "stůl",
+          "table": "hrad"
+        }
+      ],
       "hint": "Akuzativ (Na co?)",
       "options": [
         "stůl",
@@ -1414,6 +1961,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Potřebuju ___ (nový počítač).",
+      "hover_refs": [
+        {
+          "word": "nový",
+          "table": "mladý"
+        },
+        {
+          "word": "počítač",
+          "table": "stroj"
+        }
+      ],
       "hint": "Akuzativ (Co?)",
       "options": [
         "nový počítač",
@@ -1436,6 +1993,16 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Mám rád ___ (ta hudba).",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "hudba",
+          "table": "žena"
+        }
+      ],
       "hint": "Akuzativ (Co?)",
       "options": [
         "tu hudbu",
@@ -1458,6 +2025,16 @@ const QUESTION_BANK = {
         "poss"
       ],
       "prompt": "Potkal jsem ___ (tvůj bratr).",
+      "hover_refs": [
+        {
+          "word": "tvůj",
+          "table": "můj"
+        },
+        {
+          "word": "bratr",
+          "table": "pan"
+        }
+      ],
       "hint": "Akuzativ (Koho?)",
       "options": [
         "tvého bratra",
@@ -1480,6 +2057,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Viděl jsem ___ (dívka).",
+      "hover_refs": [
+        {
+          "word": "dívka",
+          "table": "žena"
+        }
+      ],
       "hint": "Akuzativ (Koho?)",
       "options": [
         "dívku",
@@ -1502,6 +2085,12 @@ const QUESTION_BANK = {
         "plur"
       ],
       "prompt": "Hledám ___ (klíče).",
+      "hover_refs": [
+        {
+          "word": "klíče",
+          "table": "stroj"
+        }
+      ],
       "hint": "Akuzativ (Co?)",
       "options": [
         "klíče",
@@ -1524,6 +2113,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Vracím se do ___ (škola).",
+      "hover_refs": [
+        {
+          "word": "škola",
+          "table": "žena"
+        }
+      ],
       "hint": "Genitiv (Do čeho?)",
       "options": [
         "školy",
@@ -1545,6 +2140,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Napiš 2. pád slova \"voda\".",
+      "hover_refs": [
+        {
+          "word": "voda",
+          "table": "žena"
+        }
+      ],
       "hint": "Genitiv",
       "answer": "vody",
       "explanation": {
@@ -1560,6 +2161,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Napiš 4. pád slova \"kniha\".",
+      "hover_refs": [
+        {
+          "word": "kniha",
+          "table": "žena"
+        }
+      ],
       "hint": "Akuzativ",
       "answer": "knihu",
       "explanation": {
@@ -1575,6 +2182,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Napiš 2. pád slova \"město\".",
+      "hover_refs": [
+        {
+          "word": "město",
+          "table": "město"
+        }
+      ],
       "hint": "Genitiv",
       "answer": "města",
       "explanation": {
@@ -1590,6 +2203,12 @@ const QUESTION_BANK = {
         "masc_anim"
       ],
       "prompt": "Napiš 4. pád slova \"muž\".",
+      "hover_refs": [
+        {
+          "word": "muž",
+          "table": "muž"
+        }
+      ],
       "hint": "Akuzativ",
       "answer": "muže",
       "explanation": {
@@ -1605,6 +2224,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Napiš 2. pád slova \"škola\".",
+      "hover_refs": [
+        {
+          "word": "škola",
+          "table": "žena"
+        }
+      ],
       "hint": "Genitiv",
       "answer": "školy",
       "explanation": {
@@ -1623,6 +2248,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Mluvíme o ___ (nový projekt).",
+      "hover_refs": [
+        {
+          "word": "nový",
+          "table": "mladý"
+        },
+        {
+          "word": "projekt",
+          "table": "hrad"
+        }
+      ],
       "hint": "Lokál (O čem?)",
       "options": [
         "novém projektu",
@@ -1644,6 +2279,13 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Bydlím v ___ (Praha).",
+      "hover_refs": [
+        {
+          "word": "Praha",
+          "table": "žena",
+          "note": "h→z: Praha → Praze"
+        }
+      ],
       "hint": "Lokál (Kde?)",
       "options": [
         "Prahu",
@@ -1666,6 +2308,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Kniha leží na ___ (malý stůl).",
+      "hover_refs": [
+        {
+          "word": "malý",
+          "table": "mladý"
+        },
+        {
+          "word": "stůl",
+          "table": "hrad"
+        }
+      ],
       "hint": "Lokál (Na čem?)",
       "options": [
         "malým stole",
@@ -1688,6 +2340,20 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "V ___ (ta stará skříň) nic není.",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "stará",
+          "table": "mladý"
+        },
+        {
+          "word": "skříň",
+          "table": "píseň"
+        }
+      ],
       "hint": "Lokál (V čem?)",
       "options": [
         "té staré skříni",
@@ -1710,6 +2376,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Povídali si o ___ (krásná dovolená).",
+      "hover_refs": [
+        {
+          "word": "krásná",
+          "table": "mladý"
+        },
+        {
+          "word": "dovolená",
+          "table": "žena"
+        }
+      ],
       "hint": "Lokál (O čem?)",
       "options": [
         "krásnou dovolenou",
@@ -1732,6 +2408,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Pracuju na ___ (hlavní nádraží).",
+      "hover_refs": [
+        {
+          "word": "hlavní",
+          "table": "jarní"
+        },
+        {
+          "word": "nádraží",
+          "table": "stavení"
+        }
+      ],
       "hint": "Lokál (Na čem?)",
       "options": [
         "hlavním nádraží",
@@ -1754,6 +2440,16 @@ const QUESTION_BANK = {
         "poss"
       ],
       "prompt": "Na ___ (naše univerzita) se mi líbí.",
+      "hover_refs": [
+        {
+          "word": "naše",
+          "table": "náš"
+        },
+        {
+          "word": "univerzita",
+          "table": "žena"
+        }
+      ],
       "hint": "Lokál (Na čem?)",
       "options": [
         "naší univerzitě",
@@ -1776,6 +2472,21 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Přemýšlím o ___ (ten hodný kluk).",
+      "hover_refs": [
+        {
+          "word": "ten",
+          "table": "ten"
+        },
+        {
+          "word": "hodný",
+          "table": "mladý"
+        },
+        {
+          "word": "kluk",
+          "table": "pan",
+          "note": "k→c: kluk → klukovi"
+        }
+      ],
       "hint": "Lokál (O kom?)",
       "options": [
         "tom hodném klukovi",
@@ -1798,6 +2509,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Sedíme v ___ (příjemná kavárna).",
+      "hover_refs": [
+        {
+          "word": "příjemná",
+          "table": "mladý"
+        },
+        {
+          "word": "kavárna",
+          "table": "žena"
+        }
+      ],
       "hint": "Lokál (V čem?)",
       "options": [
         "příjemnou kavárnu",
@@ -1820,6 +2541,16 @@ const QUESTION_BANK = {
         "adj"
       ],
       "prompt": "Ležím na ___ (pohodlná postel).",
+      "hover_refs": [
+        {
+          "word": "pohodlná",
+          "table": "mladý"
+        },
+        {
+          "word": "postel",
+          "table": "píseň"
+        }
+      ],
       "hint": "Lokál (Na čem?)",
       "options": [
         "pohodlnou postel",
@@ -1841,6 +2572,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Napiš 6. pád slova Brno.",
+      "hover_refs": [
+        {
+          "word": "Brno",
+          "table": "město"
+        }
+      ],
       "hint": "Lokál",
       "answer": "Brně",
       "explanation": {
@@ -1857,6 +2594,16 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Mluvíme o ___ (ten film).",
+      "hover_refs": [
+        {
+          "word": "ten",
+          "table": "ten"
+        },
+        {
+          "word": "film",
+          "table": "hrad"
+        }
+      ],
       "hint": "Lokál (O čem?)",
       "options": [
         "tom filmu",
@@ -1879,6 +2626,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "V ___ (lednice) je mléko.",
+      "hover_refs": [
+        {
+          "word": "lednice",
+          "table": "růže"
+        }
+      ],
       "hint": "Lokál (V čem?)",
       "options": [
         "lednici",
@@ -1901,6 +2654,13 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Na ___ (střecha) je sníh.",
+      "hover_refs": [
+        {
+          "word": "střecha",
+          "table": "žena",
+          "note": "ch→š: střecha → střeše"
+        }
+      ],
       "hint": "Lokál (Na čem?)",
       "options": [
         "střeše",
@@ -1945,6 +2705,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Po ___ (oběd) jdeme ven.",
+      "hover_refs": [
+        {
+          "word": "oběd",
+          "table": "stroj"
+        }
+      ],
       "hint": "Lokál (Po čem?)",
       "options": [
         "obědě",
@@ -1967,6 +2733,13 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "V ___ (kniha) je obrázek.",
+      "hover_refs": [
+        {
+          "word": "kniha",
+          "table": "žena",
+          "note": "h→z: kniha → knize"
+        }
+      ],
       "hint": "Lokál (V čem?)",
       "options": [
         "knize",
@@ -1989,6 +2762,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Na ___ (gauč) sedí kočka.",
+      "hover_refs": [
+        {
+          "word": "gauč",
+          "table": "stroj"
+        }
+      ],
       "hint": "Lokál (Na čem?)",
       "options": [
         "gauči",
@@ -2011,6 +2790,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Mluví o ___ (jeho práce).",
+      "hover_refs": [
+        {
+          "word": "práce",
+          "table": "růže"
+        }
+      ],
       "hint": "Lokál (O čem?)",
       "options": [
         "jeho práci",
@@ -2033,6 +2818,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "V ___ (Brno) studuju.",
+      "hover_refs": [
+        {
+          "word": "Brno",
+          "table": "město"
+        }
+      ],
       "hint": "Lokál (Kde?)",
       "options": [
         "Brně",
@@ -2055,6 +2846,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Na ___ (Slovensko) jsem byl.",
+      "hover_refs": [
+        {
+          "word": "Slovensko",
+          "table": "město"
+        }
+      ],
       "hint": "Lokál (Kde?)",
       "options": [
         "Slovensku",
@@ -2077,6 +2874,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Při ___ (cesta) domů jsem usnul.",
+      "hover_refs": [
+        {
+          "word": "cesta",
+          "table": "žena"
+        }
+      ],
       "hint": "Lokál (Při čem?)",
       "options": [
         "cestě",
@@ -2099,6 +2902,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "O ___ (kamarád) mluvili.",
+      "hover_refs": [
+        {
+          "word": "kamarád",
+          "table": "pan"
+        }
+      ],
       "hint": "Lokál (O kom?)",
       "options": [
         "kamarádovi",
@@ -2121,6 +2930,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "V ___ (auto) je teplo.",
+      "hover_refs": [
+        {
+          "word": "auto",
+          "table": "město"
+        }
+      ],
       "hint": "Lokál (V čem?)",
       "options": [
         "autě",
@@ -2143,6 +2958,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Na ___ (stěna) visí obraz.",
+      "hover_refs": [
+        {
+          "word": "stěna",
+          "table": "žena"
+        }
+      ],
       "hint": "Lokál (Na čem?)",
       "options": [
         "stěně",
@@ -2165,6 +2986,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "O ___ (dovolená) mluvili.",
+      "hover_refs": [
+        {
+          "word": "dovolená",
+          "table": "žena"
+        }
+      ],
       "hint": "Lokál (O čem?)",
       "options": [
         "dovolené",
@@ -2187,6 +3014,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "V ___ (prosinec) je zima.",
+      "hover_refs": [
+        {
+          "word": "prosinec",
+          "table": "stroj"
+        }
+      ],
       "hint": "Lokál (V čem?)",
       "options": [
         "prosinci",
@@ -2209,6 +3042,16 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Mluvím o ___ (ta věc).",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "věc",
+          "table": "kost"
+        }
+      ],
       "hint": "Lokál (O čem?)",
       "options": [
         "té věci",
@@ -2231,6 +3074,17 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "V ___ (ta kniha) je mapa.",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "kniha",
+          "table": "žena",
+          "note": "h→z: kniha → knize"
+        }
+      ],
       "hint": "Lokál (V čem?)",
       "options": [
         "té knize",
@@ -2253,6 +3107,16 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Na ___ (ten ostrov) žije sám.",
+      "hover_refs": [
+        {
+          "word": "ten",
+          "table": "ten"
+        },
+        {
+          "word": "ostrov",
+          "table": "hrad"
+        }
+      ],
       "hint": "Lokál (Na čem?)",
       "options": [
         "tom ostrově",
@@ -2275,6 +3139,12 @@ const QUESTION_BANK = {
         "noun"
       ],
       "prompt": "Při ___ (cvičení) se soustřeď.",
+      "hover_refs": [
+        {
+          "word": "cvičení",
+          "table": "stavení"
+        }
+      ],
       "hint": "Lokál (Při čem?)",
       "options": [
         "cvičení",
@@ -2296,6 +3166,13 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Napiš 6. pád slova \"Praha\".",
+      "hover_refs": [
+        {
+          "word": "Praha",
+          "table": "žena",
+          "note": "h→z: Praha → Praze"
+        }
+      ],
       "hint": "Lokál",
       "answer": "Praze",
       "explanation": {
@@ -2311,6 +3188,12 @@ const QUESTION_BANK = {
         "masc_inanim"
       ],
       "prompt": "Napiš 6. pád slova \"les\".",
+      "hover_refs": [
+        {
+          "word": "les",
+          "table": "hrad"
+        }
+      ],
       "hint": "Lokál",
       "answer": "lese",
       "explanation": {
@@ -2326,6 +3209,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Napiš 6. pád slova \"okno\".",
+      "hover_refs": [
+        {
+          "word": "okno",
+          "table": "město"
+        }
+      ],
       "hint": "Lokál",
       "answer": "okně",
       "explanation": {
@@ -2341,6 +3230,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Napiš 6. pád slova \"Rusko\".",
+      "hover_refs": [
+        {
+          "word": "Rusko",
+          "table": "město"
+        }
+      ],
       "hint": "Lokál",
       "answer": "Rusku",
       "explanation": {
@@ -2356,6 +3251,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Napiš 6. pád slova \"ulice\".",
+      "hover_refs": [
+        {
+          "word": "ulice",
+          "table": "růže"
+        }
+      ],
       "hint": "Lokál",
       "answer": "ulici",
       "explanation": {
@@ -3128,6 +4029,12 @@ const QUESTION_BANK = {
         "akuzativ"
       ],
       "prompt": "Učím se ___ (čeština).",
+      "hover_refs": [
+        {
+          "word": "čeština",
+          "table": "žena"
+        }
+      ],
       "hint": "učit se + akuzativ",
       "options": [
         "češtinu",
@@ -3149,6 +4056,17 @@ const QUESTION_BANK = {
         "dativ"
       ],
       "prompt": "Rozumím ___ (moje sestra).",
+      "hover_refs": [
+        {
+          "word": "moje",
+          "table": "můj"
+        },
+        {
+          "word": "sestra",
+          "table": "žena",
+          "note": "r→ř: sestra → sestře"
+        }
+      ],
       "hint": "rozumět + dativ",
       "options": [
         "mojí sestře",
@@ -3170,6 +4088,16 @@ const QUESTION_BANK = {
         "lokál"
       ],
       "prompt": "Mluvím o ___ (ta práce).",
+      "hover_refs": [
+        {
+          "word": "ta",
+          "table": "ten"
+        },
+        {
+          "word": "práce",
+          "table": "růže"
+        }
+      ],
       "hint": "mluvit o + lokál",
       "options": [
         "té práci",
@@ -3191,6 +4119,12 @@ const QUESTION_BANK = {
         "akuzativ"
       ],
       "prompt": "Dívám se na ___ (televize).",
+      "hover_refs": [
+        {
+          "word": "televize",
+          "table": "růže"
+        }
+      ],
       "hint": "dívat se na + akuzativ",
       "options": [
         "televizi",
@@ -3212,6 +4146,12 @@ const QUESTION_BANK = {
         "akuzativ"
       ],
       "prompt": "Zajímám se o ___ (hudba).",
+      "hover_refs": [
+        {
+          "word": "hudba",
+          "table": "žena"
+        }
+      ],
       "hint": "zajímat se o + akuzativ",
       "options": [
         "hudbu",
@@ -3233,6 +4173,16 @@ const QUESTION_BANK = {
         "dativ"
       ],
       "prompt": "Věřím ___ (ten muž).",
+      "hover_refs": [
+        {
+          "word": "ten",
+          "table": "ten"
+        },
+        {
+          "word": "muž",
+          "table": "muž"
+        }
+      ],
       "hint": "věřit + dativ",
       "options": [
         "tomu muži",
@@ -3254,6 +4204,13 @@ const QUESTION_BANK = {
         "genitiv"
       ],
       "prompt": "Ptám se ___ (profesor).",
+      "hover_refs": [
+        {
+          "word": "profesor",
+          "table": "pan",
+          "note": "r→ř: profesor → profesora"
+        }
+      ],
       "hint": "ptát se + genitiv",
       "options": [
         "profesora",
@@ -3275,6 +4232,13 @@ const QUESTION_BANK = {
         "dativ"
       ],
       "prompt": "Děkuju ___ (babička).",
+      "hover_refs": [
+        {
+          "word": "babička",
+          "table": "žena",
+          "note": "k→c: babička → babičce"
+        }
+      ],
       "hint": "děkovat + dativ",
       "options": [
         "babičce",
@@ -3296,6 +4260,17 @@ const QUESTION_BANK = {
         "dativ"
       ],
       "prompt": "Pomáhám ___ (moje babička).",
+      "hover_refs": [
+        {
+          "word": "moje",
+          "table": "můj"
+        },
+        {
+          "word": "babička",
+          "table": "žena",
+          "note": "k→c: babička → babičce"
+        }
+      ],
       "hint": "pomáhat + dativ",
       "options": [
         "mojí babičce",
@@ -3317,6 +4292,12 @@ const QUESTION_BANK = {
         "akuzativ"
       ],
       "prompt": "Čekám na ___ (kamarádka).",
+      "hover_refs": [
+        {
+          "word": "kamarádka",
+          "table": "žena"
+        }
+      ],
       "hint": "čekat na + akuzativ",
       "options": [
         "kamarádku",
@@ -3338,6 +4319,12 @@ const QUESTION_BANK = {
         "akuzativ"
       ],
       "prompt": "Těším se na ___ (dovolená).",
+      "hover_refs": [
+        {
+          "word": "dovolená",
+          "table": "žena"
+        }
+      ],
       "hint": "těšit se na + akuzativ",
       "options": [
         "dovolenou",
@@ -3359,6 +4346,16 @@ const QUESTION_BANK = {
         "akuzativ"
       ],
       "prompt": "Starám se o ___ (mladší bratr).",
+      "hover_refs": [
+        {
+          "word": "mladší",
+          "table": "jarní"
+        },
+        {
+          "word": "bratr",
+          "table": "pan"
+        }
+      ],
       "hint": "starat se o + akuzativ",
       "options": [
         "mladšího bratra",
@@ -3380,6 +4377,13 @@ const QUESTION_BANK = {
         "akuzativ"
       ],
       "prompt": "Zapomněl jsem na ___ (schůzka).",
+      "hover_refs": [
+        {
+          "word": "schůzka",
+          "table": "žena",
+          "note": "k→c: schůzka → schůzku"
+        }
+      ],
       "hint": "zapomenout na + akuzativ",
       "options": [
         "schůzku",
@@ -3401,6 +4405,21 @@ const QUESTION_BANK = {
         "genitiv"
       ],
       "prompt": "Neboj se ___ (ten velký pes)!",
+      "hover_refs": [
+        {
+          "word": "ten",
+          "table": "ten"
+        },
+        {
+          "word": "velký",
+          "table": "mladý"
+        },
+        {
+          "word": "pes",
+          "table": "pan",
+          "note": "-e- vypuštěno: pes → psa"
+        }
+      ],
       "hint": "bát se + genitiv",
       "options": [
         "toho velkého psa",
@@ -3422,6 +4441,12 @@ const QUESTION_BANK = {
         "akuzativ"
       ],
       "prompt": "Učím ___ (studenti) češtinu.",
+      "hover_refs": [
+        {
+          "word": "studenti",
+          "table": "pan"
+        }
+      ],
       "hint": "učit + akuzativ",
       "options": [
         "studenty",
@@ -3443,6 +4468,16 @@ const QUESTION_BANK = {
         "akuzativ"
       ],
       "prompt": "Prosím ___ (pan doktor) o pomoc.",
+      "hover_refs": [
+        {
+          "word": "pan",
+          "table": "pan"
+        },
+        {
+          "word": "doktor",
+          "table": "pan"
+        }
+      ],
       "hint": "prosit + akuzativ",
       "options": [
         "pana doktora",
@@ -3464,6 +4499,13 @@ const QUESTION_BANK = {
         "akuzativ"
       ],
       "prompt": "Vzpomínám na ___ (dědeček).",
+      "hover_refs": [
+        {
+          "word": "dědeček",
+          "table": "pan",
+          "note": "-ek → -k: dědeček → dědečka"
+        }
+      ],
       "hint": "vzpomínat na + akuzativ",
       "options": [
         "dědečka",
@@ -3485,6 +4527,16 @@ const QUESTION_BANK = {
         "lokál"
       ],
       "prompt": "Mluvili jsme o ___ (náš plán).",
+      "hover_refs": [
+        {
+          "word": "náš",
+          "table": "náš"
+        },
+        {
+          "word": "plán",
+          "table": "hrad"
+        }
+      ],
       "hint": "mluvit o + lokál",
       "options": [
         "našem plánu",
@@ -3506,6 +4558,12 @@ const QUESTION_BANK = {
         "genitiv"
       ],
       "prompt": "Napiš: Ptám se ___ (kamarád).",
+      "hover_refs": [
+        {
+          "word": "kamarád",
+          "table": "pan"
+        }
+      ],
       "hint": "ptát se + genitiv",
       "answer": "kamaráda",
       "explanation": {
@@ -3521,6 +4579,13 @@ const QUESTION_BANK = {
         "lokál"
       ],
       "prompt": "Napiš: Mluvím o ___ (kniha).",
+      "hover_refs": [
+        {
+          "word": "kniha",
+          "table": "žena",
+          "note": "h→z: kniha → knize"
+        }
+      ],
       "hint": "mluvit o + lokál",
       "answer": "knize",
       "explanation": {
@@ -3538,6 +4603,12 @@ const QUESTION_BANK = {
         "masc_anim"
       ],
       "prompt": "Jeden student, dva ___.",
+      "hover_refs": [
+        {
+          "word": "student",
+          "table": "pan"
+        }
+      ],
       "hint": "masc. anim. (nom. pl.)",
       "options": [
         "studenti",
@@ -3559,6 +4630,13 @@ const QUESTION_BANK = {
         "masc_anim"
       ],
       "prompt": "Jeden kluk, dva ___.",
+      "hover_refs": [
+        {
+          "word": "kluk",
+          "table": "pan",
+          "note": "k→c: kluk → kluci"
+        }
+      ],
       "hint": "masc. anim. (k→c)",
       "options": [
         "kluci",
@@ -3580,6 +4658,13 @@ const QUESTION_BANK = {
         "masc_anim"
       ],
       "prompt": "Jeden profesor, dva ___.",
+      "hover_refs": [
+        {
+          "word": "profesor",
+          "table": "pan",
+          "note": "r→ř: profesor → profesoři"
+        }
+      ],
       "hint": "masc. anim. (r→ř)",
       "options": [
         "profesoři",
@@ -3601,6 +4686,12 @@ const QUESTION_BANK = {
         "masc_inanim"
       ],
       "prompt": "Jeden hrad, dva ___.",
+      "hover_refs": [
+        {
+          "word": "hrad",
+          "table": "hrad"
+        }
+      ],
       "hint": "masc. inanim. tvrdé",
       "options": [
         "hrady",
@@ -3622,6 +4713,12 @@ const QUESTION_BANK = {
         "masc_inanim"
       ],
       "prompt": "Jeden počítač, dva ___.",
+      "hover_refs": [
+        {
+          "word": "počítač",
+          "table": "stroj"
+        }
+      ],
       "hint": "masc. inanim. měkké",
       "options": [
         "počítače",
@@ -3643,6 +4740,12 @@ const QUESTION_BANK = {
         "masc_inanim"
       ],
       "prompt": "Jeden stroj, dva ___.",
+      "hover_refs": [
+        {
+          "word": "stroj",
+          "table": "stroj"
+        }
+      ],
       "hint": "masc. inanim. měkké",
       "options": [
         "stroje",
@@ -3664,6 +4767,12 @@ const QUESTION_BANK = {
         "masc_inanim"
       ],
       "prompt": "Jeden autobus, dva ___.",
+      "hover_refs": [
+        {
+          "word": "autobus",
+          "table": "hrad"
+        }
+      ],
       "hint": "masc. inanim. tvrdé",
       "options": [
         "autobusy",
@@ -3685,6 +4794,13 @@ const QUESTION_BANK = {
         "masc_anim"
       ],
       "prompt": "Jeden hoch, dva ___.",
+      "hover_refs": [
+        {
+          "word": "hoch",
+          "table": "pan",
+          "note": "ch→š: hoch → hoši"
+        }
+      ],
       "hint": "masc. anim. (ch→š)",
       "options": [
         "hoši",
@@ -3706,6 +4822,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Jedna žena, dvě ___.",
+      "hover_refs": [
+        {
+          "word": "žena",
+          "table": "žena"
+        }
+      ],
       "hint": "fem. tvrdé",
       "options": [
         "ženy",
@@ -3727,6 +4849,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Jedna kniha, dvě ___.",
+      "hover_refs": [
+        {
+          "word": "kniha",
+          "table": "žena"
+        }
+      ],
       "hint": "fem. tvrdé",
       "options": [
         "knihy",
@@ -3748,6 +4876,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Jedna restaurace, dvě ___.",
+      "hover_refs": [
+        {
+          "word": "restaurace",
+          "table": "růže"
+        }
+      ],
       "hint": "fem. měkké",
       "options": [
         "restaurace",
@@ -3769,6 +4903,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Jedna věc, dvě ___.",
+      "hover_refs": [
+        {
+          "word": "věc",
+          "table": "kost"
+        }
+      ],
       "hint": "fem. měkké -Ø",
       "options": [
         "věci",
@@ -3790,6 +4930,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Jedna kancelář, dvě ___.",
+      "hover_refs": [
+        {
+          "word": "kancelář",
+          "table": "píseň"
+        }
+      ],
       "hint": "fem. měkké",
       "options": [
         "kanceláře",
@@ -3811,6 +4957,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Jedno město, dvě ___.",
+      "hover_refs": [
+        {
+          "word": "město",
+          "table": "město"
+        }
+      ],
       "hint": "neut. tvrdé",
       "options": [
         "města",
@@ -3832,6 +4984,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Jedno auto, dvě ___.",
+      "hover_refs": [
+        {
+          "word": "auto",
+          "table": "město"
+        }
+      ],
       "hint": "neut. tvrdé",
       "options": [
         "auta",
@@ -3853,6 +5011,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Jedno nádraží, dvě ___.",
+      "hover_refs": [
+        {
+          "word": "nádraží",
+          "table": "stavení"
+        }
+      ],
       "hint": "neut. měkké",
       "options": [
         "nádraží",
@@ -3874,6 +5038,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Jedno kuře, dvě ___.",
+      "hover_refs": [
+        {
+          "word": "kuře",
+          "table": "kuře"
+        }
+      ],
       "hint": "neut. -e/-at-",
       "options": [
         "kuřata",
@@ -3895,6 +5065,12 @@ const QUESTION_BANK = {
         "fem"
       ],
       "prompt": "Napiš nominativ plurál: ulice.",
+      "hover_refs": [
+        {
+          "word": "ulice",
+          "table": "růže"
+        }
+      ],
       "hint": "fem. měkké",
       "answer": "ulice",
       "explanation": {
@@ -3910,6 +5086,12 @@ const QUESTION_BANK = {
         "neut"
       ],
       "prompt": "Napiš nominativ plurál: moře.",
+      "hover_refs": [
+        {
+          "word": "moře",
+          "table": "moře"
+        }
+      ],
       "hint": "neut. měkké",
       "answer": "moře",
       "explanation": {
@@ -3925,6 +5107,13 @@ const QUESTION_BANK = {
         "masc_anim"
       ],
       "prompt": "Napiš nominativ plurál: bratr.",
+      "hover_refs": [
+        {
+          "word": "bratr",
+          "table": "pan",
+          "note": "r→ř: bratr → bratři"
+        }
+      ],
       "hint": "masc. anim. (r→ř)",
       "answer": "bratři",
       "explanation": {
