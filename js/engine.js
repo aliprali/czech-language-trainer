@@ -137,10 +137,23 @@ function availableLangs() {
 const Renderers = {
   multiple_choice: {
     render(q, container, submit) {
-      q.options.forEach((opt, i) => {
+      // Shuffle so the correct answer isn't always in the same slot.
+      const order = q.options.map((_, i) => i);
+      for (let i = order.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [order[i], order[j]] = [order[j], order[i]];
+      }
+      const correctDisplayIdx = order.indexOf(q.correct);
+
+      order.forEach((origIdx, displayIdx) => {
         const b = document.createElement("button");
-        b.textContent = opt;
-        b.onclick = () => submit({ correct: i === q.correct, selected: i });
+        b.textContent = q.options[origIdx];
+        const isCorrect = origIdx === q.correct;
+        b.onclick = () => submit({
+          correct: isCorrect,
+          selected: displayIdx,
+          correctDisplayIdx,
+        });
         container.appendChild(b);
       });
     },
@@ -149,7 +162,8 @@ const Renderers = {
       for (const b of btns) b.disabled = true;
       if (result.selected !== undefined)
         btns[result.selected].classList.add(result.correct ? "correct-btn" : "wrong-btn");
-      if (!result.correct) btns[q.correct].classList.add("correct-btn");
+      if (!result.correct && result.correctDisplayIdx !== undefined)
+        btns[result.correctDisplayIdx].classList.add("correct-btn");
     },
     correctDisplay(q) { return q.options[q.correct]; },
   },
