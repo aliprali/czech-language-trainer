@@ -13,11 +13,18 @@
     .intro { text-align: center; margin-bottom: 20px; }
     .intro h2 { color: #2c3e50; font-size: 20px; margin: 0 0 6px; }
     .intro p { color: #7f8c8d; font-size: 14px; margin: 0; }
-    .topic-grid { display: grid; gap: 12px; }
+
+    #topic-grid { display: flex; flex-direction: column; gap: 28px; }
+    .topic-group .group-header { margin-bottom: 12px; }
+    .topic-group .group-header h3 { margin: 0 0 2px; color: #2c3e50; font-size: 16px; }
+    .topic-group .group-header p { margin: 0; color: #95a5a6; font-size: 13px; }
+    .topic-group .group-body { display: grid; gap: 12px; }
+
     .topic-card { padding: 18px 20px; border: 2px solid #e2e8f0; border-radius: 12px; cursor: pointer; text-align: left; background: #fff; transition: border-color .15s, background .15s, transform .15s; }
     .topic-card:hover { border-color: #3498db; background: #f0f9ff; transform: translateY(-1px); }
     .topic-card h3 { margin: 0 0 4px; color: #2c3e50; font-size: 17px; }
     .topic-card .meta { font-size: 13px; color: #7f8c8d; }
+
     .progress { text-align: right; font-size: 13px; color: #95a5a6; }
     .card { background: #f8fafc; border-left: 5px solid #3498db; padding: 15px; border-radius: 4px; margin-bottom: 15px; }
     .sentence { font-size: 18px; font-weight: 500; margin-bottom: 5px; }
@@ -31,8 +38,6 @@
     .feedback.correct { display: block; background: #d4edda; color: #155724; }
     .feedback.wrong { display: block; background: #f8d7da; color: #721c24; }
     .explanation { margin-top: 8px; font-size: 13px; color: #34495e; text-align: center; }
-    .next-btn { display: block; width: 100%; margin-top: 15px; background: #3498db; color: white; border: none; text-align: center; height: 45px; cursor: pointer; border-radius: 8px; font-size: 16px; }
-    .next-btn:hover:not(:disabled) { background: #2980b9; border: none; }
     .score-screen { text-align: center; display: none; }
     .score-num { font-size: 40px; font-weight: bold; color: #2ecc71; margin: 15px 0; }
     .lifetime { font-size: 13px; color: #7f8c8d; margin-top: 8px; }
@@ -43,58 +48,43 @@
     .check-btn { background: #3498db; color: white; border: none; font-weight: 500; margin-top: 10px; }
     .check-btn:hover:not(:disabled) { background: #2980b9; }
     .link-btn { background: none; border: none; color: #3498db; text-decoration: underline; cursor: pointer; padding: 4px 8px; font-size: 13px; margin: 0 auto 10px; display: block; }
-    .hoverable {
-      font-weight: 700;
-      border-bottom: 1px dotted #3498db;
-      cursor: help;
+    .next-btn { display: block; width: 100%; margin-top: 15px; background: #3498db; color: white; border: none; text-align: center; height: 45px; cursor: pointer; border-radius: 8px; font-size: 16px; }
+    .next-btn:hover:not(:disabled) { background: #2980b9; border: none; }
+
+    .quiz-nav { display: flex; align-items: center; gap: 10px; margin-top: 15px; }
+    .quiz-nav .nav-btn {
+      flex: 1; padding: 12px 14px; background: #3498db; color: white;
+      border: none; border-radius: 8px; font-size: 15px; cursor: pointer;
+      text-align: center;
     }
+    .quiz-nav .nav-btn:hover:not(:disabled) { background: #2980b9; }
+    .quiz-nav .nav-btn:disabled { background: #bdc3c7; cursor: not-allowed; }
+
+    .hoverable { font-weight: 700; border-bottom: 1px dotted #3498db; cursor: help; }
     .hoverable:hover { background: #eaf4fd; border-bottom-style: solid; }
     .hover-tooltip {
-      position: fixed;
-      z-index: 1000;
-      background: #fff;
-      border: 2px solid #3498db;
-      border-radius: 8px;
-      padding: 12px 14px;
-      box-shadow: 0 6px 24px rgba(0,0,0,.15);
-      font-size: 12px;
-      max-width: 90vw;
-      max-height: 70vh;
-      overflow: auto;
+      position: fixed; z-index: 1000; background: #fff;
+      border: 2px solid #3498db; border-radius: 8px;
+      padding: 12px 14px; box-shadow: 0 6px 24px rgba(0,0,0,.15);
+      font-size: 12px; max-width: 90vw; max-height: 70vh; overflow: auto;
       display: none;
     }
     .hover-tooltip.visible { display: block; }
     .hover-tooltip h4 { margin: 0 0 2px; font-size: 14px; color: #2c3e50; }
     .hover-tooltip .example { font-size: 12px; color: #7f8c8d; margin-bottom: 8px; font-style: italic; }
     .hover-tooltip table { border-collapse: collapse; }
-    .hover-tooltip th, .hover-tooltip td {
-      padding: 4px 8px;
-      border: 1px solid #e2e8f0;
-      text-align: left;
-      white-space: nowrap;
-    }
+    .hover-tooltip th, .hover-tooltip td { padding: 4px 8px; border: 1px solid #e2e8f0; text-align: left; white-space: nowrap; }
     .hover-tooltip th { background: #f8fafc; font-weight: 600; color: #34495e; }
     .hover-tooltip td:first-child { font-weight: 600; color: #7f8c8d; }
     .hover-tooltip .alt-note {
-      margin-top: 8px;
-      padding-top: 6px;
-      border-top: 1px dashed #e2e8f0;
-      font-size: 11px;
-      color: #7f8c8d;
-      line-height: 1.4;
-      white-space: normal;
-      max-width: 360px;
+      margin-top: 8px; padding-top: 6px; border-top: 1px dashed #e2e8f0;
+      font-size: 11px; color: #7f8c8d; line-height: 1.4;
+      white-space: normal; max-width: 360px;
     }
     .hover-tooltip .instance-note {
-      margin-top: 8px;
-      padding: 6px 10px;
-      background: #eaf4fd;
-      color: #2980b9;
-      font-size: 12px;
-      font-weight: 600;
-      border-radius: 4px;
-      white-space: normal;
-      max-width: 360px;
+      margin-top: 8px; padding: 6px 10px; background: #eaf4fd; color: #2980b9;
+      font-size: 12px; font-weight: 600; border-radius: 4px;
+      white-space: normal; max-width: 360px;
     }
   </style>
 </head>
@@ -110,9 +100,9 @@
   <div id="start-screen">
     <div class="intro">
       <h2>Vyber si téma</h2>
-      <p>Každý test obsahuje 10 náhodných otázek.</p>
+      <p>Každé cvičení obsahuje 10 náhodných otázek.</p>
     </div>
-    <div class="topic-grid" id="topic-grid"></div>
+    <div id="topic-grid"></div>
   </div>
 
   <div id="quiz-container" style="display:none">
@@ -125,12 +115,16 @@
     <div class="options" id="options"></div>
     <div class="feedback" id="feedback"></div>
     <div class="explanation" id="explanation"></div>
-    <button class="next-btn" id="next-button" style="display:none;" onclick="Quiz.next()">Další otázka</button>
+
+    <div class="quiz-nav">
+      <button id="prev-btn" class="nav-btn" onclick="Quiz.prev()">← Předchozí</button>
+      <button id="next-btn" class="nav-btn" onclick="Quiz.next()">Další →</button>
+    </div>
   </div>
 
   <div id="score-container" class="score-screen">
     <h2>Konec testu!</h2>
-    <p>Výsledek z 10 otázek:</p>
+    <p>Výsledek:</p>
     <div class="score-num" id="final-score">0 / 0</div>
     <div class="lifetime" id="lifetime"></div>
     <button class="next-btn" style="margin-top:20px;" onclick="Quiz.start(Quiz.state.topic)">Znovu stejné téma</button>
@@ -145,7 +139,6 @@
 <script src="js/storage.js"></script>
 <script src="js/engine.js"></script>
 <script>
-  // Visible load guard: if any of the above failed, show it instead of "Načítání…".
   (function () {
     const problems = [];
     if (typeof DECLENSION_TABLES === "undefined") problems.push("data/tables.js se nenačetl (nebo je zastaralý).");
@@ -184,7 +177,27 @@
       if (Quiz.state.topic) Quiz.refreshExplanation();
     });
 
-    // Topic picker
+    // Topic groups
+    const TOPIC_GROUPS = [
+      {
+        title: "Cvičení",
+        sub: "Trénuj jednotlivá témata",
+        topics: [
+          "dative_instrumental",
+          "genitive_accusative",
+          "locative",
+          "verb_case",
+          "past_tense",
+          "plural_nominative",
+        ],
+      },
+      {
+        title: "Testy",
+        sub: "Smíšené otázky ze všech témat",
+        topics: ["mixed"],
+      },
+    ];
+
     const TOPIC_INFO = {
       dative_instrumental: { title: "3. a 7. pád",       sub: "Dativ / Instrumentál" },
       genitive_accusative: { title: "2. a 4. pád",       sub: "Genitiv / Akuzativ" },
@@ -192,15 +205,39 @@
       past_tense:          { title: "Minulý čas",        sub: "Slovesa" },
       verb_case:           { title: "Slovesa + pád",     sub: "Jaký pád vyžaduje sloveso?" },
       plural_nominative:   { title: "Nominativ plurál",  sub: "Množné číslo (1. pád)" },
+      mixed:               { title: "Smíšený test",      sub: "15 náhodných otázek ze všech témat" },
     };
+
+    const totalQuestions = Object.values(QUESTION_BANK).reduce((s, qs) => s + qs.length, 0);
+
     const grid = document.getElementById("topic-grid");
-    Object.entries(QUESTION_BANK).forEach(([key, qs]) => {
-      const info = TOPIC_INFO[key] || { title: key, sub: "" };
-      const card = document.createElement("button");
-      card.className = "topic-card";
-      card.innerHTML = `<h3>${info.title}</h3><div class="meta">${info.sub} · ${qs.length} otázek</div>`;
-      card.onclick = () => Quiz.start(key);
-      grid.appendChild(card);
+    TOPIC_GROUPS.forEach(group => {
+      const section = document.createElement("section");
+      section.className = "topic-group";
+
+      const header = document.createElement("div");
+      header.className = "group-header";
+      header.innerHTML = `<h3>${group.title}</h3><p>${group.sub}</p>`;
+      section.appendChild(header);
+
+      const body = document.createElement("div");
+      body.className = "group-body";
+
+      group.topics.forEach(key => {
+        const info = TOPIC_INFO[key] || { title: key, sub: "" };
+        const count = key === "mixed"
+          ? `${totalQuestions} otázek celkem`
+          : (QUESTION_BANK[key] ? `${QUESTION_BANK[key].length} otázek` : "");
+
+        const card = document.createElement("button");
+        card.className = "topic-card";
+        card.innerHTML = `<h3>${info.title}</h3><div class="meta">${info.sub} · ${count}</div>`;
+        card.onclick = () => Quiz.start(key);
+        body.appendChild(card);
+      });
+
+      section.appendChild(body);
+      grid.appendChild(section);
     });
   })();
 </script>

@@ -103,7 +103,6 @@ document.addEventListener("mouseout", e => {
   }
 });
 
-// Language display names for the language selector dropdown
 const LANG_NAMES = {
   cs: "Čeština", en: "English", de: "Deutsch", ru: "Русский",
   uk: "Українська", vi: "Tiếng Việt", zh: "中文", es: "Español",
@@ -136,21 +135,14 @@ function availableLangs() {
 
 const Renderers = {
   multiple_choice: {
-    render(q, container, submit) {
-      // Shuffle so the correct answer isn't always in the same slot.
-      const order = q.options.map((_, i) => i);
-      for (let i = order.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [order[i], order[j]] = [order[j], order[i]];
-      }
+    render(q, container, submit, ctx = {}) {
+      const order = ctx.order || q.options.map((_, i) => i);
       const correctDisplayIdx = order.indexOf(q.correct);
-
       order.forEach((origIdx, displayIdx) => {
         const b = document.createElement("button");
         b.textContent = q.options[origIdx];
-        const isCorrect = origIdx === q.correct;
         b.onclick = () => submit({
-          correct: isCorrect,
+          correct: origIdx === q.correct,
           selected: displayIdx,
           correctDisplayIdx,
         });
@@ -168,17 +160,24 @@ const Renderers = {
     correctDisplay(q) { return q.options[q.correct]; },
   },
   type_in: {
-    render(q, container, submit) {
+    render(q, container, submit, ctx = {}) {
+      const saved = ctx.saved || {};
       const input = document.createElement("input");
       input.type = "text";
       input.className = "type-input";
       input.placeholder = "Napiš odpověď…";
       input.autocomplete = "off";
       input.spellcheck = false;
+      if (saved.answered) {
+        input.value = saved.userAnswer || "";
+        input.disabled = true;
+        input.classList.add(saved.correct ? "correct-input" : "wrong-input");
+      }
 
       const btn = document.createElement("button");
       btn.className = "check-btn";
       btn.textContent = "Zkontrolovat";
+      if (saved.answered) btn.disabled = true;
 
       function check() {
         const val = input.value.trim();
@@ -186,7 +185,7 @@ const Renderers = {
         const ok = [q.answer, ...(q.accept || [])].some(c => normalize(c) === normalize(val));
         input.disabled = btn.disabled = true;
         input.classList.add(ok ? "correct-input" : "wrong-input");
-        submit({ correct: ok });
+        submit({ correct: ok, userAnswer: val });
       }
       btn.onclick = check;
       input.addEventListener("keydown", e => { if (e.key === "Enter") check(); });
@@ -200,7 +199,7 @@ const Renderers = {
 };
 
 const Quiz = (() => {
-  const state = { topic: null, questions: [], idx: 0, score: 0, answered: false };
+  const state = { topic: null, questions: [], idx: 0, answers: {} };
   const $ = id => document.getElementById(id);
 
   function shuffle(a) {
@@ -210,8 +209,20 @@ const Quiz = (() => {
     }
     return a;
   }
+  function shuffleOrder(n) {
+    return shuffle(Array.from({ length: n }, (_, i) => i));
+  }
   const current = () => state.questions[state.idx];
   const lang = () => Store.getLang("en");
+  const correctCount = () => Object.values(state.answers).filter(a => a.answered && a.correct).length;
+  const answeredCount = () => Object.values(state.answers).filter(a => a.answered).length;
+
+  function questionTopic(q) {
+    for (const t in QUESTION_BANK) {
+      if (QUESTION_BANK[t].some(x => x.id === q.id)) return t;
+    }
+    return state.topic;
+  }
 
   function home() {
     $("start-screen").style.display = "block";
@@ -220,15 +231,21 @@ const Quiz = (() => {
   }
 
   function start(topic) {
-    if (!QUESTION_BANK[topic] || !QUESTION_BANK[topic].length) {
-      alert("Toto téma nemá žádné otázky.");
-      return;
+    if (topic === "mixed") {
+      const all = [];
+      for (const t in QUESTION_BANK) all.push(...QUESTION_BANK[t]);
+      if (all.length < 5) { alert("Nedostatek otázek."); return; }
+      state.questions = shuffle([...all]).slice(0, 15);
+    } else {
+      if (!QUESTION_BANK[topic] || !QUESTION_BANK[topic].length) {
+        alert("Toto téma nemá žádné otázky.");
+        return;
+      }
+      state.questions = shuffle([...QUESTION_BANK[topic]]).slice(0, 10);
     }
     state.topic = topic;
-    state.questions = shuffle([...QUESTION_BANK[topic]]).slice(0, 10);
     state.idx = 0;
-    state.score = 0;
-    state.answered = false;
+    state.answers = {};
     Store.setTopic(topic);
     $("start-screen").style.display = "none";
     $("quiz-container").style.display = "block";
@@ -238,7 +255,8 @@ const Quiz = (() => {
 
   function render() {
     const q = current();
-    state.answered = false;
+    if (!state.answers[q.id]) state.answers[q.id] = {};
+    const saved = state.answers[q.id];
 
     $("progress").textContent = `Otázka ${state.idx + 1} z ${state.questions.length}`;
     $("sentence").innerHTML = renderPrompt(q);
@@ -249,51 +267,107 @@ const Quiz = (() => {
     fb.style.display = "";
     fb.textContent = "";
     $("explanation").textContent = "";
-    $("next-button").style.display = "none";
 
     const opts = $("options");
     opts.innerHTML = "";
     const R = Renderers[q.type];
     if (!R) { opts.textContent = `Neznámý typ: ${q.type}`; return; }
 
-    R.render(q, opts, result => {
-      if (state.answered) return;
-      state.answered = true;
-      R.showResult(q, opts, result);
+    let order;
+    if (q.type === "multiple_choice") {
+      if (!saved.order) saved.order = shuffleOrder(q.options.length);
+      order = saved.order;
+    }
 
-      const fbEl = $("feedback");
-      if (result.correct) {
-        fbEl.textContent = "Správně! 🎉";
-        fbEl.classList.add("correct");
-        state.score++;
-      } else {
-        fbEl.textContent = `Chyba. Správně: ${R.correctDisplay(q)}`;
-        fbEl.classList.add("wrong");
-      }
-      $("explanation").textContent = getLocalized(q.explanation, lang());
-      Store.recordAnswer(q.id, result.correct, state.topic);
-      $("next-button").style.display = "block";
-    });
+    R.render(q, opts, result => onSubmitAnswer(q, result), { order, saved });
+
+    if (saved.answered) {
+      R.showResult(q, opts, saved);
+      showFeedback(q, saved);
+    }
+
+    updateNavButtons();
+  }
+
+  function onSubmitAnswer(q, result) {
+    const saved = state.answers[q.id];
+    if (saved.answered) return;
+    saved.answered = true;
+    saved.correct = result.correct;
+    if (q.type === "multiple_choice") {
+      saved.selected = result.selected;
+      saved.correctDisplayIdx = result.correctDisplayIdx;
+    } else if (q.type === "type_in") {
+      saved.userAnswer = result.userAnswer;
+    }
+
+    Renderers[q.type].showResult(q, $("options"), saved);
+    showFeedback(q, saved);
+    Store.recordAnswer(q.id, saved.correct, questionTopic(q));
+    updateNavButtons();
+  }
+
+  function showFeedback(q, saved) {
+    const fbEl = $("feedback");
+    if (saved.correct) {
+      fbEl.textContent = "Správně! 🎉";
+      fbEl.classList.add("correct");
+    } else {
+      fbEl.textContent = `Chyba. Správně: ${Renderers[q.type].correctDisplay(q)}`;
+      fbEl.classList.add("wrong");
+    }
+    $("explanation").textContent = getLocalized(q.explanation, lang());
+  }
+
+  function updateNavButtons() {
+    const prevBtn = $("prev-btn");
+    const nextBtn = $("next-btn");
+    if (!prevBtn || !nextBtn) return;
+    prevBtn.disabled = state.idx === 0;
+    const isLast = state.idx === state.questions.length - 1;
+    nextBtn.textContent = isLast ? "Dokončit test" : "Další →";
+  }
+
+  function prev() {
+    if (state.idx === 0) return;
+    state.idx--;
+    render();
   }
 
   function next() {
-    state.idx++;
-    if (state.idx < state.questions.length) return render();
+    if (state.idx < state.questions.length - 1) {
+      state.idx++;
+      render();
+    } else {
+      finish();
+    }
+  }
+
+  function finish() {
     $("quiz-container").style.display = "none";
     $("score-container").style.display = "block";
-    $("final-score").textContent = `${state.score} / ${state.questions.length}`;
-    const s = Store.topicStats(state.topic);
-    $("lifetime").textContent = s.seen
-      ? `Celkem: ${s.correct} / ${s.seen} (${Math.round(100 * s.correct / s.seen)} %)`
-      : "";
+    const total = state.questions.length;
+    const answered = answeredCount();
+    const correct = correctCount();
+    $("final-score").textContent = `${correct} / ${total}`;
+
+    const parts = [];
+    if (state.topic !== "mixed") {
+      const s = Store.topicStats(state.topic);
+      if (s.seen) parts.push(`Celkem: ${s.correct} / ${s.seen} (${Math.round(100 * s.correct / s.seen)} %)`);
+    }
+    const unanswered = total - answered;
+    if (unanswered > 0) parts.push(`Nezodpovězeno: ${unanswered}`);
+    $("lifetime").textContent = parts.join(" · ");
   }
 
   function refreshExplanation() {
-    if (state.answered) {
+    const saved = state.answers[current().id];
+    if (saved && saved.answered) {
       $("explanation").textContent = getLocalized(current().explanation, lang());
       $("hint").textContent = getLocalized(current().hint, lang());
     }
   }
 
-  return { start, next, home, refreshExplanation, state };
+  return { start, next, prev, home, finish, refreshExplanation, state };
 })();
