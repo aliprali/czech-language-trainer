@@ -1241,6 +1241,68 @@ const QUESTION_BANK = {
       "explanation": {
         "en": "Dativ pl. zájmena my: nám. Po k."
       }
+    },
+    {
+      "id": "dat-38",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "fem",
+        "noun"
+      ],
+      "prompt": "UTC už nebude svázán s ___ (rotace).",
+      "hint": "Instrumentál po s",
+      "options": [
+        "rotace",
+        "rotaci",
+        "rotací",
+        "rotacím"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Instrumentál sg. fem. vzor růže: rotace → rotací. Po s.",
+        "en": "Instrumental sg. fem. pattern růže: rotace → rotací. After s."
+      }
+    },
+    {
+      "id": "dat-39",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "neut",
+        "noun"
+      ],
+      "prompt": "Hodiny se srovnaly s ___ (otáčení) planety.",
+      "hint": "Instrumentál po s",
+      "options": [
+        "otáčení",
+        "otáčením",
+        "otáčenímu",
+        "otáčením"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Instrumentál sg. neut. vzor stavení: otáčení → otáčením.",
+        "en": "Instrumental sg. neut. pattern stavení: otáčení → otáčením."
+      }
+    },
+    {
+      "id": "dat-40",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Napiš instrumentál slova rotace (po s).",
+      "hint": "Instrumentál",
+      "answer": "rotací",
+      "explanation": {
+        "en": "Instrumentál sg. fem. vzor růže: rotace → rotací."
+      }
     }
   ],
   "genitive_accusative": [
@@ -2394,6 +2456,192 @@ const QUESTION_BANK = {
         "cs": "Akuzativ sg. fem. vzor žena: kometa → kometu.",
         "en": "Accusative sg. fem. pattern žena: kometa → kometu."
       }
+    },
+    {
+      "id": "gen-35",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "genitiv",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Rotace ___ (Země) se mění.",
+      "hint": "Genitiv",
+      "options": [
+        "Země",
+        "Zemi",
+        "Zemí",
+        "Zemou"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Genitiv sg. fem. vzor růže: Země → Země (stejný tvar jako nom.).",
+        "en": "Genitive sg. fem. pattern růže: Země → Země (same form as nom.)."
+      }
+    },
+    {
+      "id": "gen-36",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "genitiv",
+        "neut",
+        "noun"
+      ],
+      "prompt": "Napiš genitiv slova měření.",
+      "hint": "Genitiv",
+      "answer": "měření",
+      "explanation": {
+        "en": "Genitiv sg. neut. vzor stavení: měření se nemění."
+      }
+    },
+    {
+      "id": "gen-37",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "akuzativ",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Experti chtěli vložit ___ (přestupná sekunda).",
+      "hint": "Akuzativ",
+      "options": [
+        "přestupná sekunda",
+        "přestupnou sekundu",
+        "přestupné sekundě",
+        "přestupnou sekundou"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Akuzativ sg. fem.: přestupná sekunda → přestupnou sekundu.",
+        "en": "Accusative sg. fem.: přestupná sekunda → přestupnou sekundu."
+      }
+    },
+    {
+      "id": "gen-38",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "genitiv",
+        "masc_inanim",
+        "noun"
+      ],
+      "prompt": "Zásah do počítačových ___ (systém) nebyl testován.",
+      "hint": "Genitiv plurál",
+      "options": [
+        "systém",
+        "systémů",
+        "systémy",
+        "systémech"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Genitiv pl. muž. neživ. vzor hrad: systém → systémů.",
+        "en": "Genitive pl. masc. inanim. pattern hrad: systém → systémů."
+      }
+    },
+    {
+      "id": "gen-39",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "genitiv",
+        "masc_inanim",
+        "noun"
+      ],
+      "prompt": "Napiš genitiv plurálu slova systém.",
+      "hint": "Genitiv plurál",
+      "answer": "systémů",
+      "explanation": {
+        "en": "Genitiv pl. muž. neživ. vzor hrad: systém → systémů."
+      }
+    },
+    {
+      "id": "gen-40",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "genitiv",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Odborníci přišli z ___ (celý svět).",
+      "hint": "Genitiv po z",
+      "options": [
+        "celý svět",
+        "celého světa",
+        "celému světu",
+        "celým světem"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Genitiv sg. muž. neživ. po „z“: celý svět → celého světa.",
+        "en": "Genitive sg. masc. inanim. after „z“: celý svět → celého světa."
+      }
+    },
+    {
+      "id": "gen-41",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "genitiv",
+        "masc_inanim",
+        "noun"
+      ],
+      "prompt": "Od ___ (rok) 1972 se přestupná sekunda vkládá.",
+      "hint": "Genitiv po od",
+      "options": [
+        "rok",
+        "roku",
+        "rokem",
+        "roce"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Genitiv sg. muž. neživ. po „od“: rok → roku.",
+        "en": "Genitive sg. masc. inanim. after „od“: rok → roku."
+      }
+    },
+    {
+      "id": "gen-42",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "genitiv",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Hodiny oddělily čas od ___ (lidská událost).",
+      "hint": "Genitiv po od",
+      "options": [
+        "lidská událost",
+        "lidské události",
+        "lidských událostí",
+        "lidským událostem"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Genitiv pl. fem. po „od“: událost → událostí (vzor kost).",
+        "en": "Genitive pl. fem. after „od“: událost → událostí (pattern kost)."
+      }
+    },
+    {
+      "id": "gen-43",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "genitiv",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Napiš genitiv plurálu slova událost.",
+      "hint": "Genitiv pl. (vzor kost)",
+      "answer": "událostí",
+      "explanation": {
+        "en": "Genitiv pl. fem. vzor kost: událost → událostí."
+      }
     }
   ],
   "locative": [
@@ -3501,6 +3749,137 @@ const QUESTION_BANK = {
       "explanation": {
         "en": "Lokál sg. neut. vzor stavení: souhvězdí se nemění. Po v."
       }
+    },
+    {
+      "id": "lok-34",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "lokál",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Poprvé v ___ (historie) nebude čas ukotven v pohybu planety.",
+      "hint": "Lokál po v",
+      "options": [
+        "historie",
+        "historii",
+        "historií",
+        "historiím"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Lokál sg. fem. vzor růže: historie → historii. Po v.",
+        "en": "Locative sg. fem. pattern růže: historie → historii. After v."
+      }
+    },
+    {
+      "id": "lok-35",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "lokál",
+        "masc_inanim",
+        "noun"
+      ],
+      "prompt": "Čas nebude ukotven v ___ (pohyb) planety.",
+      "hint": "Lokál po v",
+      "options": [
+        "pohyb",
+        "pohybu",
+        "pohybem",
+        "pohybu (stejný jako gen.)"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Lokál sg. muž. neživ. vzor hrad: pohyb → pohybu. Po v.",
+        "en": "Locative sg. masc. inanim. pattern hrad: pohyb → pohybu. After v."
+      }
+    },
+    {
+      "id": "lok-36",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "lokál",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Napiš lokál slova historie (po v).",
+      "hint": "Lokál",
+      "answer": "historii",
+      "explanation": {
+        "en": "Lokál sg. fem. vzor růže: historie → historii."
+      }
+    },
+    {
+      "id": "lok-37",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "lokál",
+        "masc_inanim",
+        "noun"
+      ],
+      "prompt": "Historik Mumford to napsal v ___ (rok) 1934.",
+      "hint": "Lokál po v",
+      "options": [
+        "rok",
+        "roku",
+        "roce",
+        "rokem"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Lokál sg. muž. neživ.: rok → roce (k→c).",
+        "en": "Locative sg. masc. inanim.: rok → roce (k→c)."
+      }
+    },
+    {
+      "id": "lok-38",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "lokál",
+        "masc_inanim",
+        "plur"
+      ],
+      "prompt": "V posledních ___ (rok) se Země mírně zrychluje.",
+      "hint": "Lokál pl. (nepravid.)",
+      "options": [
+        "rokách",
+        "rocích",
+        "letech",
+        "roky"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Nepravidelný plurál „rok“ = léta (vzor město): letech = lok. pl. „v posledních letech“ = v posledních obdobích.",
+        "en": "Irregular plural of „rok“ = léta (pattern město): letech = loc. pl."
+      }
+    },
+    {
+      "id": "lok-39",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "lokál",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Čas nebude ukotven v pohybu ___ (naše planeta).",
+      "hint": "Lokál po v (posesivum)",
+      "options": [
+        "naše planeta",
+        "naší planetě",
+        "naší planety",
+        "naší planetou"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Lokál sg. fem.: naše planeta → naší planetě.",
+        "en": "Locative sg. fem.: naše planeta → naší planetě."
+      }
     }
   ],
   "past_tense": [
@@ -4308,6 +4687,179 @@ const QUESTION_BANK = {
       "explanation": {
         "en": "Minulý čas 3. os. pl. muž. živ. od vidět: viděli. (lidé je mask. anim. plurál)"
       }
+    },
+    {
+      "id": "min-35",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "plur"
+      ],
+      "prompt": "Odborníci se ve Versailles ___.",
+      "hint": "Minulý čas 3. os. pl. muž. živ.",
+      "options": [
+        "sešli",
+        "sešly",
+        "sešel",
+        "sešla"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Minulý čas 3. os. pl. muž. živ. od sejít se: sešli. (odborníci jsou mask. anim. plurál)",
+        "en": "Past 3rd pl. masc. anim. of sejít se: sešli. (odborníci is masc. anim. plural)"
+      }
+    },
+    {
+      "id": "min-36",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "plur"
+      ],
+      "prompt": "Vědci se ___ (rozhodnout) zrušit přestupné sekundy.",
+      "hint": "Minulý čas 3. os. pl. muž. živ.",
+      "answer": "rozhodli",
+      "explanation": {
+        "en": "Minulý čas 3. os. pl. muž. živ. od rozhodnout se: rozhodli."
+      }
+    },
+    {
+      "id": "min-37",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "fem",
+        "plur"
+      ],
+      "prompt": "Hodiny se ___ (srovnat) s otáčením planety.",
+      "hint": "Minulý čas 3. os. pl. fem.",
+      "options": [
+        "srovnali",
+        "srovnaly",
+        "srovnala",
+        "srovnalo"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Minulý čas 3. os. pl. fem. od srovnat: srovnaly. (hodiny jsou fem. plurál)",
+        "en": "Past 3rd pl. fem. of srovnat: srovnaly. (hodiny is fem. plural)"
+      }
+    },
+    {
+      "id": "min-38",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "masc"
+      ],
+      "prompt": "Historik Lewis Mumford to ___ (napsat) v roce 1934.",
+      "hint": "Minulý čas 3. os. sg. muž.",
+      "answer": "napsal",
+      "explanation": {
+        "en": "Minulý čas 3. os. sg. muž. od napsat: napsal."
+      }
+    },
+    {
+      "id": "min-39",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "fem",
+        "plur"
+      ],
+      "prompt": "Hodiny už dávno ___ (oddělit) čas od lidských událostí.",
+      "hint": "Minulý čas 3. os. pl. fem.",
+      "options": [
+        "oddělili",
+        "oddělily",
+        "oddělila",
+        "oddělilo"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Minulý čas 3. os. pl. fem. od oddělit: oddělily. (hodiny jsou fem. plurál)",
+        "en": "Past 3rd pl. fem. of oddělit: oddělily. (hodiny is fem. plural)"
+      }
+    },
+    {
+      "id": "min-40",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "neut"
+      ],
+      "prompt": "Co se ___ (stát se) v roce 1934?",
+      "hint": "Minulý čas 3. os. sg. neut.",
+      "answer": "stalo",
+      "explanation": {
+        "en": "Minulý čas 3. os. sg. neut. od stát se: stalo se."
+      }
+    },
+    {
+      "id": "min-41",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "plur"
+      ],
+      "prompt": "Vědci ___ (muset) vložit přestupnou sekundu.",
+      "hint": "Minulý čas 3. os. pl. muž. živ.",
+      "options": [
+        "musel",
+        "musela",
+        "museli",
+        "musely"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Minulý čas 3. os. pl. muž. živ. od muset: museli. (vědci = masc. anim. pl.)",
+        "en": "Past 3rd pl. masc. anim. of muset: museli. (vědci = masc. anim. pl.)"
+      }
+    },
+    {
+      "id": "min-42",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "masc"
+      ],
+      "prompt": "Lewis Mumford ___ (napsat) citát v roce 1934.",
+      "hint": "Minulý čas 3. os. sg. muž.",
+      "answer": "napsal",
+      "explanation": {
+        "en": "Minulý čas 3. os. sg. muž. od napsat: napsal."
+      }
+    },
+    {
+      "id": "min-43",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "fem",
+        "plur"
+      ],
+      "prompt": "Hodiny se ___ (srovnat) s otáčením planety.",
+      "hint": "Minulý čas 3. os. pl. fem.",
+      "options": [
+        "srovnali",
+        "srovnaly",
+        "srovnala",
+        "srovnalo"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Minulý čas 3. os. pl. fem. od srovnat: srovnaly. (hodiny = fem. pl.)",
+        "en": "Past 3rd pl. fem. of srovnat: srovnaly. (hodiny = fem. pl.)"
+      }
     }
   ],
   "verb_case": [
@@ -4966,6 +5518,94 @@ const QUESTION_BANK = {
         "cs": "blížit se k + dativ: Slunce → Slunci.",
         "en": "blížit se k + dative: Slunce → Slunci."
       }
+    },
+    {
+      "id": "vc-22",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ"
+      ],
+      "prompt": "Vědci chtěli ___ (vložit) přestupnou sekundu.",
+      "hint": "vložit + akuzativ",
+      "options": [
+        "vložit",
+        "vložili",
+        "vložen",
+        "vkládat"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "vložit + akuzativ: vložit přestupnou sekundu.",
+        "en": "vložit + accusative: vložit přestupnou sekundu."
+      }
+    },
+    {
+      "id": "vc-23",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ"
+      ],
+      "prompt": "Experti se rozhodli přestupné sekundy úplně ___ (zrušit).",
+      "hint": "zrušit + akuzativ",
+      "options": [
+        "zrušit",
+        "zrušili",
+        "zrušen",
+        "rušit"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "zrušit + akuzativ: zrušit přestupné sekundy.",
+        "en": "zrušit + accusative: zrušit přestupné sekundy."
+      }
+    },
+    {
+      "id": "vc-24",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ"
+      ],
+      "prompt": "Nikdo nikdy ___ (netestovat) zápornou přestupnou sekundu.",
+      "hint": "testovat + akuzativ",
+      "options": [
+        "netestoval",
+        "netestovala",
+        "netestovalo",
+        "netestovali"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "testovat + akuzativ: testovat zápornou sekundu. (subjekt je „nikdo“ — 3. os. sg. muž.)",
+        "en": "testovat + accusative: testovat a negative second. (subject is „nikdo“ — 3rd sg. masc.)"
+      }
+    },
+    {
+      "id": "vc-25",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "slovesa",
+        "instrumentál"
+      ],
+      "prompt": "Čas se stal ___ (problém) pro astronomy.",
+      "hint": "stát se + instrumentál",
+      "options": [
+        "problém",
+        "problému",
+        "problémem",
+        "problémy"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "stát se + instrumentál: co se stalo čím → problémem.",
+        "en": "stát se + instrumental: what became what → problémem."
+      }
     }
   ],
   "plural_nominative": [
@@ -5540,6 +6180,139 @@ const QUESTION_BANK = {
       "explanation": {
         "cs": "Vzor město: světlo → světla.",
         "en": "Pattern město: světlo → světla."
+      }
+    },
+    {
+      "id": "pl-20",
+      "type": "type_in",
+      "level": "A1",
+      "tags": [
+        "nominativ_plurál",
+        "masc_anim"
+      ],
+      "prompt": "Napiš nominativ plurál: odborník.",
+      "hint": "Masc. anim.",
+      "answer": "odborníci",
+      "explanation": {
+        "en": "Masc. anim. nom. pl.: odborník → odborníci (k→c)."
+      }
+    },
+    {
+      "id": "pl-21",
+      "type": "multiple_choice",
+      "level": "A1",
+      "tags": [
+        "nominativ_plurál",
+        "masc_inanim"
+      ],
+      "prompt": "Jeden systém, dva ___.",
+      "hint": "Masc. inanim.",
+      "options": [
+        "systémy",
+        "systémové",
+        "systémů",
+        "systémech"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Masc. inanim. nom. pl. vzor hrad: systém → systémy.",
+        "en": "Masc. inanim. nom. pl. pattern hrad: systém → systémy."
+      }
+    },
+    {
+      "id": "pl-22",
+      "type": "type_in",
+      "level": "A1",
+      "tags": [
+        "nominativ_plurál",
+        "masc_anim"
+      ],
+      "prompt": "Napiš nominativ plurál: vědec.",
+      "hint": "Masc. anim.",
+      "answer": "vědci",
+      "explanation": {
+        "en": "Nom. pl. masc. anim.: vědec → vědci (vypuštění -e-)."
+      }
+    },
+    {
+      "id": "pl-23",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "nominativ_plurál",
+        "masc_anim"
+      ],
+      "prompt": "Napiš nominativ plurál: historik.",
+      "hint": "Masc. anim. (k→c)",
+      "answer": "historici",
+      "explanation": {
+        "en": "Nom. pl. masc. anim.: historik → historici (k→c)."
+      }
+    },
+    {
+      "id": "pl-24",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "nominativ_plurál",
+        "masc_inanim"
+      ],
+      "prompt": "Jeden stroj, dva ___.",
+      "hint": "Masc. inanim. měkké",
+      "options": [
+        "stroje",
+        "strojů",
+        "stroji",
+        "strojové"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Masc. inanim. měkké vzor stroj: stroj → stroje.",
+        "en": "Masc. inanim. soft pattern stroj: stroj → stroje."
+      }
+    },
+    {
+      "id": "pl-25",
+      "type": "multiple_choice",
+      "level": "A1",
+      "tags": [
+        "nominativ_plurál",
+        "fem"
+      ],
+      "prompt": "Jedna minuta, dvě ___.",
+      "hint": "Fem. -a",
+      "options": [
+        "minuta",
+        "minuty",
+        "minut",
+        "minutové"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Fem. vzor žena: minuta → minuty.",
+        "en": "Fem. pattern žena: minuta → minuty."
+      }
+    },
+    {
+      "id": "pl-26",
+      "type": "multiple_choice",
+      "level": "A1",
+      "tags": [
+        "nominativ_plurál",
+        "masc_inanim"
+      ],
+      "prompt": "Jeden produkt, dva ___.",
+      "hint": "Masc. inanim.",
+      "options": [
+        "produkty",
+        "produktové",
+        "produktů",
+        "produktech"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Masc. inanim. vzor hrad: produkt → produkty.",
+        "en": "Masc. inanim. pattern hrad: produkt → produkty."
       }
     }
   ],
@@ -6493,6 +7266,448 @@ const QUESTION_BANK = {
       "explanation": {
         "cs": "Nedokonavé „viděl“ = průběh / opakování; dokonavé „uviděl“ = jednorázový, ukončený děj.",
         "en": "Imperfective „viděl“ = ongoing / repeated; perfective „uviděl“ = single, completed event."
+      }
+    },
+    {
+      "id": "aspect-13",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „vložit“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "vkládat",
+        "vkládat se",
+        "uložit",
+        "přiložit"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "vložit (dok.) ↔ vkládat (nedok.).",
+        "en": "vložit (pf.) ↔ vkládat (impf.)."
+      }
+    },
+    {
+      "id": "aspect-14",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „zrušit“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "rušit",
+        "zrušit se",
+        "odvolat",
+        "odstranit"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "zrušit (dok.) ↔ rušit (nedok.).",
+        "en": "zrušit (pf.) ↔ rušit (impf.)."
+      }
+    },
+    {
+      "id": "aspect-15",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „zpomalovat“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "zpomalit",
+        "zrychlit",
+        "zastavit",
+        "zpozdit"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "zpomalovat (nedok.) ↔ zpomalit (dok.).",
+        "en": "zpomalovat (impf.) ↔ zpomalit (pf.)."
+      }
+    },
+    {
+      "id": "aspect-16",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „zrychlovat“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "zrychlit",
+        "zpomalit",
+        "zastavit",
+        "pohnout"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "zrychlovat (nedok.) ↔ zrychlit (dok.).",
+        "en": "zrychlovat (impf.) ↔ zrychlit (pf.)."
+      }
+    },
+    {
+      "id": "aspect-17",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „stát se“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "stávat se",
+        "stanout",
+        "být",
+        "existovat"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "stát se (dok.) ↔ stávat se (nedok.).",
+        "en": "stát se (pf.) ↔ stávat se (impf.)."
+      }
+    },
+    {
+      "id": "aspect-18",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „napsat“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "psát",
+        "číst",
+        "vytvořit",
+        "sepsat"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "napsat (dok.) ↔ psát (nedok.).",
+        "en": "napsat (pf.) ↔ psát (impf.)."
+      }
+    },
+    {
+      "id": "aspect-19",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „ukotvit“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "ukotvovat",
+        "připevnit",
+        "uvázat",
+        "připoutat"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "ukotvit (dok.) ↔ ukotvovat (nedok.).",
+        "en": "ukotvit (pf.) ↔ ukotvovat (impf.)."
+      }
+    },
+    {
+      "id": "aspect-20",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „poháněný“ (od pohánět)?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "pohnat",
+        "hnát",
+        "pohybovat",
+        "pohánět se"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "pohánět (nedok.) ↔ pohnat (dok.).",
+        "en": "pohánět (impf.) ↔ pohnat (pf.)."
+      }
+    }
+  ],
+  "text_02_cas": [
+    {
+      "id": "txt2-01",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Kde se sešli odborníci na měření času?",
+      "hint": "Porozumění textu",
+      "options": [
+        "V Praze",
+        "Ve Versailles",
+        "V Bruselu",
+        "V New Yorku"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "V textu: sešli se ve Versailles.",
+        "en": "In the text: they met at Versailles."
+      }
+    },
+    {
+      "id": "txt2-02",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Co se stalo s Koordinovaným světovým časem (UTC)?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Byl zrušen",
+        "Už nebude svázán s rotací Země",
+        "Bude se posouvat o hodinu",
+        "Přejde na letní čas"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "UTC už nebude svázán s rotací Země.",
+        "en": "UTC will no longer be tied to Earth's rotation."
+      }
+    },
+    {
+      "id": "txt2-03",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Proč se dříve vkládala přestupná sekunda?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Aby se hodiny srovnaly s otáčením planety",
+        "Aby se prodloužil den",
+        "Aby se zrychlil čas",
+        "Aby se zkrátila noc"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Přestupná sekunda sladila hodiny s otáčením Země.",
+        "en": "Leap seconds aligned clocks with Earth's rotation."
+      }
+    },
+    {
+      "id": "txt2-04",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Co je „záporná přestupná sekunda\"?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Ubrání jedné sekundy (den by měl o sekundu méně)",
+        "Přidání jedné sekundy",
+        "Zastavení hodin",
+        "Zrychlení dne"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Záporná = ubrání jedné sekundy.",
+        "en": "Negative = subtracting one second."
+      }
+    },
+    {
+      "id": "txt2-05",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Co se stane s oficiálním časem po rozhodnutí expertů?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Nebude ukotven v pohybu planety",
+        "Bude se řídit Sluncem",
+        "Bude se měnit každý den",
+        "Vrátí se k slunečnímu času"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Poprvé v historii nebude oficiální čas ukotven v pohybu planety.",
+        "en": "For the first time in history, official time will not be anchored in the planet's movement."
+      }
+    },
+    {
+      "id": "txt2-06",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Kdy byl zaveden systém přestupné sekundy?",
+      "hint": "Porozumění textu",
+      "options": [
+        "V roce 1934",
+        "V roce 1972",
+        "V roce 1998",
+        "V roce 2022"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "V textu: institut přestupné sekundy zaveden roku 1972.",
+        "en": "In the text: the leap second system was introduced in 1972."
+      }
+    },
+    {
+      "id": "txt2-07",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Kolikrát se přibližně vložila přestupná sekunda od roku 1972?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Asi dvakrát",
+        "Asi desetkrát",
+        "Asi sedmadvacetkrát",
+        "Asi stokrát"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "V textu: zhruba sedmadvacetkrát.",
+        "en": "In the text: roughly twenty-seven times."
+      }
+    },
+    {
+      "id": "txt2-08",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Co podle historika Mumforda hodiny udělaly?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Zrychlily čas",
+        "Oddělily čas od lidských událostí",
+        "Zpomalily čas",
+        "Zastavily čas"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Mumford: hodiny „oddělily čas od lidských událostí“.",
+        "en": "Mumford: clocks „separated time from human events“."
+      }
+    },
+    {
+      "id": "txt2-09",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Proč se experti rozhodli přestupné sekundy zrušit?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Kvůli obavě ze záporné přestupné sekundy",
+        "Kvůli finančním nákladům",
+        "Kvůli tlaku veřejnosti",
+        "Kvůli nové definici sekundy"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Hlavní obava: možná záporná přestupná sekunda, kterou nikdo netestoval.",
+        "en": "Main concern: possible negative leap second, never tested."
+      }
+    },
+    {
+      "id": "txt2-10",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Co znamená rozhodnutí pro běžný život?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Lidé si budou muset zvyknout na nový čas",
+        "Nebude to mít žádný vliv",
+        "Změní se čas každý den",
+        "Zmizí letní čas"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Pro běžný život to neznamená žádnou změnu.",
+        "en": "For ordinary life it means no change at all."
+      }
+    },
+    {
+      "id": "txt2-11",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Kdy se sešli odborníci na měření času?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Minulý týden",
+        "Minulý měsíc",
+        "Minulý rok",
+        "Před pěti lety"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: minulý týden.",
+        "en": "In the text: last week."
+      }
+    },
+    {
+      "id": "txt2-12",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Odkud přišli odborníci na konferenci?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Z celého světa",
+        "Jen z Francie",
+        "Jen z Evropy",
+        "Jen z USA"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: z celého světa.",
+        "en": "In the text: from all over the world."
       }
     }
   ]
