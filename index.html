@@ -62,6 +62,8 @@
 
     .hoverable { font-weight: 700; border-bottom: 1px dotted #3498db; cursor: help; }
     .hoverable:hover { background: #eaf4fd; border-bottom-style: solid; }
+    .hoverable.driver-highlight { background: #fff3cd; box-shadow: 0 0 0 2px #ffeaa7; }
+
     .hover-tooltip {
       position: fixed; z-index: 1000; background: #fff;
       border: 2px solid #3498db; border-radius: 8px;
@@ -86,6 +88,36 @@
       font-size: 12px; font-weight: 600; border-radius: 4px;
       white-space: normal; max-width: 360px;
     }
+
+    /* Word panel */
+    .hover-tooltip .gloss { font-size: 13px; color: #34495e; margin: 4px 0 8px; font-style: italic; }
+    .hover-tooltip .surface { font-size: 12px; color: #7f8c8d; font-weight: 400; }
+    .hover-tooltip .verb-badge { display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 8px; font-weight: 600; vertical-align: middle; margin-left: 4px; }
+    .hover-tooltip .verb-badge.perfective { background: #e8f5e8; color: #27ae60; }
+    .hover-tooltip .verb-badge.imperfective { background: #fff3cd; color: #b7791f; }
+    .hover-tooltip .features { font-size: 11px; color: #7f8c8d; margin: 4px 0 8px; white-space: normal; }
+    .hover-tooltip .aspect-pair { font-size: 12px; margin: 6px 0; white-space: normal; }
+    .hover-tooltip .verb-section { margin: 10px 0; }
+    .hover-tooltip .verb-section-title { font-size: 11px; font-weight: 600; color: #7f8c8d; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .hover-tooltip .conj-table { border-collapse: collapse; }
+    .hover-tooltip .conj-table td { padding: 1px 10px 1px 0; border: none; }
+    .hover-tooltip .conj-table td:first-child { color: #95a5a6; font-size: 11px; }
+    .hover-tooltip .future { font-size: 12px; font-style: italic; color: #2c3e50; white-space: normal; }
+    .hover-tooltip .governs { font-size: 12px; margin-top: 8px; padding-top: 6px; border-top: 1px dashed #e2e8f0; white-space: normal; }
+    .hover-tooltip .driven-by { font-size: 12px; margin-top: 8px; padding: 6px 10px; background: #fff3cd; color: #856404; border-radius: 4px; white-space: normal; }
+    .hover-tooltip .examples { font-size: 12px; color: #7f8c8d; margin-top: 8px; font-style: italic; white-space: normal; }
+    .hover-tooltip .vzor-title { font-size: 11px; font-weight: 600; color: #7f8c8d; margin-top: 10px; padding-top: 8px; border-top: 1px dashed #e2e8f0; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    /* Reading mode */
+    #reading-container { display: none; }
+    .reading-header { margin-bottom: 20px; }
+    .reading-title-row { display: flex; align-items: baseline; gap: 10px; margin-bottom: 4px; flex-wrap: wrap; }
+    .reading-title { font-size: 22px; font-weight: 700; color: #2c3e50; margin: 0; }
+    .reading-level { font-size: 12px; padding: 2px 8px; background: #e2e8f0; color: #34495e; border-radius: 10px; }
+    .reading-credit { font-size: 12px; color: #95a5a6; line-height: 1.5; }
+    .reading-credit a { color: #3498db; }
+    .reading-body { font-size: 17px; line-height: 1.8; color: #2c3e50; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 8px; }
+    .reading-body .missing { color: #c0392b; font-style: italic; }
   </style>
 </head>
 <body>
@@ -130,31 +162,46 @@
     <button class="next-btn" style="margin-top:20px;" onclick="Quiz.start(Quiz.state.topic)">Znovu stejné téma</button>
     <button class="next-btn" style="background:#95a5a6; margin-top:10px;" onclick="Quiz.home()">Vybrat jiné téma</button>
   </div>
+
+  <div id="reading-container">
+    <button class="link-btn" onclick="Reading.home()">← Změnit téma</button>
+    <div class="reading-header">
+      <div class="reading-title-row">
+        <h2 class="reading-title" id="reading-title"></h2>
+        <span class="reading-level" id="reading-level"></span>
+      </div>
+      <div class="reading-credit" id="reading-credit"></div>
+    </div>
+    <div class="reading-body" id="reading-body"></div>
+  </div>
 </div>
 
 <div id="hover-tooltip" class="hover-tooltip"></div>
 
 <script src="data/tables.js"></script>
 <script src="data/questions.js"></script>
+<script src="data/texts.js"></script>
 <script src="js/storage.js"></script>
 <script src="js/engine.js"></script>
+<script src="js/reading.js"></script>
 <script>
   (function () {
     const problems = [];
-    if (typeof DECLENSION_TABLES === "undefined") problems.push("data/tables.js se nenačetl (nebo je zastaralý).");
-    if (typeof QUESTION_BANK === "undefined") problems.push("data/questions.js se nenačetl.");
-    if (typeof Store === "undefined")        problems.push("js/storage.js se nenačetl.");
-    if (typeof Quiz === "undefined")         problems.push("js/engine.js se nenačetl (nebo je stará verze).");
-    if (typeof availableLangs === "undefined") problems.push("engine.js je zastaralý — chybí availableLangs().");
+    if (typeof DECLENSION_TABLES === "undefined") problems.push("data/tables.js se nenačetl.");
+    if (typeof QUESTION_BANK === "undefined")     problems.push("data/questions.js se nenačetl.");
+    if (typeof TEXTS === "undefined")             problems.push("data/texts.js se nenačetl.");
+    if (typeof Store === "undefined")             problems.push("js/storage.js se nenačetl.");
+    if (typeof Quiz === "undefined")              problems.push("js/engine.js se nenačetl.");
+    if (typeof Reading === "undefined")           problems.push("js/reading.js se nenačetl.");
+    if (typeof availableLangs === "undefined")    problems.push("engine.js je zastaralý — chybí availableLangs().");
     if (problems.length) {
       document.body.innerHTML =
         '<div style="max-width:600px;margin:40px auto;background:#f8d7da;color:#721c24;padding:20px;border-radius:12px;">' +
         '<h3>Chyba při načítání</h3><ul><li>' + problems.join('</li><li>') + '</li></ul>' +
-        '<p style="font-size:13px;">Zkontroluj, že všechny soubory jsou aktuální a že jsi spustil <code>python3 tools/import-csv.py questions.csv</code>.</p></div>';
+        '<p style="font-size:13px;">Zkontroluj soubory a spusť <code>python3 tools/import-csv.py questions.csv</code>.</p></div>';
       return;
     }
 
-    // Language selector
     const langs = availableLangs();
     const langSel = document.getElementById("learner-lang");
     const defaultLang = langs.includes("en") ? "en" : (langs[0] || "cs");
@@ -177,9 +224,9 @@
       if (Quiz.state.topic) Quiz.refreshExplanation();
     });
 
-    // Topic groups
     const TOPIC_GROUPS = [
       {
+        kind: "quiz",
         title: "Cvičení",
         sub: "Trénuj jednotlivá témata",
         topics: [
@@ -192,9 +239,16 @@
         ],
       },
       {
+        kind: "quiz",
         title: "Testy",
         sub: "Smíšené otázky ze všech témat",
         topics: ["mixed"],
+      },
+      {
+        kind: "reading",
+        title: "Čtení",
+        sub: "Adaptované texty s výkladem slovíček",
+        texts: TEXTS,
       },
     ];
 
@@ -214,28 +268,35 @@
     TOPIC_GROUPS.forEach(group => {
       const section = document.createElement("section");
       section.className = "topic-group";
-
       const header = document.createElement("div");
       header.className = "group-header";
       header.innerHTML = `<h3>${group.title}</h3><p>${group.sub}</p>`;
       section.appendChild(header);
-
       const body = document.createElement("div");
       body.className = "group-body";
 
-      group.topics.forEach(key => {
-        const info = TOPIC_INFO[key] || { title: key, sub: "" };
-        const count = key === "mixed"
-          ? `${totalQuestions} otázek celkem`
-          : (QUESTION_BANK[key] ? `${QUESTION_BANK[key].length} otázek` : "");
-
-        const card = document.createElement("button");
-        card.className = "topic-card";
-        card.innerHTML = `<h3>${info.title}</h3><div class="meta">${info.sub} · ${count}</div>`;
-        card.onclick = () => Quiz.start(key);
-        body.appendChild(card);
-      });
-
+      if (group.kind === "reading") {
+        group.texts.forEach(t => {
+          const card = document.createElement("button");
+          card.className = "topic-card";
+          const pub = t.source?.publication || "";
+          card.innerHTML = `<h3>${t.title}</h3><div class="meta">${t.level || ""} · ${pub}</div>`;
+          card.onclick = () => Reading.start(t.id);
+          body.appendChild(card);
+        });
+      } else {
+        group.topics.forEach(key => {
+          const info = TOPIC_INFO[key] || { title: key, sub: "" };
+          const count = key === "mixed"
+            ? `${totalQuestions} otázek celkem`
+            : (QUESTION_BANK[key] ? `${QUESTION_BANK[key].length} otázek` : "");
+          const card = document.createElement("button");
+          card.className = "topic-card";
+          card.innerHTML = `<h3>${info.title}</h3><div class="meta">${info.sub} · ${count}</div>`;
+          card.onclick = () => Quiz.start(key);
+          body.appendChild(card);
+        });
+      }
       section.appendChild(body);
       grid.appendChild(section);
     });
