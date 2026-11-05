@@ -165,17 +165,40 @@ function buildWordPanel(wordKey) {
   const w = Reading.state.currentText.words[wordKey];
   if (!w) return `<div style="color:#c0392b;">Neznámé slovo: ${escapeHtml(wordKey)}</div>`;
 
+  // Reflexive particle — delegate to the verb it belongs to
+  if (w.pos === "particle" && w.reflexive_of) {
+    const verb = Reading.state.currentText.words[w.reflexive_of];
+    if (verb) {
+      const lang = Store.getLang("en");
+      const verbLemma = verb.lemma || verb.surface;
+      let html = `<h4>${escapeHtml(w.surface)} <span class="surface">zvratná částice</span></h4>`;
+      html += `<div class="gloss">Zvratná částice patří k slovesu <b>${escapeHtml(verbLemma)}</b>. Ve větě může stát jinde než sloveso, ale vždy k němu patří.</div>`;
+      if (w.gloss) {
+        const g = typeof w.gloss === "object" ? (w.gloss[lang] || w.gloss.en || w.gloss.cs || "") : w.gloss;
+        if (g) html += `<div class="instance-note">${escapeHtml(g)}</div>`;
+      }
+      html += `<div class="vzor-title">Sloveso ${escapeHtml(verbLemma)}${verb.reflexive ? " " + escapeHtml(verb.reflexive) : ""}</div>`;
+      html += buildVerbPanel(verb);
+      return html;
+    }
+  }
+
   const lang = Store.getLang("en");
   const surface = w.surface || wordKey;
   const lemma = w.lemma || surface;
+  const displayLemma = w.reflexive ? `${lemma} ${w.reflexive}` : lemma;
 
-  let html = "<h4>" + escapeHtml(lemma);
+  let html = "<h4>" + escapeHtml(displayLemma);
   if (w.surface && w.surface !== w.lemma) html += ` <span class="surface">(${escapeHtml(w.surface)})</span>`;
   if (w.aspect) {
     const badge = w.aspect === "perfective" ? "dokonavé" : "nedokonavé";
     html += ` <span class="verb-badge ${w.aspect}">${badge}</span>`;
   }
   html += "</h4>";
+
+  if (w.reflexive) {
+    html += `<div class="reflexive-note">Zvratné sloveso — částice <b>${escapeHtml(w.reflexive)}</b>.</div>`;
+  }
 
   if (w.gloss) {
     const g = typeof w.gloss === "object" ? (w.gloss[lang] || w.gloss.en || w.gloss.cs || "") : w.gloss;
@@ -231,14 +254,36 @@ const Tooltip = (() => {
   function highlightDriver(wordKey) {
     clearDriverHighlight();
     if (typeof Reading === "undefined" || !Reading.state.currentText) return;
-    const w = Reading.state.currentText.words[wordKey];
-    if (!w || !w.driven_by) return;
-    const el = document.querySelector(`.hoverable[data-word="${w.driven_by}"]`);
-    if (el) el.classList.add("driver-highlight");
+    const words = Reading.state.currentText.words;
+    const w = words[wordKey];
+    if (!w) return;
+
+    // Highlight the governing word (e.g., the verb whose case this noun takes)
+    if (w.driven_by) {
+      const el = document.querySelector(`.hoverable[data-word="${w.driven_by}"]`);
+      if (el) el.classList.add("driver-highlight");
+    }
+
+    // Highlight the reflexive partner — verb ↔ particle
+    let partnerKey = null;
+    if (w.pos === "verb" && w.reflexive) {
+      for (const k in words) {
+        if (words[k].reflexive_of === wordKey) { partnerKey = k; break; }
+      }
+    } else if (w.pos === "particle" && w.reflexive_of) {
+      partnerKey = w.reflexive_of;
+    }
+    if (partnerKey) {
+      const el = document.querySelector(`.hoverable[data-word="${partnerKey}"]`);
+      if (el) el.classList.add("reflexive-highlight");
+    }
   }
 
   function clearDriverHighlight() {
-    document.querySelectorAll(".driver-highlight").forEach(el => el.classList.remove("driver-highlight"));
+    document.querySelectorAll(".driver-highlight, .reflexive-highlight").forEach(el => {
+      el.classList.remove("driver-highlight");
+      el.classList.remove("reflexive-highlight");
+    });
   }
 
   function hide() {

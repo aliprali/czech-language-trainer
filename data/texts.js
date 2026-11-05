@@ -10,13 +10,14 @@ const TEXTS = [
       url: "https://www.denik.cz/vesmir/vesmir-zelena-kometa-cesko-listopad-kdy-a-jak-nejlepe-pozorovat/",
       note: "Upraveno a zkráceno pro výuku."
     },
-    text: "K Zemi se {{w1}} {{w2}} 161P/Hartley-IRAS. Koncem {{w3}} {{w5}} nejblíže {{w4}}, a proto {{w5}} {{w6}}. Astronom Martin Ratcliffe {{w7}}: „Nejblíže k {{w4}} bude 27. listopadu.\" {{w8}} v {{w9}} {{w18}} mohou {{w10}} na {{w11}} v {{w12}} Orla. {{w13}} ale {{w14}} a musí být daleko od {{w15}} {{w16}}. {{w2}} se k nám už {{w17}} dalších čtyřicet let.",
+    text: "K Zemi {{w1p}} {{w1}} {{w2}} 161P/Hartley-IRAS. Koncem {{w3}} {{w5}} nejblíže {{w4}}, a proto {{w5}} {{w6}}. Astronom Martin Ratcliffe {{w7}}: „Nejblíže k {{w4}} bude 27. listopadu.\" {{w8}} v {{w9}} {{w18}} mohou {{w10}} na {{w11}} v {{w12}} Orla. {{w13}} ale {{w14}} a musí být daleko od {{w15}} {{w16}}. {{w2}} {{w17p}} k nám už {{w17}} dalších čtyřicet let.",
 
     words: {
       w1: {
         surface: "vrací", pos: "verb", lemma: "vracet",
+        reflexive: "se",
         gloss: { en: "returns", cs: "vrací se" },
-        aspect: "imperfective", aspect_pair: "vrátit",
+        aspect: "imperfective", aspect_pair: "vrátit se",
         features: { tense: "present", person: "3", number: "sg" },
         conjugation: {
           present: { ja: "vracím", ty: "vracíš", on: "vrací", my: "vracíme", vy: "vracíte", oni: "vracejí" },
@@ -25,6 +26,11 @@ const TEXTS = [
         },
         governs: [],
         examples: ["Vrací se domů."]
+      },
+      w1p: {
+        surface: "se", pos: "particle", lemma: "se",
+        reflexive_of: "w1",
+        gloss: { en: "reflexive (accusative)", cs: "zvratná částice (akuzativ)" }
       },
       w2: {
         surface: "kometa", pos: "noun", lemma: "kometa",
@@ -156,8 +162,9 @@ const TEXTS = [
       },
       w17: {
         surface: "nevrátí", pos: "verb", lemma: "nevrátit",
+        reflexive: "se",
         gloss: { en: "will not return", cs: "nevrátí se" },
-        aspect: "perfective", aspect_pair: "nevracet",
+        aspect: "perfective", aspect_pair: "nevracet se",
         features: { tense: "future", person: "3", number: "sg" },
         conjugation: {
           present: null,
@@ -166,6 +173,11 @@ const TEXTS = [
         },
         governs: [],
         examples: ["Už se nevrátí."]
+      },
+      w17p: {
+        surface: "se", pos: "particle", lemma: "se",
+        reflexive_of: "w17",
+        gloss: { en: "reflexive (accusative)", cs: "zvratná částice (akuzativ)" }
       },
       w18: {
         surface: "ji", pos: "pronoun", lemma: "ona",
