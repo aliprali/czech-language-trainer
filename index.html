@@ -308,10 +308,9 @@
         texts: TEXTS,
       },
       {
-        kind: "quiz",
+        kind: "textPractice",
         title: "Cvičení z textů",
         sub: "Procvič slovíčka a mluvnici z adaptovaných textů",
-        topics: ["text_01_kometa"],
       },
     ];
 
@@ -323,7 +322,6 @@
       verb_case:           { title: "Slovesa + pád",     sub: "Jaký pád vyžaduje sloveso?" },
       plural_nominative:   { title: "Nominativ plurál",  sub: "Množné číslo (1. pád)" },
       mixed:               { title: "Smíšený test",      sub: "15 náhodných otázek ze všech témat" },
-      text_01_kometa:      { title: "Zelená kometa",     sub: "Slovíčka a mluvnice z textu" },
       verbal_aspect:       { title: "Slovesný vid",      sub: "Dokonavý / nedokonavý" },
     };
 
@@ -349,6 +347,18 @@
           card.onclick = () => Reading.start(t.id);
           body.appendChild(card);
         });
+      if (group.kind === "textPractice") {
+        TEXTS
+          .filter(t => t.practiceTopic && QUESTION_BANK[t.practiceTopic]?.length)
+          .forEach(t => {
+            const count = QUESTION_BANK[t.practiceTopic].length;
+            const card = document.createElement("button");
+            card.className = "topic-card";
+            card.innerHTML = `<h3>${t.title}</h3><div class="meta">Slovíčka a mluvnice z textu · ${count} otázek</div>`;
+            card.onclick = () => Quiz.start(t.practiceTopic);
+            body.appendChild(card);
+          });
+      }  
       } else {
         group.topics.forEach(key => {
           const info = TOPIC_INFO[key] || { title: key, sub: "" };
