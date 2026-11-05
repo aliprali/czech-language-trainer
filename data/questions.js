@@ -1162,6 +1162,85 @@ const QUESTION_BANK = {
       "explanation": {
         "en": "Instrumentál sg. muž. neživ.: dům → domem."
       }
+    },
+    {
+      "id": "dat-35",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Kometa se vrací k ___ (Země).",
+      "hover_refs": [
+        {
+          "word": "Země",
+          "table": "růže"
+        }
+      ],
+      "hint": "Dativ po k",
+      "options": [
+        "Zemi",
+        "Země",
+        "Zemí",
+        "Zemou"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Dativ sg. fem. vzor růže: Země → Zemi. Po k.",
+        "en": "Dative sg. fem. pattern růže: Země → Zemi. After k."
+      }
+    },
+    {
+      "id": "dat-36",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "neut",
+        "noun"
+      ],
+      "prompt": "Nejblíže k ___ (Slunce) bude kometa v listopadu.",
+      "hover_refs": [
+        {
+          "word": "Slunce",
+          "table": "moře"
+        }
+      ],
+      "hint": "Dativ po k",
+      "options": [
+        "Slunci",
+        "Slunce",
+        "Sluncem",
+        "Sluncí"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Dativ sg. neut. vzor moře: Slunce → Slunci. Po k.",
+        "en": "Dative sg. neut. pattern moře: Slunce → Slunci. After k."
+      }
+    },
+    {
+      "id": "dat-37",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "pronoun"
+      ],
+      "prompt": "Kometa se k ___ (my) už nevrátí.",
+      "hover_refs": [
+        {
+          "word": "my",
+          "table": "my"
+        }
+      ],
+      "hint": "Dativ po k",
+      "answer": "nám",
+      "explanation": {
+        "en": "Dativ pl. zájmena my: nám. Po k."
+      }
     }
   ],
   "genitive_accusative": [
@@ -2235,6 +2314,86 @@ const QUESTION_BANK = {
       "explanation": {
         "en": "Genitiv sg. fem.: škola → školy."
       }
+    },
+    {
+      "id": "gen-32",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "genitiv",
+        "masc_inanim",
+        "noun"
+      ],
+      "prompt": "Koncem ___ (listopad) bude nejblíže Slunci.",
+      "hover_refs": [
+        {
+          "word": "listopad",
+          "table": "hrad"
+        }
+      ],
+      "hint": "Genitiv po koncem",
+      "options": [
+        "listopad",
+        "listopadu",
+        "listopadem",
+        "listopadě"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Genitiv sg. muž. neživ. vzor hrad: listopad → listopadu. Po koncem.",
+        "en": "Genitive sg. masc. inanim. pattern hrad: listopad → listopadu. After koncem."
+      }
+    },
+    {
+      "id": "gen-33",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "genitiv",
+        "neut",
+        "plur"
+      ],
+      "prompt": "Musíte být daleko od městských ___ (světlo).",
+      "hover_refs": [
+        {
+          "word": "světlo",
+          "table": "město"
+        }
+      ],
+      "hint": "Genitiv pl. po od",
+      "answer": "světel",
+      "explanation": {
+        "en": "Genitiv pl. neut. vzor město: světlo → světel. Po od."
+      }
+    },
+    {
+      "id": "gen-34",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "akuzativ",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Lidé mohou vidět ___ (kometa) na obloze.",
+      "hover_refs": [
+        {
+          "word": "kometa",
+          "table": "žena"
+        }
+      ],
+      "hint": "Akuzativ",
+      "options": [
+        "kometa",
+        "kometu",
+        "kometou",
+        "kometě"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Akuzativ sg. fem. vzor žena: kometa → kometu.",
+        "en": "Accusative sg. fem. pattern žena: kometa → kometu."
+      }
     }
   ],
   "locative": [
@@ -3262,6 +3421,86 @@ const QUESTION_BANK = {
       "explanation": {
         "en": "Lokál sg. fem. měkkého: ulice → ulici."
       }
+    },
+    {
+      "id": "lok-31",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "lokál",
+        "neut",
+        "noun"
+      ],
+      "prompt": "Lidé v ___ (Česko) uvidí kometu.",
+      "hover_refs": [
+        {
+          "word": "Česko",
+          "table": "město"
+        }
+      ],
+      "hint": "Lokál po v",
+      "options": [
+        "Česko",
+        "Česka",
+        "Česku",
+        "Českem"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Lokál sg. neut. vzor město: Česko → Česku. Po v.",
+        "en": "Locative sg. neut. pattern město: Česko → Česku. After v."
+      }
+    },
+    {
+      "id": "lok-32",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "lokál",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Kometa bude na ___ (obloha) v souhvězdí Orla.",
+      "hover_refs": [
+        {
+          "word": "obloha",
+          "table": "žena"
+        }
+      ],
+      "hint": "Lokál po na",
+      "options": [
+        "obloha",
+        "oblohy",
+        "obloze",
+        "oblohou"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Lokál sg. fem. vzor žena: obloha → obloze (h→z). Po na.",
+        "en": "Locative sg. fem. pattern žena: obloha → obloze (h→z). After na."
+      }
+    },
+    {
+      "id": "lok-33",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "lokál",
+        "neut",
+        "noun"
+      ],
+      "prompt": "Vidět kometu můžete v ___ (souhvězdí) Orla.",
+      "hover_refs": [
+        {
+          "word": "souhvězdí",
+          "table": "stavení"
+        }
+      ],
+      "hint": "Lokál po v",
+      "answer": "souhvězdí",
+      "explanation": {
+        "en": "Lokál sg. neut. vzor stavení: souhvězdí se nemění. Po v."
+      }
     }
   ],
   "past_tense": [
@@ -4017,6 +4256,58 @@ const QUESTION_BANK = {
       "explanation": {
         "en": "Ono = neutrum sg., spát → spalo."
       }
+    },
+    {
+      "id": "min-32",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "masc"
+      ],
+      "prompt": "Astronom Martin Ratcliffe ___ (říct), že kometa bude nejblíže v listopadu.",
+      "hint": "Minulý čas 3. os. sg. muž.",
+      "answer": "řekl",
+      "explanation": {
+        "en": "Minulý čas 3. os. sg. muž. od říct: řekl."
+      }
+    },
+    {
+      "id": "min-33",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "fem"
+      ],
+      "prompt": "Kometa ___ (být) nejblíže Slunci v listopadu.",
+      "hint": "Minulý čas 3. os. sg. fem.",
+      "options": [
+        "byl",
+        "byla",
+        "bylo",
+        "byli"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Minulý čas 3. os. sg. fem. od být: byla. (kometa je fem.)",
+        "en": "Past 3rd sg. fem. of být: byla. (kometa is fem.)"
+      }
+    },
+    {
+      "id": "min-34",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "minulý_čas",
+        "plur"
+      ],
+      "prompt": "Lidé ___ (vidět) kometu v listopadu.",
+      "hint": "Minulý čas 3. os. pl. muž. živ.",
+      "answer": "viděli",
+      "explanation": {
+        "en": "Minulý čas 3. os. pl. muž. živ. od vidět: viděli. (lidé je mask. anim. plurál)"
+      }
     }
   ],
   "verb_case": [
@@ -4591,6 +4882,90 @@ const QUESTION_BANK = {
       "explanation": {
         "en": "mluvit o + lokál: kniha → knize (h→z)."
       }
+    },
+    {
+      "id": "vc-19",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ"
+      ],
+      "prompt": "Lidé potřebují ___ (dalekohled).",
+      "hover_refs": [
+        {
+          "word": "dalekohled",
+          "table": "hrad"
+        }
+      ],
+      "hint": "potřebovat + akuzativ",
+      "options": [
+        "dalekohled",
+        "dalekohledu",
+        "dalekohledem",
+        "dalekohledě"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "potřebovat + akuzativ: dalekohled (stejný tvar jako nom.).",
+        "en": "potřebovat + accusative: dalekohled (same form as nom.)."
+      }
+    },
+    {
+      "id": "vc-20",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ"
+      ],
+      "prompt": "Lidé vidí ___ (kometa).",
+      "hover_refs": [
+        {
+          "word": "kometa",
+          "table": "žena"
+        }
+      ],
+      "hint": "vidět + akuzativ",
+      "options": [
+        "kometa",
+        "kometu",
+        "kometou",
+        "kometě"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "vidět + akuzativ: kometa → kometu.",
+        "en": "vidět + accusative: kometa → kometu."
+      }
+    },
+    {
+      "id": "vc-21",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ"
+      ],
+      "prompt": "Kometa se blíží k ___ (Slunce).",
+      "hover_refs": [
+        {
+          "word": "Slunce",
+          "table": "moře"
+        }
+      ],
+      "hint": "blížit se k + dativ",
+      "options": [
+        "Slunce",
+        "Slunci",
+        "Sluncem",
+        "Sluncí"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "blížit se k + dativ: Slunce → Slunci.",
+        "en": "blížit se k + dative: Slunce → Slunci."
+      }
     }
   ],
   "plural_nominative": [
@@ -5118,6 +5493,1006 @@ const QUESTION_BANK = {
       "answer": "bratři",
       "explanation": {
         "en": "Masc. anim.: bratr → bratři (r→ř)."
+      }
+    },
+    {
+      "id": "pl-18",
+      "type": "type_in",
+      "level": "A1",
+      "tags": [
+        "nominativ_plurál",
+        "irregular"
+      ],
+      "prompt": "Napiš nominativ plurál: člověk.",
+      "hover_refs": [
+        {
+          "word": "člověk",
+          "table": "člověk"
+        }
+      ],
+      "hint": "Nepravidelné",
+      "answer": "lidé",
+      "accept": [
+        "lidi"
+      ],
+      "explanation": {
+        "cs": "Nepravidelné: člověk → lidé / lidi.",
+        "en": "Irregular: člověk → lidé / lidi."
+      }
+    },
+    {
+      "id": "pl-19",
+      "type": "multiple_choice",
+      "level": "A1",
+      "tags": [
+        "nominativ_plurál",
+        "neut"
+      ],
+      "prompt": "Jedno světlo, dvě ___.",
+      "hint": "Neut. -o",
+      "options": [
+        "světla",
+        "světel",
+        "světlům",
+        "světly"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Vzor město: světlo → světla.",
+        "en": "Pattern město: světlo → světla."
+      }
+    }
+  ],
+  "text_01_kometa": [
+    {
+      "id": "txt1-01",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "akuzativ",
+        "fem"
+      ],
+      "prompt": "Napiš 4. pád slova kometa.",
+      "hover_refs": [
+        {
+          "word": "kometa",
+          "table": "žena"
+        }
+      ],
+      "hint": "Akuzativ",
+      "answer": "kometu",
+      "explanation": {
+        "en": "Akuzativ sg. fem. vzor žena: kometa → kometu."
+      }
+    },
+    {
+      "id": "txt1-02",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "akuzativ",
+        "fem"
+      ],
+      "prompt": "Lidé mohou vidět ___ (kometa) na obloze.",
+      "hover_refs": [
+        {
+          "word": "kometa",
+          "table": "žena"
+        }
+      ],
+      "hint": "Akuzativ",
+      "options": [
+        "kometa",
+        "kometu",
+        "kometou",
+        "kometě"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Akuzativ sg. fem.: vidět koho/co → kometu.",
+        "en": "Accusative sg. fem.: vidět koho/co → kometu."
+      }
+    },
+    {
+      "id": "txt1-03",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "dativ",
+        "fem"
+      ],
+      "prompt": "Kometa se vrací k ___ (Země).",
+      "hover_refs": [
+        {
+          "word": "Země",
+          "table": "růže"
+        }
+      ],
+      "hint": "Dativ po k",
+      "answer": "Zemi",
+      "explanation": {
+        "en": "Dativ sg. fem. vzor růže: Země → Zemi. Po předložce k."
+      }
+    },
+    {
+      "id": "txt1-04",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "dativ",
+        "neut"
+      ],
+      "prompt": "Nejblíže k ___ (Slunce) bude 27. listopadu.",
+      "hover_refs": [
+        {
+          "word": "Slunce",
+          "table": "moře"
+        }
+      ],
+      "hint": "Dativ po k",
+      "options": [
+        "Slunci",
+        "Slunce",
+        "Sluncem",
+        "Sluncí"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Dativ sg. neut. vzor moře: Slunce → Slunci. Po k.",
+        "en": "Dative sg. neut. pattern moře: Slunce → Slunci. After k."
+      }
+    },
+    {
+      "id": "txt1-05",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "genitiv",
+        "masc"
+      ],
+      "prompt": "Koncem ___ (listopad) bude nejblíže Slunci.",
+      "hover_refs": [
+        {
+          "word": "listopad",
+          "table": "hrad"
+        }
+      ],
+      "hint": "Genitiv po koncem",
+      "answer": "listopadu",
+      "explanation": {
+        "en": "Genitiv sg. muž. neživ. vzor hrad: listopad → listopadu. Po koncem."
+      }
+    },
+    {
+      "id": "txt1-06",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "lokál",
+        "neut"
+      ],
+      "prompt": "Lidé v ___ (Česko) uvidí kometu.",
+      "hover_refs": [
+        {
+          "word": "Česko",
+          "table": "město"
+        }
+      ],
+      "hint": "Lokál po v",
+      "options": [
+        "Česku",
+        "Česka",
+        "Českem",
+        "Česko"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Lokál sg. neut. vzor město: Česko → Česku. Po v.",
+        "en": "Locative sg. neut. pattern město: Česko → Česku. After v."
+      }
+    },
+    {
+      "id": "txt1-07",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "lokál",
+        "fem"
+      ],
+      "prompt": "Kometa bude na ___ (obloha) v souhvězdí Orla.",
+      "hover_refs": [
+        {
+          "word": "obloha",
+          "table": "žena"
+        }
+      ],
+      "hint": "Lokál po na",
+      "options": [
+        "obloha",
+        "oblohy",
+        "obloze",
+        "oblohou"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Lokál sg. fem. vzor žena: obloha → obloze (h→z). Po na.",
+        "en": "Locative sg. fem. pattern žena: obloha → obloze (h→z). After na."
+      }
+    },
+    {
+      "id": "txt1-08",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "lokál",
+        "neut"
+      ],
+      "prompt": "Vidět ji můžete v ___ (souhvězdí) Orla.",
+      "hover_refs": [
+        {
+          "word": "souhvězdí",
+          "table": "stavení"
+        }
+      ],
+      "hint": "Lokál po v",
+      "answer": "souhvězdí",
+      "explanation": {
+        "en": "Lokál sg. neut. vzor stavení: souhvězdí se nemění. Po v."
+      }
+    },
+    {
+      "id": "txt1-09",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "akuzativ",
+        "masc"
+      ],
+      "prompt": "Lidé potřebují ___ (dalekohled).",
+      "hover_refs": [
+        {
+          "word": "dalekohled",
+          "table": "hrad"
+        }
+      ],
+      "hint": "Akuzativ",
+      "answer": "dalekohled",
+      "explanation": {
+        "en": "Akuzativ sg. muž. neživ. vzor hrad: dalekohled (stejný tvar jako nom.)."
+      }
+    },
+    {
+      "id": "txt1-10",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "genitiv",
+        "plur"
+      ],
+      "prompt": "Musíte být daleko od městských ___ (světlo).",
+      "hover_refs": [
+        {
+          "word": "světlo",
+          "table": "město"
+        }
+      ],
+      "hint": "Genitiv plurál",
+      "options": [
+        "světel",
+        "světla",
+        "světlům",
+        "světly"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Genitiv pl. neut. vzor město: světlo → světel. Po od.",
+        "en": "Genitive pl. neut. pattern město: světlo → světel. After od."
+      }
+    },
+    {
+      "id": "txt1-11",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "nominativ_plurál",
+        "irregular"
+      ],
+      "prompt": "Napiš nominativ plurál slova člověk. (nepravidelné)",
+      "hover_refs": [
+        {
+          "word": "člověk",
+          "table": "člověk"
+        }
+      ],
+      "hint": "Nepravidelné",
+      "answer": "lidé",
+      "accept": [
+        "lidi"
+      ],
+      "explanation": {
+        "cs": "Nominativ pl. nepravidelné: člověk → lidé / lidi.",
+        "en": "Nominative pl. irregular: člověk → lidé / lidi."
+      }
+    },
+    {
+      "id": "txt1-12",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "nominativ",
+        "plur"
+      ],
+      "prompt": "___ v Česku uvidí kometu.",
+      "hint": "Kdo? (nominativ pl.)",
+      "options": [
+        "Lidé",
+        "Lidí",
+        "Lidem",
+        "Lidmi"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Nominativ pl. od člověk je lidé.",
+        "en": "Nominative pl. of člověk is lidé."
+      }
+    },
+    {
+      "id": "txt1-13",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "dativ",
+        "pronoun"
+      ],
+      "prompt": "Kometa se k ___ (my) už nevrátí.",
+      "hover_refs": [
+        {
+          "word": "my",
+          "table": "my"
+        }
+      ],
+      "hint": "Dativ po k",
+      "answer": "nám",
+      "explanation": {
+        "en": "Dativ pl. zájmena my: my → nám. Po k."
+      }
+    },
+    {
+      "id": "txt1-14",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "akuzativ",
+        "pronoun"
+      ],
+      "prompt": "Lidé mohou vidět ___ (ona) na obloze.",
+      "hint": "Akuzativ fem sg",
+      "options": [
+        "ji",
+        "jí",
+        "ní",
+        "ni"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Akuzativ sg. fem. zájmena ona: ona → ji (klitikon).",
+        "en": "Accusative sg. fem. of ona: ona → ji (clitic)."
+      }
+    },
+    {
+      "id": "txt1-15",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "preposition",
+        "dativ"
+      ],
+      "prompt": "Jaký pád vyžaduje předložka „k“?",
+      "hint": "Pád po k",
+      "options": [
+        "genitiv",
+        "dativ",
+        "akuzativ",
+        "lokál"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Předložka k + dativ (k Zemi, k Slunci).",
+        "en": "Preposition k + dative (k Zemi, k Slunci)."
+      }
+    },
+    {
+      "id": "txt1-16",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "preposition",
+        "genitiv"
+      ],
+      "prompt": "Jaký pád vyžaduje předložka „koncem“?",
+      "hint": "Pád po koncem",
+      "options": [
+        "genitiv",
+        "dativ",
+        "akuzativ",
+        "lokál"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Předložka koncem + genitiv (koncem listopadu).",
+        "en": "Preposition koncem + genitive (koncem listopadu)."
+      }
+    },
+    {
+      "id": "txt1-17",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "verb",
+        "present"
+      ],
+      "prompt": "Kometa se ___ (vracet) k Zemi.",
+      "hint": "Přítomný čas 3. os. sg.",
+      "options": [
+        "vrací",
+        "vracet",
+        "vrátí",
+        "vracela"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Přítomný čas 3. os. sg. slovesa vracet se: vrací se.",
+        "en": "Present 3rd sg. of vracet se: vrací se."
+      }
+    },
+    {
+      "id": "txt1-18",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "verb",
+        "future"
+      ],
+      "prompt": "Zítra ___ (být) kometa nejblíže Slunci.",
+      "hint": "Budoucí čas 3. os. sg.",
+      "options": [
+        "bude",
+        "je",
+        "byl",
+        "byly"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Budoucí čas 3. os. sg. slovesa být: bude.",
+        "en": "Future 3rd sg. of být: bude."
+      }
+    },
+    {
+      "id": "txt1-19",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "verb",
+        "past"
+      ],
+      "prompt": "Astronom Martin Ratcliffe ___ (říct), že kometa bude nejblíže v listopadu.",
+      "hint": "Minulý čas 3. os. sg. muž.",
+      "answer": "řekl",
+      "explanation": {
+        "en": "Minulý čas 3. os. sg. muž. od říct: řekl."
+      }
+    },
+    {
+      "id": "txt1-20",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "verb",
+        "infinitive"
+      ],
+      "prompt": "Lidé mohou ___ (vidět) kometu na obloze.",
+      "hint": "Infinitiv",
+      "answer": "vidět",
+      "explanation": {
+        "en": "Infinitiv od vidět: vidět. Po modalitě mohou."
+      }
+    },
+    {
+      "id": "txt1-21",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "verb",
+        "future"
+      ],
+      "prompt": "Kometa se k nám už ___ (nevrátit).",
+      "hint": "Budoucí čas 3. os. sg.",
+      "options": [
+        "nevrátí",
+        "nevrací",
+        "nevrátil",
+        "nevrátila"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Budoucí čas 3. os. sg. od nevrátit se: nevrátí se.",
+        "en": "Future 3rd sg. of nevrátit se: nevrátí se."
+      }
+    },
+    {
+      "id": "txt1-22",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "superlativ"
+      ],
+      "prompt": "Jaký je superlativ od příslovce „blízko“?",
+      "hint": "Stupňování příslovce",
+      "options": [
+        "blíže",
+        "nejblíže",
+        "blízce",
+        "nejblízce"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Stupňování: blízko → blíže → nejblíže.",
+        "en": "Comparison: blízko → blíže → nejblíže."
+      }
+    },
+    {
+      "id": "txt1-23",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "komparativ"
+      ],
+      "prompt": "Jaký je komparativ od „jasný“ (fem. sg.)?",
+      "hint": "Stupňování příd. jména",
+      "options": [
+        "jasnější",
+        "nejjasnější",
+        "jasná",
+        "jasném"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Stupňování: jasný → jasnější → nejjasnější.",
+        "en": "Comparison: jasný → jasnější → nejjasnější."
+      }
+    },
+    {
+      "id": "txt1-24",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "number",
+        "date"
+      ],
+      "prompt": "Jak se čte „27. listopadu“?",
+      "hint": "Čtení data",
+      "options": [
+        "dvacet sedmého listopadu",
+        "dvacátého sedmého listopadu",
+        "dvacet sedmý listopad",
+        "dvacátý sedmý listopad"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Datum v genitivu: dvacátého sedmého listopadu.",
+        "en": "Date in genitive: dvacátého sedmého listopadu."
+      }
+    },
+    {
+      "id": "txt1-25",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "aspect"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „vracet se“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "vrátit se",
+        "navracet se",
+        "obracet se",
+        "otáčet se"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Vidová dvojice: vracet se (nedok.) → vrátit se (dok.).",
+        "en": "Aspect pair: vracet se (impf.) → vrátit se (pf.)."
+      }
+    },
+    {
+      "id": "txt1-26",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "aspect"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „řekl“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "říkat",
+        "říci",
+        "mluvit",
+        "říkávat"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Vidová dvojice: říct / řekl (dok.) → říkat (nedok.).",
+        "en": "Aspect pair: říct / řekl (pf.) → říkat (impf.)."
+      }
+    },
+    {
+      "id": "txt1-27",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "past",
+        "fem"
+      ],
+      "prompt": "Kometa ___ (být) nejblíže Slunci v listopadu.",
+      "hint": "Minulý čas 3. os. sg. fem.",
+      "answer": "byla",
+      "explanation": {
+        "en": "Minulý čas 3. os. sg. fem. od být: byla. (kometa je femininum)"
+      }
+    },
+    {
+      "id": "txt1-28",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "past",
+        "plur"
+      ],
+      "prompt": "Lidé ___ (vidět) kometu v listopadu.",
+      "hint": "Minulý čas 3. os. pl. muž. živ.",
+      "answer": "viděli",
+      "explanation": {
+        "en": "Minulý čas 3. os. pl. muž. živ. od vidět: viděli. (lidé je mask. anim. plurál)"
+      }
+    },
+    {
+      "id": "txt1-29",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "nominativ_plurál",
+        "neut"
+      ],
+      "prompt": "Jedno souhvězdí, dvě ___.",
+      "hint": "Neut. -í (beze změny)",
+      "options": [
+        "souhvězdí",
+        "souhvězdím",
+        "souhvězdími",
+        "souhvězdích"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Vzor stavení: souhvězdí se nemění.",
+        "en": "Pattern stavení: souhvězdí is unchanged."
+      }
+    },
+    {
+      "id": "txt1-30",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "nominativ_plurál",
+        "neut"
+      ],
+      "prompt": "Jedno světlo, dvě ___.",
+      "hint": "Neut. -o",
+      "options": [
+        "světla",
+        "světel",
+        "světlům",
+        "světly"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Vzor město: světlo → světla.",
+        "en": "Pattern město: světlo → světla."
+      }
+    }
+  ],
+  "verbal_aspect": [
+    {
+      "id": "aspect-01",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "perfektivum"
+      ],
+      "prompt": "Které z těchto sloves je dokonavé (perfektivní)?",
+      "hint": "Vid (dokonavý/nedokonavý)",
+      "options": [
+        "vracet",
+        "vrátit",
+        "potřebovat",
+        "vidět"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Dokonavá slovesa vyjadřují ukončený děj: vrátit (dok.) vs vracet (nedok.).",
+        "en": "Perfective verbs express a completed action: vrátit (pf.) vs vracet (impf.)."
+      }
+    },
+    {
+      "id": "aspect-02",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "imperfektivum"
+      ],
+      "prompt": "Které z těchto sloves je nedokonavé (imperfektivní)?",
+      "hint": "Vid (dokonavý/nedokonavý)",
+      "options": [
+        "říct",
+        "uvidět",
+        "říkat",
+        "vrátit"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Nedokonavá slovesa vyjadřují průběh nebo opakování: říkat (nedok.) vs říct (dok.).",
+        "en": "Imperfective verbs express ongoing or repeated action: říkat (impf.) vs říct (pf.)."
+      }
+    },
+    {
+      "id": "aspect-03",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „vracet se“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "vrátit se",
+        "navracet se",
+        "obracet se",
+        "otáčet se"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "vracet se (nedok.) ↔ vrátit se (dok.).",
+        "en": "vracet se (impf.) ↔ vrátit se (pf.)."
+      }
+    },
+    {
+      "id": "aspect-04",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „říkat“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "říct",
+        "mluvit",
+        "povídat",
+        "hovořit"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "říkat (nedok.) ↔ říct (dok.).",
+        "en": "říkat (impf.) ↔ říct (pf.)."
+      }
+    },
+    {
+      "id": "aspect-05",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „vidět“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "uvidět",
+        "hledět",
+        "dívat se",
+        "zřít"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "vidět (nedok.) ↔ uvidět (dok.).",
+        "en": "vidět (impf.) ↔ uvidět (pf.)."
+      }
+    },
+    {
+      "id": "aspect-06",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „nevrátit se“?",
+      "hint": "Vidová dvojice",
+      "options": [
+        "nevracet se",
+        "vrátit se",
+        "vracet se",
+        "otáčet se"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "nevrátit se (dok.) ↔ nevracet se (nedok.).",
+        "en": "nevrátit se (pf.) ↔ nevracet se (impf.)."
+      }
+    },
+    {
+      "id": "aspect-07",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "imperfektivum"
+      ],
+      "prompt": "Jaký vid má sloveso „vrací“ (od vracet)?",
+      "hint": "Vid",
+      "options": [
+        "nedokonavý",
+        "dokonavý",
+        "obojí",
+        "neurčený"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "vracet (vrací) je nedokonavé — vyjadřuje průběh.",
+        "en": "vracet (vrací) is imperfective — expresses ongoing action."
+      }
+    },
+    {
+      "id": "aspect-08",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "perfektivum"
+      ],
+      "prompt": "Jaký vid má sloveso „řekl“ (od říct)?",
+      "hint": "Vid",
+      "options": [
+        "dokonavý",
+        "nedokonavý",
+        "obojí",
+        "neurčený"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "říct (řekl) je dokonavé — vyjadřuje ukončený děj.",
+        "en": "říct (řekl) is perfective — expresses completed action."
+      }
+    },
+    {
+      "id": "aspect-09",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "vid",
+        "imperfektivum"
+      ],
+      "prompt": "Jaký vid má sloveso „bude“ (od být)?",
+      "hint": "Vid",
+      "options": [
+        "nedokonavý",
+        "dokonavý",
+        "obojí",
+        "neurčený"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "být (bude) je nedokonavé.",
+        "en": "být (bude) is imperfective."
+      }
+    },
+    {
+      "id": "aspect-10",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "vid",
+        "vidová_dvojice"
+      ],
+      "prompt": "Které z těchto sloves obvykle nemá vidovou dvojici?",
+      "hint": "Vid",
+      "options": [
+        "být",
+        "jít",
+        "psát",
+        "číst"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Být obvykle nemá dokonavou dvojici (v běžném významu „existovat“).",
+        "en": "být usually has no perfective pair (in the common meaning „to be“)."
+      }
+    },
+    {
+      "id": "aspect-11",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "vid",
+        "budoucnost"
+      ],
+      "prompt": "Proč je ve větě „Zítra uvidíme kometu“ použito dokonavé sloveso?",
+      "hint": "Vid a budoucnost",
+      "options": [
+        "Protože dokonavá slovesa vyjadřují budoucí ukončený děj.",
+        "Protože jde o minulý děj.",
+        "Protože jde o zvyk.",
+        "Protože jde o přítomnost."
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Dokonavá slovesa tvoří budoucí čas přítomným tvarem: uvidím, uvidíš, uvidí…",
+        "en": "Perfective verbs form the future using the present-tense form: uvidím, uvidíš, uvidí…"
+      }
+    },
+    {
+      "id": "aspect-12",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "vid",
+        "srovnání"
+      ],
+      "prompt": "Jaký je rozdíl mezi „Včera jsem viděl“ a „Včera jsem uviděl“?",
+      "hint": "Vid a průběh",
+      "options": [
+        "Viděl = průběh (díval se), uviděl = okamžik (zahlédl).",
+        "Viděl = dokonavé, uviděl = nedokonavé.",
+        "Žádný rozdíl.",
+        "Viděl = minulost, uviděl = budoucnost."
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Nedokonavé „viděl“ = průběh / opakování; dokonavé „uviděl“ = jednorázový, ukončený děj.",
+        "en": "Imperfective „viděl“ = ongoing / repeated; perfective „uviděl“ = single, completed event."
       }
     }
   ]
