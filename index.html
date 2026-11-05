@@ -112,6 +112,16 @@
       margin: 4px 0 6px; padding: 6px 10px; background: #e0f0ff; color: #2980b9;
       font-size: 12px; font-weight: 600; border-radius: 4px; white-space: normal;
     }
+    .hover-tooltip .prep-governs {
+      font-size: 13px; margin: 6px 0; padding: 8px 12px;
+      background: #eaf4fd; color: #2980b9; border-radius: 4px;
+      font-weight: 600; white-space: normal;
+    }
+    .hover-tooltip .spoken {
+      font-size: 13px; margin: 6px 0; padding: 8px 12px;
+      background: #fff3cd; color: #856404; border-radius: 4px;
+      white-space: normal;
+    }
 
     /* Reading mode */
     #reading-container { display: none; }
@@ -123,6 +133,34 @@
     .reading-credit a { color: #3498db; }
     .reading-body { font-size: 17px; line-height: 1.8; color: #2c3e50; margin: 20px 0; padding: 20px; background: #f8fafc; border-radius: 8px; }
     .reading-body .missing { color: #c0392b; font-style: italic; }
+
+    .reading-practice {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px dashed #e2e8f0;
+    }
+    .reading-practice-label {
+      font-size: 13px;
+      color: #7f8c8d;
+      margin-bottom: 10px;
+    }
+    .practice-btn {
+      width: 100%;
+      padding: 14px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      text-align: center;
+      transition: background .15s;
+      font-family: inherit;
+    }
+    .practice-btn:hover {
+      background: #2980b9;
+    }
   </style>
 </head>
 <body>
@@ -178,6 +216,7 @@
       <div class="reading-credit" id="reading-credit"></div>
     </div>
     <div class="reading-body" id="reading-body"></div>
+    <div id="reading-practice" class="reading-practice" style="display:none"></div>
   </div>
 </div>
 
@@ -227,6 +266,18 @@
     langSel.addEventListener("change", e => {
       Store.setLang(e.target.value);
       if (Quiz.state.topic) Quiz.refreshExplanation();
+      // Re-render the open tooltip with the new language
+      const tip = document.getElementById("hover-tooltip");
+      if (tip && tip.classList.contains("visible")) {
+        const active = document.querySelector(".hoverable:hover") ||
+                       document.querySelector(".hoverable.driver-highlight") ||
+                       document.querySelector(".hoverable.reflexive-highlight");
+        if (active && active.dataset.word) {
+          Tooltip.showWord(active, active.dataset.word);
+        } else if (active && active.dataset.table) {
+          Tooltip.show(active, active.dataset.table, active.dataset.note || null);
+        }
+      }
     });
 
     const TOPIC_GROUPS = [
@@ -255,6 +306,12 @@
         sub: "Adaptované texty s výkladem slovíček",
         texts: TEXTS,
       },
+      {
+        kind: "quiz",
+        title: "Cvičení z textů",
+        sub: "Procvič slovíčka a mluvnici z adaptovaných textů",
+        topics: ["text_01_kometa"],
+      },
     ];
 
     const TOPIC_INFO = {
@@ -265,6 +322,7 @@
       verb_case:           { title: "Slovesa + pád",     sub: "Jaký pád vyžaduje sloveso?" },
       plural_nominative:   { title: "Nominativ plurál",  sub: "Množné číslo (1. pád)" },
       mixed:               { title: "Smíšený test",      sub: "15 náhodných otázek ze všech témat" },
+      text_01_kometa:      { title: "Zelená kometa",     sub: "Slovíčka a mluvnice z textu" },
     };
 
     const totalQuestions = Object.values(QUESTION_BANK).reduce((s, qs) => s + qs.length, 0);

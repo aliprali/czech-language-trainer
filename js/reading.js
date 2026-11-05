@@ -38,6 +38,8 @@ const Reading = (() => {
     $("reading-credit").innerHTML = credit;
 
     $("reading-body").innerHTML = renderText(t);
+
+    renderPractice(t);
   }
 
   function renderText(t) {
@@ -49,6 +51,28 @@ const Reading = (() => {
       return `<span class="hoverable" data-word="${escapeHtml(key)}">${escapeHtml(surface)}</span>`;
     });
     return html;
+  }
+
+  function renderPractice(t) {
+    const el = $("reading-practice");
+    if (!el) return;
+
+    if (!t.practiceTopic) {
+      el.style.display = "none";
+      return;
+    }
+    const bank = (typeof QUESTION_BANK !== "undefined") ? QUESTION_BANK[t.practiceTopic] : null;
+    if (!bank || !bank.length) {
+      el.style.display = "none";
+      return;
+    }
+
+    el.innerHTML = `
+      <div class="reading-practice-label">Procvič si slovíčka a mluvnici z tohoto textu:</div>
+      <button class="practice-btn" onclick="Quiz.start('${escapeHtml(t.practiceTopic)}')">
+        Procvičit slovíčka z textu (${bank.length} otázek)
+      </button>`;
+    el.style.display = "block";
   }
 
   return { start, home, state };
