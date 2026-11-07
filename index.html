@@ -266,7 +266,6 @@
     langSel.addEventListener("change", e => {
       Store.setLang(e.target.value);
       if (Quiz.state.topic) Quiz.refreshExplanation();
-      // Re-render the open tooltip with the new language
       const tip = document.getElementById("hover-tooltip");
       if (tip && tip.classList.contains("visible")) {
         const active = document.querySelector(".hoverable:hover") ||
@@ -306,12 +305,7 @@
         title: "Čtení",
         sub: "Adaptované texty s výkladem slovíček",
         texts: TEXTS,
-      },
-      {
-        kind: "textPractice",
-        title: "Cvičení z textů",
-        sub: "Procvič slovíčka a mluvnici z adaptovaných textů",
-      },
+      }
     ];
 
     const TOPIC_INFO = {
@@ -347,17 +341,6 @@
           card.onclick = () => Reading.start(t.id);
           body.appendChild(card);
         });
-      } else if (group.kind === "textPractice") {
-        TEXTS
-          .filter(t => t.practiceTopic && QUESTION_BANK[t.practiceTopic]?.length)
-          .forEach(t => {
-            const count = QUESTION_BANK[t.practiceTopic].length;
-            const card = document.createElement("button");
-            card.className = "topic-card";
-            card.innerHTML = `<h3>${t.title}</h3><div class="meta">Slovíčka a mluvnice z textu · ${count} otázek</div>`;
-            card.onclick = () => Quiz.start(t.practiceTopic);
-            body.appendChild(card);
-          });
       } else {
         group.topics.forEach(key => {
           const info = TOPIC_INFO[key] || { title: key, sub: "" };
@@ -371,7 +354,6 @@
           body.appendChild(card);
         });
       }
-      
       section.appendChild(body);
       grid.appendChild(section);
     });

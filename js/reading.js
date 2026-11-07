@@ -61,16 +61,14 @@ const Reading = (() => {
       el.style.display = "none";
       return;
     }
+
     const bank = (typeof QUESTION_BANK !== "undefined") ? QUESTION_BANK[t.practiceTopic] : null;
-    if (!bank || !bank.length) {
-      el.style.display = "none";
-      return;
-    }
+    const count = bank ? bank.length : 0;
 
     el.innerHTML = `
       <div class="reading-practice-label">Procvič si slovíčka a mluvnici z tohoto textu:</div>
       <button class="practice-btn" onclick="Quiz.start('${escapeHtml(t.practiceTopic)}')">
-        Procvičit slovíčka z textu (${bank.length} otázek)
+        Procvičit slovíčka z textu (${count} otázek)
       </button>`;
     el.style.display = "block";
   }
