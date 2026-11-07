@@ -53,6 +53,25 @@ const DECLENSION_TABLES = {
     ],
   },
 
+    "člověk": {
+    label: { cs: "Nepravidelné skloňování (člověk)", en: "Irregular declension (člověk)" },
+    example: "člověk / lidé",
+    note: {
+      cs: "Nepravidelné: v plurálu se mění kmen (člověk → lidé). Často se používá jen plurál.",
+      en: "Irregular: stem changes in the plural (člověk → lidé). The plural is often used alone."
+    },
+    columns: ["", "Sg", "Pl"],
+    rows: [
+      ["Nom",   "člověk",              "lidé / lidi"],
+      ["Gen",   "člověka",             "lidí"],
+      ["Dat",   "člověku / člověkovi", "lidem"],
+      ["Akuz",  "člověka",             "lidi"],
+      ["Vok",   "člověče",             "lidé"],
+      ["Lok",   "člověku / člověkovi", "lidech"],
+      ["Instr", "člověkem",            "lidmi"],
+    ],
+  },
+
   "muž": {
     label: { cs: "Mužský rod životný, měkký (vzor muž)", en: "Masc. animate, soft (muž)" },
     example: "muž / učitel / ředitel",
@@ -255,7 +274,10 @@ const DECLENSION_TABLES = {
   "můj": {
     label: { cs: "Přivlastňovací zájmeno (vzor můj)", en: "Possessive pronoun (můj)" },
     example: "můj",
-    note: { cs: "Stejně: tvůj (tvá/tvoje, tvé), svůj (svá/svoje, své). Pozor: nominativ fem. též moje, tvoje, svoje (hovorově).", en: "Same pattern: tvůj (tvá/tvoje, tvé), svůj (svá/svoje, své). Note: nom. fem. also moje, tvoje, svoje (colloquial)." },
+    note: {
+      cs: "Stejně: tvůj (tvá/tvoje, tvé), svůj (svá/svoje, své). Pozor: nominativ fem. též moje, tvoje, svoje (hovorově).",
+      en: "Same pattern: tvůj (tvá/tvoje, tvé), svůj (svá/svoje, své). Note: nom. fem. also moje, tvoje, svoje (colloquial)."
+    },
     columns: ["", "M sg", "F sg", "N sg", "M anim pl", "M inan/F/N pl"],
     rows: [
       ["Nom",   "můj",         "má",   "mé",   "moji / mí", "mé"],
@@ -271,6 +293,10 @@ const DECLENSION_TABLES = {
   "ten": {
     label: { cs: "Ukazovací zájmeno (vzor ten)", en: "Demonstrative (ten)" },
     example: "ten / ta / to",
+    note: {
+      cs: "Stejně: tento (tato, toto), tamten (tamta, tamto), tenhle (tahe, tohle) — kmen ten- zůstává, jen se mění koncovka přípony.",
+      en: "Same pattern: tento (tato, toto), tamten (tamta, tamto), tenhle (tahe, tohle) — the ten- stem stays, only the suffix ending changes."
+    },
     columns: ["", "M sg", "F sg", "N sg", "M anim pl", "M inan/F/N pl"],
     rows: [
       ["Nom",   "ten",         "ta",   "to",   "ti",  "ty / ta"],
@@ -295,6 +321,90 @@ const DECLENSION_TABLES = {
       ["Vok",   "náš",           "naše", "naše", "naši",   "naše"],
       ["Lok",   "našem",         "naší", "našem", "našich", "našich"],
       ["Instr", "naším",         "naší", "naším", "našimi", "našimi"],
+    ],
+  },
+
+  "já": {
+    label: { cs: "Osobní zájmeno (já)", en: "Personal pronoun (I)" },
+    example: "já",
+    columns: ["", "Tvar"],
+    rows: [
+      ["Nom",   "já"],
+      ["Gen",   "mě / mne"],
+      ["Dat",   "mi / mně"],
+      ["Akuz",  "mě / mne"],
+      ["Lok",   "mně"],
+      ["Instr", "mnou"],
+    ],
+  },
+
+  "ty": {
+    label: { cs: "Osobní zájmeno (ty)", en: "Personal pronoun (you, sg)" },
+    example: "ty",
+    columns: ["", "Tvar"],
+    rows: [
+      ["Nom",   "ty"],
+      ["Gen",   "tě / tebe"],
+      ["Dat",   "ti / tobě"],
+      ["Akuz",  "tě / tebe"],
+      ["Lok",   "tobě"],
+      ["Instr", "tebou"],
+    ],
+  },
+
+  "on": {
+    label: { cs: "Osobní zájmeno (on / ona / ono)", en: "Personal pronoun (he / she / it)" },
+    example: "on / ona / ono",
+    columns: ["", "M", "F", "N"],
+    rows: [
+      ["Nom",   "on",                   "ona",       "ono"],
+      ["Gen",   "jeho / něj / ho",      "jí / ní",   "jeho / něj / ho"],
+      ["Dat",   "jemu / němu / mu",     "jí / ní",   "jemu / němu / mu"],
+      ["Akuz",  "jeho / jej / něj / ho","ji / ni",   "je / ně"],
+      ["Lok",   "něm",                  "ní",        "něm"],
+      ["Instr", "jím / ním",            "jí / ní",   "jím / ním"],
+    ],
+  },
+
+  "my": {
+    label: { cs: "Osobní zájmeno (my)", en: "Personal pronoun (we)" },
+    example: "my",
+    columns: ["", "Tvar"],
+    rows: [
+      ["Nom",   "my"],
+      ["Gen",   "nás"],
+      ["Dat",   "nám"],
+      ["Akuz",  "nás"],
+      ["Lok",   "nás"],
+      ["Instr", "námi"],
+    ],
+  },
+
+  "vy": {
+    label: { cs: "Osobní zájmeno (vy)", en: "Personal pronoun (you, pl)" },
+    example: "vy",
+    columns: ["", "Tvar"],
+    rows: [
+      ["Nom",   "vy"],
+      ["Gen",   "vás"],
+      ["Dat",   "vám"],
+      ["Akuz",  "vás"],
+      ["Lok",   "vás"],
+      ["Instr", "vámi"],
+    ],
+  },
+
+  "oni": {
+    label: { cs: "Osobní zájmeno (oni / ony / ona)", en: "Personal pronoun (they)" },
+    example: "oni / ony / ona",
+    columns: ["", "M anim", "M inan / F", "N"],
+    rows: [
+      ["Nom",   "oni",     "ony",    "ona"],
+      ["Gen",   "jich / nich", "jich / nich", "jich / nich"],
+      ["Dat",   "jim / nim",   "jim / nim",   "jim / nim"],
+      ["Akuz",  "je / ně",     "je / ně",     "je / ně"],
+      ["Lok",   "nich",        "nich",        "nich"],
+      ["Instr", "jimi / nimi", "jimi / nimi", "jimi / nimi"],
     ],
   },
 

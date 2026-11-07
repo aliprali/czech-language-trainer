@@ -32,7 +32,7 @@ const Reading = (() => {
     if (s.title) parts.push("„" + escapeHtml(s.title) + '"');
     if (s.publication) parts.push(escapeHtml(s.publication));
     if (s.date) parts.push(escapeHtml(s.date));
-    if (s.note) parts.push(escapeHtml(s.note));
+    if (s.note) parts.push(escapeHtml(getLocalized(s.note, Store.getLang("en"))));
     let credit = parts.join(", ");
     if (s.url) credit += ` · <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">odkaz</a>`;
     $("reading-credit").innerHTML = credit;

@@ -1270,7 +1270,7 @@ const QUESTION_BANK = {
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
-        "dativ",
+        "instrumentál",
         "neut",
         "noun"
       ],
@@ -1280,28 +1280,188 @@ const QUESTION_BANK = {
         "otáčení",
         "otáčením",
         "otáčenímu",
-        "otáčením"
+        "otáčeních"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": {
         "cs": "Instrumentál sg. neut. vzor stavení: otáčení → otáčením.",
-        "en": "Instrumental sg. neut. pattern stavení: otáčení → otáčením."
+        "en": "Instrumental sg. neut. pattern stavení: otáčení → otáčením.dat-40"
       }
     },
     {
-      "id": "dat-40",
-      "type": "type_in",
+      "id": "dat-41",
+      "type": "multiple_choice",
       "level": "A2",
       "tags": [
         "dativ",
         "fem",
         "noun"
       ],
-      "prompt": "Napiš instrumentál slova rotace (po s).",
-      "hint": "Instrumentál",
-      "answer": "rotací",
+      "prompt": "Rolák ti bude slušet a padne ti ___ (bunda).",
+      "hint": "Dativ sg. fem.",
+      "options": [
+        "bunda",
+        "bundě",
+        "bundou",
+        "bundu"
+      ],
+      "correct": 1,
       "explanation": {
-        "en": "Instrumentál sg. fem. vzor růže: rotace → rotací."
+        "cs": "Dativ sg. fem. vzor žena: bunda → bundě.",
+        "en": "Dative sg. fem. pattern žena: bunda → bundě."
+      }
+    },
+    {
+      "id": "dat-42",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Svetr se hodí ___ (sukně).",
+      "hint": "Dativ sg. fem.",
+      "options": [
+        "sukně",
+        "sukni",
+        "sukní",
+        "sukněmi"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Dativ sg. fem. vzor růže: sukně → sukni.",
+        "en": "Dative sg. fem. pattern růže: sukně → sukni."
+      }
+    },
+    {
+      "id": "dat-43",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "fem",
+        "plur"
+      ],
+      "prompt": "Kalhoty se hodí ___ (bunda) i ___ (svetr).",
+      "hint": "Dativ pl. fem. (kalhoty)",
+      "options": [
+        "bundě a svetru",
+        "bundou a svetrem",
+        "bundu a svetr",
+        "bundy a svetru"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Kalhoty (fem. pl.) — hodí se k bundě a k svetru.",
+        "en": "Kalhoty (fem. pl.) — they go with the jacket and the sweater."
+      }
+    },
+    {
+      "id": "dat-44",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "masc_anim"
+      ],
+      "prompt": "Napiš dativ slova „kamarád“: Svetr se hodí k ___.",
+      "hint": "Dativ sg. masc. anim.",
+      "answer": "kamarádovi",
+      "explanation": {
+        "en": "Dativ sg. masc. anim. vzor pan: kamarád → kamarádovi."
+      }
+    },
+    {
+      "id": "dat-45",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Blondýnka — sluší jí to. Dativ: Ten svetr sluší ___ (blondýnka).",
+      "hint": "Dativ sg. fem. (k→c)",
+      "options": [
+        "blondýnka",
+        "blondýnce",
+        "blondýnkou",
+        "blondýnku"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Dativ sg. fem. vzor žena: blondýnka → blondýnce (k→c).",
+        "en": "Dative sg. fem. pattern žena: blondýnka → blondýnce (k→c)."
+      }
+    },
+    {
+      "id": "dat-46",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "neut",
+        "noun"
+      ],
+      "prompt": "Chleba s máslem — instrumentál. Ale: Dativ po k: k ___ (máslo).",
+      "hint": "Dativ sg. neut.",
+      "options": [
+        "máslo",
+        "máslu",
+        "máslem",
+        "másle"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Dativ sg. neut. vzor město: máslo → máslu.",
+        "en": "Dative sg. neut. pattern město: máslo → máslu."
+      }
+    },
+    {
+      "id": "dat-47",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "instrumentál",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Svetr kombinuj s ___ (košile).",
+      "hint": "Instrumentál po s",
+      "options": [
+        "košile",
+        "košili",
+        "košilí",
+        "košilím"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Instrumentál sg. fem. vzor růže: košile → košilí. Po s.",
+        "en": "Instrumental sg. fem. pattern růže: košile → košilí. After s."
+      }
+    },
+    {
+      "id": "dat-48",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "instrumentál",
+        "masc_inanim",
+        "noun"
+      ],
+      "prompt": "Kombinuj svetr s ___ (kabát).",
+      "hint": "Instrumentál po s",
+      "options": [
+        "kabát",
+        "kabátu",
+        "kabátem",
+        "kabáty"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Instrumentál sg. masc. inanim. vzor hrad: kabát → kabátem.",
+        "en": "Instrumental sg. masc. inanim. pattern hrad: kabát → kabátem."
       }
     }
   ],
@@ -5606,6 +5766,443 @@ const QUESTION_BANK = {
         "cs": "stát se + instrumentál: co se stalo čím → problémem.",
         "en": "stát se + instrumental: what became what → problémem."
       }
+    },
+    {
+      "id": "vc-26",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "sluset"
+      ],
+      "prompt": "Rolák ti bude ___ (ty).",
+      "hint": "slušet + dativ",
+      "options": [
+        "ty",
+        "tobě",
+        "tebe",
+        "tebou"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "slušet + dativ: ty → tobě (ti).",
+        "en": "slušet + dative: ty → tobě (ti)."
+      }
+    },
+    {
+      "id": "vc-27",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "sluset"
+      ],
+      "prompt": "Černá barva ___ (blondýnky).",
+      "hint": "slušet + dativ",
+      "options": [
+        "blondýnky",
+        "blondýnkám",
+        "blondýnkách",
+        "blondýnkami"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "slušet + dativ: blondýnky → blondýnkám (k→c).",
+        "en": "slušet + dative: blondýnky → blondýnkám (k→c)."
+      }
+    },
+    {
+      "id": "vc-28",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "sluset"
+      ],
+      "prompt": "Ten klobouk ___ (moje sestra).",
+      "hint": "slušet + dativ",
+      "options": [
+        "moje sestra",
+        "mojí sestře",
+        "moji sestru",
+        "mojí sestrou"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "slušet + dativ: moje sestra → mojí sestře (r→ř).",
+        "en": "slušet + dative: moje sestra → mojí sestře (r→ř)."
+      }
+    },
+    {
+      "id": "vc-29",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "sedet"
+      ],
+      "prompt": "Šaty mi ___ (sedět) dobře.",
+      "hint": "sedět + dativ",
+      "options": [
+        "sedí",
+        "sedět",
+        "seděl",
+        "seděla"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "sedět + dativ: šaty mi sedí.",
+        "en": "sedět + dative: šaty mi sedí."
+      }
+    },
+    {
+      "id": "vc-30",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "sedet"
+      ],
+      "prompt": "Svetr by ___ (vy) měl v pase sedět.",
+      "hint": "sedět + dativ",
+      "options": [
+        "vy",
+        "vás",
+        "vám",
+        "vámi"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "sedět + dativ: vy → vám.",
+        "en": "sedět + dative: vy → vám.vc-31"
+      }
+    },
+    {
+      "id": "vc-32",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "padnout"
+      ],
+      "prompt": "Ten kabát ___ (já) v ramenou.",
+      "hint": "padnout + dativ",
+      "options": [
+        "já",
+        "mě",
+        "mně",
+        "mnou"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "padnout + dativ: já → mně (mi).",
+        "en": "padnout + dative: já → mně (mi)."
+      }
+    },
+    {
+      "id": "vc-33",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "hodit_se"
+      ],
+      "prompt": "Béžový svetr se hodí ___ (všechno).",
+      "hint": "hodit se k + dativ",
+      "options": [
+        "všechno",
+        "všemu",
+        "vším",
+        "všeho"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "hodit se k + dativ: všechno → všemu. Předložka „k“ se před „vš-“ mění na „ke“: ke všemu.",
+        "en": "hodit se k + dative: všechno → všemu. Preposition „k“ becomes „ke“ before „vš-“: ke všemu."
+      }
+    },
+    {
+      "id": "vc-34",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "hodit_se"
+      ],
+      "prompt": "Dobrý svetr se hodí ___ (džíny).",
+      "hint": "hodit se k + dativ",
+      "options": [
+        "džíny",
+        "džínům",
+        "džínách",
+        "džínami"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "hodit se k + dativ: džíny → džínům.",
+        "en": "hodit se k + dative: džíny → džínům."
+      }
+    },
+    {
+      "id": "vc-35",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "hodit_se"
+      ],
+      "prompt": "Bunda se hodí ___ (podzim).",
+      "hint": "hodit se k + dativ",
+      "options": [
+        "podzim",
+        "podzimu",
+        "podzimem",
+        "podzimě"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "hodit se k + dativ: podzim → podzimu.",
+        "en": "hodit se k + dative: podzim → podzimu."
+      }
+    },
+    {
+      "id": "vc-36",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "instrumentál",
+        "kombinovat"
+      ],
+      "prompt": "Svetr můžete kombinovat ___ (džíny).",
+      "hint": "kombinovat s + instrumentál",
+      "options": [
+        "džíny",
+        "džínům",
+        "džínami",
+        "džínách"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "kombinovat s + instrumentál: džíny → džínami.",
+        "en": "kombinovat s + instrumental: džíny → džínami."
+      }
+    },
+    {
+      "id": "vc-37",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "instrumentál",
+        "kombinovat"
+      ],
+      "prompt": "Kombinuj to ___ (všechno).",
+      "hint": "kombinovat s + instrumentál",
+      "options": [
+        "všechno",
+        "všemu",
+        "vším",
+        "všeho"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "kombinovat s + instrumentál: všechno → vším. Předložka „s“ se před „vš-“ mění na „se“: se vším.",
+        "en": "kombinovat s + instrumental: všechno → vším. Preposition „s“ becomes „se“ before „vš-“: se vším."
+      }
+    },
+    {
+      "id": "vc-38",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "instrumentál",
+        "kombinovat"
+      ],
+      "prompt": "Kombinuj svetr ___ (kalhoty).",
+      "hint": "kombinovat s + instrumentál",
+      "options": [
+        "kalhoty",
+        "kalhotám",
+        "kalhotách",
+        "kalhotami"
+      ],
+      "correct": 3,
+      "explanation": {
+        "cs": "kombinovat s + instrumentál: kalhoty → kalhotami.",
+        "en": "kombinovat s + instrumental: kalhoty → kalhotami."
+      }
+    },
+    {
+      "id": "vc-39",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "obleknout"
+      ],
+      "prompt": "Měkoučký svetr můžete obléknout ___ (džíny).",
+      "hint": "obléknout k + dativ",
+      "options": [
+        "džíny",
+        "džínům",
+        "džínách",
+        "džínami"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "obléknout k + dativ: džíny → džínům.",
+        "en": "obléknout k + dative: džíny → džínům."
+      }
+    },
+    {
+      "id": "vc-40",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "dativ",
+        "obleknout"
+      ],
+      "prompt": "Svetr si oblékni ___ (sukně).",
+      "hint": "obléknout k + dativ",
+      "options": [
+        "sukně",
+        "sukni",
+        "sukní",
+        "sukněmi"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "obléknout k + dativ: sukně → sukni.",
+        "en": "obléknout k + dative: sukně → sukni."
+      }
+    },
+    {
+      "id": "vc-41",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ",
+        "vsadit"
+      ],
+      "prompt": "Někdy je nejlepší vsadit ___ (klasika).",
+      "hint": "vsadit na + akuzativ",
+      "options": [
+        "klasika",
+        "klasiky",
+        "klasice",
+        "klasiku"
+      ],
+      "correct": 3,
+      "explanation": {
+        "cs": "vsadit na + akuzativ: klasika → klasiku.",
+        "en": "vsadit na + accusative: klasika → klasiku."
+      }
+    },
+    {
+      "id": "vc-42",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ",
+        "vsadit"
+      ],
+      "prompt": "Vsaďte ___ (kvalita).",
+      "hint": "vsadit na + akuzativ",
+      "options": [
+        "kvalita",
+        "kvality",
+        "kvalitě",
+        "kvalitu"
+      ],
+      "correct": 3,
+      "explanation": {
+        "cs": "vsadit na + akuzativ: kvalita → kvalitu.",
+        "en": "vsadit na + accusative: kvalita → kvalitu."
+      }
+    },
+    {
+      "id": "vc-43",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ",
+        "soustredit_se"
+      ],
+      "prompt": "Soustřeďte se ___ (složení).",
+      "hint": "soustředit se na + akuzativ",
+      "options": [
+        "složení",
+        "složenímu",
+        "složením",
+        "složeních"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "soustředit se na + akuzativ: složení se nemění (vzor stavení).",
+        "en": "soustředit se na + accusative: složení is unchanged (pattern stavení)."
+      }
+    },
+    {
+      "id": "vc-44",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ",
+        "soustredit_se"
+      ],
+      "prompt": "Soustřeď se ___ (práce)!",
+      "hint": "soustředit se na + akuzativ",
+      "options": [
+        "práce",
+        "práci",
+        "prací",
+        "prácích"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "soustředit se na + akuzativ: práce → práci.",
+        "en": "soustředit se na + accusative: práce → práci."
+      }
+    },
+    {
+      "id": "vc-45",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "slovesa",
+        "lokál",
+        "zaletet_na"
+      ],
+      "prompt": "Dejte si záležet ___ (výběr).",
+      "hint": "dát si záležet na + lokál",
+      "options": [
+        "výběr",
+        "výběru",
+        "výběrem",
+        "výběrem"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "dát si záležet na + lokál: výběr → výběru.",
+        "en": "dát si záležet na + locative: výběr → výběru."
+      }
     }
   ],
   "plural_nominative": [
@@ -7708,6 +8305,140 @@ const QUESTION_BANK = {
       "explanation": {
         "cs": "V textu: z celého světa.",
         "en": "In the text: from all over the world."
+      }
+    }
+  ],
+  "text_03_svetr": [
+    {
+      "id": "txt3-06",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Co byste měli zkontrolovat u složení svetru?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Jestli je z vlny nebo z kašmíru",
+        "Jestli má zip",
+        "Jestli je z dovozu",
+        "Jestli má kapuci"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: vlna nebo kašmír potěší.",
+        "en": "In the text: wool or cashmere will please."
+      }
+    },
+    {
+      "id": "txt3-07",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Co znamená „jednoduchý svetr nestárne“?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Že je nadčasový a nevyjde z módy",
+        "Že se nedá vyprat",
+        "Že se rychle opotřebuje",
+        "Že je jen pro mladé"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: jednoduchý svetr nestárne — zůstává nadčasový.",
+        "en": "In the text: a simple sweater doesn't age — it stays timeless."
+      }
+    },
+    {
+      "id": "txt3-01",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Na co je podle textu někdy nejlepší vsadit?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Na výrazné barvy",
+        "Na klasiku",
+        "Na vzory",
+        "Na módní doplňky"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "V textu: někdy je nejlepší vsadit na klasiku.",
+        "en": "In the text: sometimes it's best to bet on a classic."
+      }
+    },
+    {
+      "id": "txt3-02",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "K čemu se hodí dobrý svetr?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Jen k sukni",
+        "Jen ke koženým kalhotám",
+        "Ke všemu",
+        "Jen k formálním kalhotám"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "V textu: svetr, který se hodí ke všemu.",
+        "en": "In the text: a sweater that goes with everything."
+      }
+    },
+    {
+      "id": "txt3-03",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Co byste měli zkontrolovat při výběru svetru?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Jestli vám sedí",
+        "Jestli je značkový",
+        "Jestli je z dovozu",
+        "Jestli má zip"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: jestli vám svetr skutečně sedí.",
+        "en": "In the text: whether the sweater actually fits you.txt3-04"
+      }
+    },
+    {
+      "id": "txt3-05",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Jaké barvy jsou klasické?",
+      "hint": "Porozumění textu",
+      "options": [
+        "Šedá krémová a béžová",
+        "Jen černá a bílá",
+        "Jen jasně červená",
+        "Jen kobaltově modrá"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: klasikou jsou šedé, krémové a béžové tóny.",
+        "en": "In the text: classics are grey, cream and beige tones."
       }
     }
   ]

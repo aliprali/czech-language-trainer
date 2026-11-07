@@ -8,6 +8,88 @@ function regexEscape(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+const UI_STRINGS = {
+  presentTense:   { cs: "Přítomný čas",          en: "Present tense" },
+  pastTense:      { cs: "Minulý čas",             en: "Past tense" },
+  futureTense:    { cs: "Budoucí čas",            en: "Future tense" },
+  aspectPair:     { cs: "Vidová dvojice",         en: "Aspect pair" },
+  governs:        { cs: "Váže",                   en: "Governs" },
+  examples:       { cs: "Příklad",                en: "Example" },
+  vzor:           { cs: "Vzor",                   en: "Pattern" },
+  comparePattern: { cs: "Vzor pro srovnání",      en: "Compare pattern" },
+  drivenBy:       { cs: "Řízeno",                 en: "Governed by" },
+  drivenByPrep:   { cs: "Pád řízen předložkou",   en: "Case governed by preposition" },
+  reflexiveVerb:  { cs: "Zvratné sloveso — částice", en: "Reflexive verb — particle" },
+  reflexivePart:  { cs: "zvratná částice",        en: "reflexive particle" },
+  reflexiveBelongs:{ cs: "Zvratná částice patří k slovesu", en: "Reflexive particle belongs to verb" },
+  reflexiveNote:  { cs: "Ve větě může stát jinde než sloveso, ale vždy k němu patří.", en: "In a sentence it may stand elsewhere than the verb, but always belongs to it." },
+  prepGoverns:    { cs: "Předložka +",            en: "Preposition +" },
+  spokenAs:       { cs: "Čte se",                 en: "Pronounced" },
+  degrees:        { cs: "Stupňování",             en: "Degrees of comparison" },
+  positive:       { cs: "pozitiv",                en: "positive" },
+  comparative:    { cs: "komparativ",             en: "comparative" },
+  superlative:    { cs: "superlativ",             en: "superlative" },
+  ordinalDecl:    { cs: "Skloňování řadové číslovky", en: "Ordinal declension" },
+  person:         { cs: "os.",                    en: "pers." },
+  perfective:     { cs: "dokonavé",               en: "perfective" },
+  imperfective:   { cs: "nedokonavé",             en: "imperfective" },
+  verbLabel:      { cs: "Sloveso",                en: "Verb" },
+};
+
+const CASE_NAMES = {
+  nominativ:    { cs: "nominativ",    en: "nominative" },
+  genitiv:      { cs: "genitiv",      en: "genitive" },
+  dativ:        { cs: "dativ",        en: "dative" },
+  akuzativ:     { cs: "akuzativ",     en: "accusative" },
+  vokativ:      { cs: "vokativ",      en: "vocative" },
+  lokál:        { cs: "lokál",        en: "locative" },
+  instrumentál: { cs: "instrumentál", en: "instrumental" },
+};
+
+const TENSE_NAMES = {
+  present:    { cs: "přítomný čas",  en: "present" },
+  past:       { cs: "minulý čas",    en: "past" },
+  future:     { cs: "budoucí čas",   en: "future" },
+  infinitive: { cs: "infinitiv",     en: "infinitive" },
+};
+
+const DEGREE_NAMES = {
+  pozitiv:    { cs: "pozitiv",    en: "positive" },
+  komparativ: { cs: "komparativ", en: "comparative" },
+  superlativ: { cs: "superlativ", en: "superlative" },
+};
+
+function getLocalized(field, lang) {
+  if (!field) return "";
+  if (typeof field === "string") return field;
+  return field[lang] || field.en || field.cs || Object.values(field)[0] || "";
+}
+
+function tr(key, lang) {
+  const v = UI_STRINGS[key];
+  if (!v) return key;
+  return v[lang] || v.en || v.cs || key;
+}
+
+function caseName(c, lang) {
+  if (!c) return "";
+  return c.split("/").map(part => {
+    const p = part.trim();
+    const v = CASE_NAMES[p];
+    return v ? (v[lang] || v.en || v.cs || p) : p;
+  }).join(" / ");
+}
+
+function tenseName(t, lang) {
+  const v = TENSE_NAMES[t];
+  return v ? (v[lang] || v.en || v.cs || t) : t;
+}
+
+function degreeName(d, lang) {
+  const v = DEGREE_NAMES[d];
+  return v ? (v[lang] || v.en || v.cs || d) : d;
+}
+
 function renderPrompt(q) {
   let html = escapeHtml(q.prompt);
   if (!Array.isArray(q.hover_refs) || q.hover_refs.length === 0) return html;
@@ -25,16 +107,15 @@ function renderPrompt(q) {
 
 function buildVzorTable(vzorId, opts = {}) {
   if (typeof DECLENSION_TABLES === "undefined") {
-    return `<div style="color:#c0392b;font-weight:600;">Chyba: data/tables.js se nenačetl.</div>`;
+    return `<div style="color:#c0392b;font-weight:600;">Error: data/tables.js not loaded.</div>`;
   }
   const t = DECLENSION_TABLES[vzorId];
-  if (!t) return `<div style="color:#c0392b;">Neznámá tabulka: ${escapeHtml(vzorId)}</div>`;
+  if (!t) return `<div style="color:#c0392b;">Unknown table: ${escapeHtml(vzorId)}</div>`;
   const lang = Store.getLang("en");
-  const pick = o => (typeof o === "object" ? (o[lang] || o.en || o.cs) : o);
-  const title = pick(t.label) || vzorId;
+  const title = getLocalized(t.label, lang) || vzorId;
 
   let html = opts.showTitle === false
-    ? `<div class="vzor-title">Vzor: ${escapeHtml(title)}</div>`
+    ? (opts.hideLabel ? "" : `<div class="vzor-title">${escapeHtml(tr("vzor", lang))}: ${escapeHtml(title)}</div>`)
     : `<h4>${escapeHtml(title)}</h4>`;
   if (t.example) html += `<div class="example">${escapeHtml(t.example)}</div>`;
 
@@ -46,168 +127,250 @@ function buildVzorTable(vzorId, opts = {}) {
   html += "</table>";
 
   if (t.alternations) {
-    const alt = pick(t.alternations);
+    const alt = getLocalized(t.alternations, lang);
     if (alt) html += `<div class="alt-note">${escapeHtml(alt)}</div>`;
   }
   if (t.note) {
-    const n = pick(t.note);
+    const n = getLocalized(t.note, lang);
     if (n) html += `<div class="example" style="margin-top:8px;font-style:normal;">${escapeHtml(n)}</div>`;
   }
   return html;
 }
 
-function buildVerbPanel(w) {
+function buildIrregularTable(t, lang) {
+  if (!t) return "";
+  const label = getLocalized(t.label, lang);
+  let html = `<div class="vzor-title">${escapeHtml(label)}</div>`;
+  if (t.example) html += `<div class="example">${escapeHtml(t.example)}</div>`;
+  html += "<table>";
+  html += "<tr>" + t.columns.map(c => `<th>${escapeHtml(c)}</th>`).join("") + "</tr>";
+  for (const row of t.rows) {
+    html += "<tr>" + row.map(c => `<td>${escapeHtml(c)}</td>`).join("") + "</tr>";
+  }
+  html += "</table>";
+  return html;
+}
+
+function buildVerbPanel(w, lang) {
   let html = "";
 
   if (w.features) {
     const parts = [];
-    if (w.features.tense) parts.push(w.features.tense);
-    if (w.features.person) parts.push(w.features.person + ". os.");
+    if (w.features.tense) parts.push(tenseName(w.features.tense, lang));
+    if (w.features.person) parts.push(w.features.person + ". " + tr("person", lang));
     if (w.features.number) parts.push(w.features.number);
     if (parts.length) html += `<div class="features">${escapeHtml(parts.join(" · "))}</div>`;
   }
   if (w.aspect_pair) {
-    html += `<div class="aspect-pair"><b>Vidová dvojice:</b> ${escapeHtml(w.aspect_pair)}</div>`;
+    html += `<div class="aspect-pair"><b>${escapeHtml(tr("aspectPair", lang))}:</b> ${escapeHtml(w.aspect_pair)}</div>`;
   }
 
   if (w.conjugation) {
     const c = w.conjugation;
+    const personLabels = {
+      ja:  { cs: "já", en: "I" },
+      ty:  { cs: "ty", en: "you (sg)" },
+      on:  { cs: "on/ona/ono", en: "he/she/it" },
+      my:  { cs: "my", en: "we" },
+      vy:  { cs: "vy", en: "you (pl)" },
+      oni: { cs: "oni/ony/ona", en: "they" },
+    };
+    const pastLabels = {
+      on_m:  { cs: "on (m.)",   en: "he (m.)" },
+      on_f:  { cs: "ona (f.)",  en: "she (f.)" },
+      on_n:  { cs: "ono (n.)",  en: "it (n.)" },
+      oni_m: { cs: "oni (m.)",  en: "they (m.)" },
+      oni_f: { cs: "ony (f.)",  en: "they (f.)" },
+    };
     if (c.present) {
-      const labels = { ja: "já", ty: "ty", on: "on/ona/ono", my: "my", vy: "vy", oni: "oni/ony/ona" };
-      html += `<div class="verb-section"><div class="verb-section-title">Přítomný čas</div><table class="conj-table">`;
+      html += `<div class="verb-section"><div class="verb-section-title">${escapeHtml(tr("presentTense", lang))}</div><table class="conj-table">`;
       for (const k of ["ja","ty","on","my","vy","oni"]) {
-        if (c.present[k]) html += `<tr><td>${labels[k]}</td><td>${escapeHtml(c.present[k])}</td></tr>`;
+        if (c.present[k]) {
+          const lab = personLabels[k] || { cs: k, en: k };
+          html += `<tr><td>${escapeHtml(lab[lang] || lab.en)}</td><td>${escapeHtml(c.present[k])}</td></tr>`;
+        }
       }
       html += `</table></div>`;
     }
     if (c.past) {
-      const labels = { on_m: "on (m.)", on_f: "ona (f.)", on_n: "ono (n.)", oni_m: "oni (m.)", oni_f: "ony (f.)" };
-      html += `<div class="verb-section"><div class="verb-section-title">Minulý čas</div><table class="conj-table">`;
+      html += `<div class="verb-section"><div class="verb-section-title">${escapeHtml(tr("pastTense", lang))}</div><table class="conj-table">`;
       for (const k of ["on_m","on_f","on_n","oni_m","oni_f"]) {
-        if (c.past[k]) html += `<tr><td>${labels[k]}</td><td>${escapeHtml(c.past[k])}</td></tr>`;
+        if (c.past[k]) {
+          const lab = pastLabels[k] || { cs: k, en: k };
+          html += `<tr><td>${escapeHtml(lab[lang] || lab.en)}</td><td>${escapeHtml(c.past[k])}</td></tr>`;
+        }
       }
       html += `</table></div>`;
     }
     if (c.future) {
-      html += `<div class="verb-section"><div class="verb-section-title">Budoucí čas</div><div class="future">${escapeHtml(c.future)}</div></div>`;
+      html += `<div class="verb-section"><div class="verb-section-title">${escapeHtml(tr("futureTense", lang))}</div><div class="future">${escapeHtml(c.future)}</div></div>`;
     }
   }
 
   if (w.governs && w.governs.length) {
-    html += `<div class="governs"><b>Váže:</b> ${w.governs.map(escapeHtml).join(", ")}</div>`;
+    html += `<div class="governs"><b>${escapeHtml(tr("governs", lang))}:</b> ${w.governs.map(g => escapeHtml(caseName(g, lang))).join(", ")}</div>`;
   }
   if (w.examples && w.examples.length) {
-    html += `<div class="examples"><b>Příklad:</b> ${w.examples.map(escapeHtml).join(" · ")}</div>`;
+    html += `<div class="examples"><b>${escapeHtml(tr("examples", lang))}:</b> ${w.examples.map(escapeHtml).join(" · ")}</div>`;
   }
   return html;
 }
 
-function buildNounAdjPanel(w) {
+function buildDegreesTable(d, title, lang) {
+  if (!d) return "";
+  const cell = v => {
+    if (v == null) return "";
+    if (typeof v === "string") return escapeHtml(v);
+    if (typeof v === "object") return escapeHtml([v.m, v.f, v.n].filter(Boolean).join(" / "));
+    return "";
+  };
+  let html = `<div class="verb-section"><div class="verb-section-title">${escapeHtml(title)}</div><table class="conj-table">`;
+  html += `<tr><td>${escapeHtml(tr("positive", lang))}</td><td>${cell(d.positive)}</td></tr>`;
+  html += `<tr><td>${escapeHtml(tr("comparative", lang))}</td><td>${cell(d.comparative)}</td></tr>`;
+  html += `<tr><td>${escapeHtml(tr("superlative", lang))}</td><td>${cell(d.superlative)}</td></tr>`;
+  html += `</table></div>`;
+  return html;
+}
+
+function buildNominalPanel(w, lang) {
   let html = "";
+
   if (w.features) {
     const parts = [];
-    if (w.features.case) parts.push(w.features.case);
+    if (w.features.case) parts.push(caseName(w.features.case, lang));
     if (w.features.number) parts.push(w.features.number);
     if (w.features.gender) parts.push(w.features.gender);
-    if (w.features.degree) parts.push(w.features.degree);
+    if (w.features.degree) parts.push(degreeName(w.features.degree, lang));
     if (parts.length) html += `<div class="features">${escapeHtml(parts.join(" · "))}</div>`;
   }
-  if (w.note) html += `<div class="instance-note">${escapeHtml(w.note)}</div>`;
+  if (w.note) html += `<div class="instance-note">${escapeHtml(getLocalized(w.note, lang))}</div>`;
 
   if (w.driven_by && typeof Reading !== "undefined" && Reading.state.currentText) {
     const driver = Reading.state.currentText.words[w.driven_by];
     if (driver) {
       const name = driver.lemma || driver.surface || w.driven_by;
-      html += `<div class="driven-by">Řízeno: <b>${escapeHtml(name)}</b></div>`;
+      if (driver.pos === "preposition") {
+        const gov = (driver.governs && driver.governs.length) ? ` (${caseName(driver.governs[0], lang)})` : "";
+        html += `<div class="driven-by">${escapeHtml(tr("drivenByPrep", lang))} <b>${escapeHtml(name)}</b>${escapeHtml(gov)}.</div>`;
+      } else {
+        html += `<div class="driven-by">${escapeHtml(tr("drivenBy", lang))}: <b>${escapeHtml(name)}</b></div>`;
+      }
     }
   }
-  if (w.vzor) html += buildVzorTable(w.vzor, { showTitle: false });
+
+  if (w.degrees) html += buildDegreesTable(w.degrees, tr("degrees", lang), lang);
+  if (w.related)  html += buildDegreesTable(w.related, getLocalized(w.related.label, lang), lang);
+
+  if (w.irregularTable) {
+    html += buildIrregularTable(w.irregularTable, lang);
+    if (w.vzor) {
+      const vs = DECLENSION_TABLES[w.vzor];
+      const vsLabel = vs ? getLocalized(vs.label, lang) : w.vzor;
+      html += `<div class="vzor-title" style="margin-top:12px;">${escapeHtml(tr("comparePattern", lang))}: ${escapeHtml(vsLabel)}</div>`;
+      html += buildVzorTable(w.vzor, { showTitle: false, hideLabel: true });
+    }
+  } else if (w.vzor) {
+    html += buildVzorTable(w.vzor, { showTitle: false });
+  }
+
   return html;
 }
 
-function buildPronounPanel(w) {
+function buildPrepositionPanel(w, lang) {
+  let html = "";
+  if (w.governs && w.governs.length) {
+    html += `<div class="prep-governs">${escapeHtml(tr("prepGoverns", lang))} <b>${w.governs.map(g => escapeHtml(caseName(g, lang))).join(", ")}</b></div>`;
+  }
+  if (w.note) html += `<div class="instance-note">${escapeHtml(getLocalized(w.note, lang))}</div>`;
+  if (w.examples && w.examples.length) {
+    html += `<div class="examples"><b>${escapeHtml(tr("examples", lang))}:</b> ${w.examples.map(escapeHtml).join(" · ")}</div>`;
+  }
+  return html;
+}
+
+function buildNumberPanel(w, lang) {
   let html = "";
   if (w.features) {
     const parts = [];
-    if (w.features.case) parts.push(w.features.case);
-    if (w.features.number) parts.push(w.features.number);
+    if (w.features.case) parts.push(caseName(w.features.case, lang));
     if (w.features.gender) parts.push(w.features.gender);
+    if (w.features.number) parts.push(w.features.number);
     if (parts.length) html += `<div class="features">${escapeHtml(parts.join(" · "))}</div>`;
   }
-  if (w.note) html += `<div class="instance-note">${escapeHtml(w.note)}</div>`;
-
-  if (w.driven_by && typeof Reading !== "undefined" && Reading.state.currentText) {
-    const driver = Reading.state.currentText.words[w.driven_by];
-    if (driver) {
-      const name = driver.lemma || driver.surface || w.driven_by;
-      html += `<div class="driven-by">Řízeno: <b>${escapeHtml(name)}</b></div>`;
+  if (w.spoken) {
+    html += `<div class="spoken">${escapeHtml(tr("spokenAs", lang))}: <b>${escapeHtml(w.spoken)}</b></div>`;
+  }
+  if (w.ordinal) {
+    html += `<div class="verb-section"><div class="verb-section-title">${escapeHtml(tr("ordinalDecl", lang))}</div><table class="conj-table">`;
+    const labels = {
+      nom_m: { cs: "Nom m.", en: "Nom m." },
+      nom_f: { cs: "Nom f.", en: "Nom f." },
+      nom_n: { cs: "Nom n.", en: "Nom n." },
+      gen_m: { cs: "Gen m.", en: "Gen m." },
+      gen_f: { cs: "Gen f.", en: "Gen f." },
+      gen_n: { cs: "Gen n.", en: "Gen n." },
+    };
+    for (const k of ["nom_m","nom_f","nom_n","gen_m","gen_f","gen_n"]) {
+      if (w.ordinal[k]) {
+        const lab = labels[k];
+        html += `<tr><td>${escapeHtml(lab[lang] || lab.en)}</td><td>${escapeHtml(w.ordinal[k])}</td></tr>`;
+      }
     }
+    html += `</table></div>`;
   }
-
-  if (w.lemma === "ona") {
-    html += `<div class="vzor-title">Osobní zájmeno: ona</div>`;
-    html += `<table class="conj-table">
-      <tr><td>Nom</td><td>ona</td></tr>
-      <tr><td>Gen</td><td>jí / ní</td></tr>
-      <tr><td>Dat</td><td>jí / ní</td></tr>
-      <tr><td>Akuz</td><td>ji / ni</td></tr>
-      <tr><td>Lok</td><td>ní</td></tr>
-      <tr><td>Instr</td><td>jí / ní</td></tr>
-    </table>`;
-  }
+  if (w.note) html += `<div class="instance-note">${escapeHtml(getLocalized(w.note, lang))}</div>`;
   return html;
 }
 
 function buildWordPanel(wordKey) {
   if (typeof Reading === "undefined" || !Reading.state.currentText) {
-    return `<div style="color:#c0392b;">Text není načten.</div>`;
+    return `<div style="color:#c0392b;">Text not loaded.</div>`;
   }
   const w = Reading.state.currentText.words[wordKey];
-  if (!w) return `<div style="color:#c0392b;">Neznámé slovo: ${escapeHtml(wordKey)}</div>`;
+  if (!w) return `<div style="color:#c0392b;">Unknown word: ${escapeHtml(wordKey)}</div>`;
 
-  // Reflexive particle — delegate to the verb it belongs to
+  const lang = Store.getLang("en");
+
   if (w.pos === "particle" && w.reflexive_of) {
     const verb = Reading.state.currentText.words[w.reflexive_of];
     if (verb) {
-      const lang = Store.getLang("en");
       const verbLemma = verb.lemma || verb.surface;
-      let html = `<h4>${escapeHtml(w.surface)} <span class="surface">zvratná částice</span></h4>`;
-      html += `<div class="gloss">Zvratná částice patří k slovesu <b>${escapeHtml(verbLemma)}</b>. Ve větě může stát jinde než sloveso, ale vždy k němu patří.</div>`;
+      let html = `<h4>${escapeHtml(w.surface)} <span class="surface">${escapeHtml(tr("reflexivePart", lang))}</span></h4>`;
+      html += `<div class="gloss">${escapeHtml(tr("reflexiveBelongs", lang))} <b>${escapeHtml(verbLemma)}</b>. ${escapeHtml(tr("reflexiveNote", lang))}</div>`;
       if (w.gloss) {
-        const g = typeof w.gloss === "object" ? (w.gloss[lang] || w.gloss.en || w.gloss.cs || "") : w.gloss;
+        const g = getLocalized(w.gloss, lang);
         if (g) html += `<div class="instance-note">${escapeHtml(g)}</div>`;
       }
-      html += `<div class="vzor-title">Sloveso ${escapeHtml(verbLemma)}${verb.reflexive ? " " + escapeHtml(verb.reflexive) : ""}</div>`;
-      html += buildVerbPanel(verb);
+      html += `<div class="vzor-title">${escapeHtml(tr("verbLabel", lang))} ${escapeHtml(verbLemma)}${verb.reflexive ? " " + escapeHtml(verb.reflexive) : ""}</div>`;
+      html += buildVerbPanel(verb, lang);
       return html;
     }
   }
 
-  const lang = Store.getLang("en");
   const surface = w.surface || wordKey;
   const lemma = w.lemma || surface;
-  const displayLemma = w.reflexive ? `${lemma} ${w.reflexive}` : lemma;
+  const displayLemma = (w.reflexive && !lemma.includes(w.reflexive)) ? `${lemma} ${w.reflexive}` : lemma;
 
   let html = "<h4>" + escapeHtml(displayLemma);
   if (w.surface && w.surface !== w.lemma) html += ` <span class="surface">(${escapeHtml(w.surface)})</span>`;
   if (w.aspect) {
-    const badge = w.aspect === "perfective" ? "dokonavé" : "nedokonavé";
-    html += ` <span class="verb-badge ${w.aspect}">${badge}</span>`;
+    html += ` <span class="verb-badge ${w.aspect}">${escapeHtml(tr(w.aspect, lang))}</span>`;
   }
   html += "</h4>";
 
   if (w.reflexive) {
-    html += `<div class="reflexive-note">Zvratné sloveso — částice <b>${escapeHtml(w.reflexive)}</b>.</div>`;
+    html += `<div class="reflexive-note">${escapeHtml(tr("reflexiveVerb", lang))} <b>${escapeHtml(w.reflexive)}</b>.</div>`;
   }
 
   if (w.gloss) {
-    const g = typeof w.gloss === "object" ? (w.gloss[lang] || w.gloss.en || w.gloss.cs || "") : w.gloss;
+    const g = getLocalized(w.gloss, lang);
     if (g) html += `<div class="gloss">${escapeHtml(g)}</div>`;
   }
 
-  if (w.pos === "verb") html += buildVerbPanel(w);
-  else if (w.pos === "pronoun") html += buildPronounPanel(w);
-  else html += buildNounAdjPanel(w);
+  if (w.pos === "verb") html += buildVerbPanel(w, lang);
+  else if (w.pos === "preposition") html += buildPrepositionPanel(w, lang);
+  else if (w.pos === "number") html += buildNumberPanel(w, lang);
+  else html += buildNominalPanel(w, lang);
   return html;
 }
 
@@ -258,13 +421,11 @@ const Tooltip = (() => {
     const w = words[wordKey];
     if (!w) return;
 
-    // Highlight the governing word (e.g., the verb whose case this noun takes)
     if (w.driven_by) {
       const el = document.querySelector(`.hoverable[data-word="${w.driven_by}"]`);
       if (el) el.classList.add("driver-highlight");
     }
 
-    // Highlight the reflexive partner — verb ↔ particle
     let partnerKey = null;
     if (w.pos === "verb" && w.reflexive) {
       for (const k in words) {
@@ -322,12 +483,6 @@ const LANG_NAMES = {
   uk: "Українська", vi: "Tiếng Việt", zh: "中文", es: "Español",
   fr: "Français", pl: "Polski",
 };
-
-function getLocalized(field, lang) {
-  if (!field) return "";
-  if (typeof field === "string") return field;
-  return field[lang] || field.en || field.cs || Object.values(field)[0] || "";
-}
 
 function normalize(s) {
   return s.trim().toLowerCase().normalize("NFC");
