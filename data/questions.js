@@ -910,7 +910,7 @@ const QUESTION_BANK = {
         "neut",
         "noun"
       ],
-      "prompt": "Zajímá se o ___ (umění).",
+      "prompt": "Zabývá se ___ (umění).",
       "hover_refs": [
         {
           "word": "umění",

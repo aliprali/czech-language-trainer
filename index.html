@@ -347,7 +347,7 @@
           card.onclick = () => Reading.start(t.id);
           body.appendChild(card);
         });
-      if (group.kind === "textPractice") {
+      } else if (group.kind === "textPractice") {
         TEXTS
           .filter(t => t.practiceTopic && QUESTION_BANK[t.practiceTopic]?.length)
           .forEach(t => {
@@ -358,7 +358,6 @@
             card.onclick = () => Quiz.start(t.practiceTopic);
             body.appendChild(card);
           });
-      }  
       } else {
         group.topics.forEach(key => {
           const info = TOPIC_INFO[key] || { title: key, sub: "" };
@@ -372,6 +371,7 @@
           body.appendChild(card);
         });
       }
+      
       section.appendChild(body);
       grid.appendChild(section);
     });
