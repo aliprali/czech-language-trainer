@@ -223,8 +223,18 @@
 <div id="hover-tooltip" class="hover-tooltip"></div>
 
 <script src="data/tables.js"></script>
-<script src="data/questions.js"></script>
+
+<!-- 1. Načtení samostatných textů -->
+<script src="data/texts/kometa.js"></script>
+<script src="data/texts/cas.js"></script>
+<script src="data/texts/svetr.js"></script>
+<script src="data/texts/pohotovost.js"></script>
+
+<!-- 2. Spojovač textů (vygenerováno skriptem) -->
 <script src="data/texts.js"></script>
+
+<!-- 3. Zbytek dat a logiky -->
+<script src="data/questions.js"></script>
 <script src="js/storage.js"></script>
 <script src="js/engine.js"></script>
 <script src="js/reading.js"></script>
@@ -238,11 +248,12 @@
     if (typeof Quiz === "undefined")              problems.push("js/engine.js se nenačetl.");
     if (typeof Reading === "undefined")           problems.push("js/reading.js se nenačetl.");
     if (typeof availableLangs === "undefined")    problems.push("engine.js je zastaralý — chybí availableLangs().");
+    
     if (problems.length) {
       document.body.innerHTML =
         '<div style="max-width:600px;margin:40px auto;background:#f8d7da;color:#721c24;padding:20px;border-radius:12px;">' +
         '<h3>Chyba při načítání</h3><ul><li>' + problems.join('</li><li>') + '</li></ul>' +
-        '<p style="font-size:13px;">Zkontroluj soubory a spusť <code>python3 tools/import-csv.py questions.csv</code>.</p></div>';
+        '<p style="font-size:13px;">Zkontroluj soubory a spusť <code>python3 tools/import-csv.py</code> a <code>python3 tools/build-texts.py</code>.</p></div>';
       return;
     }
 
@@ -279,6 +290,11 @@
       }
     });
 
+    const READING_GROUPS = [
+  { title: "Čtení",     sub: "Adaptované články s výkladem slovíček", cat: "article" },
+  { title: "Ze života", sub: "Vyprávění z práce i ze života",         cat: "story"   },
+];
+
     const TOPIC_GROUPS = [
       {
         kind: "quiz",
@@ -292,6 +308,8 @@
           "past_tense",
           "plural_nominative",
           "verbal_aspect",
+          "numbers_genitive",
+          "genitive_dative_mix",
         ],
       },
       {
@@ -300,12 +318,12 @@
         sub: "Smíšené otázky ze všech témat",
         topics: ["mixed"],
       },
-      {
+      ...READING_GROUPS.map(g => ({
         kind: "reading",
-        title: "Čtení",
-        sub: "Adaptované texty s výkladem slovíček",
-        texts: TEXTS,
-      }
+        title: g.title,
+        sub: g.sub,
+        texts: TEXTS.filter(t => (t.category || "article") === g.cat),
+      })),
     ];
 
     const TOPIC_INFO = {
@@ -317,6 +335,8 @@
       plural_nominative:   { title: "Nominativ plurál",  sub: "Množné číslo (1. pád)" },
       mixed:               { title: "Smíšený test",      sub: "15 náhodných otázek ze všech témat" },
       verbal_aspect:       { title: "Slovesný vid",      sub: "Dokonavý / nedokonavý" },
+      numbers_genitive:     { title: "Čísla: 2–4 vs. 5+",  sub: "Nominativ plurálu vs. genitiv plurálu" },
+      genitive_dative_mix:  { title: "Genitiv, nebo dativ?", sub: "Rozhoduje pádová vazba, ne tvar slova" },
     };
 
     const totalQuestions = Object.values(QUESTION_BANK).reduce((s, qs) => s + qs.length, 0);

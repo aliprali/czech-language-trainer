@@ -598,22 +598,54 @@ const Quiz = (() => {
   }
 
   function start(topic) {
-    if (topic === "mixed") {
+    // 1. Procvičování konkrétního textu (např. "text_01_kometa")
+    if (topic.startsWith("text_")) {
+      // Najdeme text podle practiceTopic a získáme jeho skutečné ID (např. "kometa")
+      const textObj = (typeof TEXTS !== "undefined") ? TEXTS.find(t => t.practiceTopic === topic) : null;
+      const sourceName = textObj ? textObj.id : topic.replace(/^text_\d+_/, ""); 
+      
+      const pool = [];
+      
+      // Projdeme všechna témata a hledáme otázky, které mají source = "kometa" (nebo "cas", "svetr")
+      for (const t in QUESTION_BANK) {
+        const questions = QUESTION_BANK[t].filter(q => q.source === sourceName);
+        pool.push(...questions);
+      }
+      
+      if (pool.length === 0) { 
+        alert("Pro tento text zatím nejsou žádné otázky."); 
+        return; 
+      }
+      
+      state.questions = shuffle([...pool]).slice(0, 20); // Vezme mix porozumění a gramatiky
+      state.topic = topic;
+      
+    } 
+    // 2. Smíšený test (ignoruje texty)
+    else if (topic === "mixed") {
       const all = [];
-      for (const t in QUESTION_BANK) all.push(...QUESTION_BANK[t]);
+      const grammarTopics = Object.keys(QUESTION_BANK).filter(t => !t.startsWith("text_"));
+      grammarTopics.forEach(t => all.push(...QUESTION_BANK[t]));
+      
       if (all.length < 5) { alert("Nedostatek otázek."); return; }
       state.questions = shuffle([...all]).slice(0, 15);
-    } else {
+      state.topic = topic;
+      
+    } 
+    // 3. Klasické procvičování jednoho gramatického tématu
+    else {
       if (!QUESTION_BANK[topic] || !QUESTION_BANK[topic].length) {
         alert("Toto téma nemá žádné otázky.");
         return;
       }
       state.questions = shuffle([...QUESTION_BANK[topic]]).slice(0, 10);
+      state.topic = topic;
     }
-    state.topic = topic;
+
     state.idx = 0;
     state.answers = {};
     Store.setTopic(topic);
+    
     $("start-screen").style.display = "none";
     $("quiz-container").style.display = "block";
     $("score-container").style.display = "none";

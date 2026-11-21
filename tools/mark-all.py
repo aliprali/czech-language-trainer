@@ -212,23 +212,11 @@ for row in rows:
 
 # Write to a temp file first, then rename — crash-safe.
 tmp = csv_path.with_suffix(".csv.tmp")
-# Skip corrupted rows (extra commas → None key) instead of crashing.
-clean_rows = []
-for row in rows:
-    if None in row:
-        print(f"WARNING: skipping corrupted row id={row.get('id','?')!r}, extras={row[None]!r}")
-        continue
-    clean_rows.append(row)
-
-# Write to a temp file first, then rename — crash-safe.
-tmp = csv_path.with_suffix(".csv.tmp")
 with tmp.open("w", encoding="utf-8", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(clean_rows)
 tmp.replace(csv_path)
-
-print(f"✓ Updated {updated} prompts")
 
 print(f"✓ Updated {updated} prompts")
 if skipped:

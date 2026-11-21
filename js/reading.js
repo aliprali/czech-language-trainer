@@ -62,8 +62,13 @@ const Reading = (() => {
       return;
     }
 
-    const bank = (typeof QUESTION_BANK !== "undefined") ? QUESTION_BANK[t.practiceTopic] : null;
-    const count = bank ? bank.length : 0;
+    // Spočítáme VŠECHNY otázky, které mají source shodný s ID textu (např. "kometa")
+    let count = 0;
+    if (typeof QUESTION_BANK !== "undefined") {
+      for (const tKey in QUESTION_BANK) {
+        count += QUESTION_BANK[tKey].filter(q => q.source === t.id).length;
+      }
+    }
 
     el.innerHTML = `
       <div class="reading-practice-label">Procvič si slovíčka a mluvnici z tohoto textu:</div>

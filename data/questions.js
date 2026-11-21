@@ -1,8 +1,8 @@
-// AUTO-GENERATED from CSV. Edit the CSV, not this file.
+// AUTO-GENERATED from CSV files. Edit the CSVs, not this file.
 const QUESTION_BANK = {
   "dative_instrumental": [
     {
-      "id": "dat-01",
+      "id": "dati-35280b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -35,7 +35,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-02",
+      "id": "dati-f78c7d",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -67,7 +67,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-03",
+      "id": "dati-d21f84",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -104,7 +104,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-04",
+      "id": "dati-11a859",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -136,7 +136,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-05",
+      "id": "dati-702ec9",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -167,7 +167,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-06",
+      "id": "dati-6e5b54",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -199,7 +199,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-07",
+      "id": "dati-dfbae3",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -231,7 +231,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-08",
+      "id": "dati-358c52",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -267,7 +267,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-09",
+      "id": "dati-effbd0",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -303,7 +303,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-10",
+      "id": "dati-ee006d",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -335,7 +335,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-11",
+      "id": "dati-0167d3",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -372,7 +372,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-12",
+      "id": "dati-7a4114",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -405,7 +405,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-13",
+      "id": "dati-fe9ebe",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -438,7 +438,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-14",
+      "id": "dati-037ad5",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -471,7 +471,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-15",
+      "id": "dati-488d4d",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -507,7 +507,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-ti-01",
+      "id": "dati-57ee90",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -523,13 +523,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Dativ",
+      "source": "Dative sg. fem.: Praha → Praze (h→z).",
       "answer": "Praze",
       "explanation": {
         "en": "Dativ sg. fem.: Praha → Praze (h→z)."
       }
     },
     {
-      "id": "dat-16",
+      "id": "dati-45422b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -558,7 +559,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-17",
+      "id": "dati-195f79",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -586,7 +587,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-18",
+      "id": "dati-5efceb",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -614,7 +615,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-19",
+      "id": "dati-656c83",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -643,7 +644,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-20",
+      "id": "dati-995e4d",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -671,7 +672,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-21",
+      "id": "dati-267eea",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -704,7 +705,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-22",
+      "id": "dati-69d2e1",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -732,7 +733,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-23",
+      "id": "dati-efc1e4",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -760,7 +761,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-24",
+      "id": "dati-b04ac0",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -792,7 +793,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-25",
+      "id": "dati-953217",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -820,7 +821,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-26",
+      "id": "dati-17fe78",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -848,7 +849,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-27",
+      "id": "dati-634129",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -870,7 +871,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-28",
+      "id": "dati-047644",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -902,7 +903,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-29",
+      "id": "dati-fbd274",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -930,7 +931,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-30",
+      "id": "dati-5383f0",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -958,7 +959,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-31",
+      "id": "dati-6e1c0a",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -986,7 +987,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-32",
+      "id": "dati-8cc21a",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1014,7 +1015,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-33",
+      "id": "dati-a376a6",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1042,7 +1043,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-34",
+      "id": "dati-0779b6",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1064,7 +1065,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-ti-02",
+      "id": "dati-38649a",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -1080,13 +1081,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Dativ",
+      "source": "Dative sg. fem.: kniha → knize (h→z).",
       "answer": "knize",
       "explanation": {
         "en": "Dativ sg. fem.: kniha → knize (h→z)."
       }
     },
     {
-      "id": "dat-ti-03",
+      "id": "dati-0d10f5",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -1101,13 +1103,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Dativ",
+      "source": "Dative sg. neuter: dítě → dítěti (irregular).",
       "answer": "dítěti",
       "explanation": {
         "en": "Dativ sg. neutra: dítě → dítěti (nepravidelné)."
       }
     },
     {
-      "id": "dat-ti-04",
+      "id": "dati-cd7c55",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -1122,13 +1125,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Instrumentál",
+      "source": "Instrumental sg. neuter: kolo → kolem.",
       "answer": "kolem",
       "explanation": {
         "en": "Instrumentál sg. neutra: kolo → kolem."
       }
     },
     {
-      "id": "dat-ti-05",
+      "id": "dati-9791c7",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -1143,13 +1147,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Dativ",
+      "source": "Dative sg. neuter: město → městu.",
       "answer": "městu",
       "explanation": {
         "en": "Dativ sg. neutra: město → městu."
       }
     },
     {
-      "id": "dat-ti-06",
+      "id": "dati-929992",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -1164,13 +1169,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Instrumentál",
+      "source": "Instrumental sg. masc. inanimate: dům → domem.",
       "answer": "domem",
       "explanation": {
         "en": "Instrumentál sg. muž. neživ.: dům → domem."
       }
     },
     {
-      "id": "dat-35",
+      "id": "dati-0c710f",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1186,6 +1192,7 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Dativ po k",
+      "source": "kometa",
       "options": [
         "Zemi",
         "Země",
@@ -1199,7 +1206,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-36",
+      "id": "dati-2dcfd3",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1215,6 +1222,7 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Dativ po k",
+      "source": "kometa",
       "options": [
         "Slunci",
         "Slunce",
@@ -1228,7 +1236,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-37",
+      "id": "dati-1c7e94",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -1243,75 +1251,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Dativ po k",
+      "source": "Dative pl. of my: nám. After k.",
       "answer": "nám",
       "explanation": {
         "en": "Dativ pl. zájmena my: nám. Po k."
       }
     },
     {
-      "id": "dat-38",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "dativ",
-        "fem",
-        "noun"
-      ],
-      "prompt": "UTC už nebude svázán s ___ (rotace).",
-      "hint": "Instrumentál po s",
-      "options": [
-        "rotace",
-        "rotaci",
-        "rotací",
-        "rotacím"
-      ],
-      "correct": 2,
-      "explanation": {
-        "cs": "Instrumentál sg. fem. vzor růže: rotace → rotací. Po s.",
-        "en": "Instrumental sg. fem. pattern růže: rotace → rotací. After s."
-      }
-    },
-    {
-      "id": "dat-39",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "instrumentál",
-        "neut",
-        "noun"
-      ],
-      "prompt": "Hodiny se srovnaly s ___ (otáčení) planety.",
-      "hint": "Instrumentál po s",
-      "options": [
-        "otáčení",
-        "otáčením",
-        "otáčenímu",
-        "otáčeních"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "Instrumentál sg. neut. vzor stavení: otáčení → otáčením.",
-        "en": "Instrumental sg. neut. pattern stavení: otáčení → otáčením."
-      }
-    },
-    {
-      "id": "dat-40",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "dativ",
-        "fem",
-        "noun"
-      ],
-      "prompt": "Napiš instrumentál slova rotace (po s).",
-      "hint": "Instrumentál",
-      "answer": "rotací",
-      "explanation": {
-        "en": "Instrumentál sg. fem. vzor růže: rotace → rotací."
-      }
-    },
-    {
-      "id": "dat-41",
+      "id": "dati-7bd904",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1321,6 +1268,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Rolák ti bude slušet a padne ti ___ (bunda).",
       "hint": "Dativ sg. fem.",
+      "source": "svetr",
       "options": [
         "bunda",
         "bundě",
@@ -1334,7 +1282,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-42",
+      "id": "dati-d545b0",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1344,6 +1292,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Svetr se hodí ___ (sukně).",
       "hint": "Dativ sg. fem.",
+      "source": "svetr",
       "options": [
         "sukně",
         "sukni",
@@ -1357,7 +1306,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-43",
+      "id": "dati-e5326e",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1367,6 +1316,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Kalhoty se hodí ___ (bunda) i ___ (svetr).",
       "hint": "Dativ pl. fem. (kalhoty)",
+      "source": "svetr",
       "options": [
         "bundě a svetru",
         "bundou a svetrem",
@@ -1380,7 +1330,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-44",
+      "id": "dati-f88f2c",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -1389,13 +1339,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Napiš dativ slova „kamarád“: Svetr se hodí k ___.",
       "hint": "Dativ sg. masc. anim.",
+      "source": "Dative sg. masc. anim. pattern pan: kamarád → kamarádovi.",
       "answer": "kamarádovi",
       "explanation": {
         "en": "Dativ sg. masc. anim. vzor pan: kamarád → kamarádovi."
       }
     },
     {
-      "id": "dat-45",
+      "id": "dati-316b7b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1405,6 +1356,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Blondýnka — sluší jí to. Dativ: Ten svetr sluší ___ (blondýnka).",
       "hint": "Dativ sg. fem. (k→c)",
+      "source": "svetr",
       "options": [
         "blondýnka",
         "blondýnce",
@@ -1418,7 +1370,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-46",
+      "id": "dati-9a644e",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1428,6 +1380,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Dám to k ___ (máslo).",
       "hint": "Dativ po k",
+      "source": "svetr",
       "options": [
         "máslu",
         "máslo",
@@ -1441,7 +1394,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-47",
+      "id": "dati-a5d028",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1451,6 +1404,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Svetr kombinuj s ___ (košile).",
       "hint": "Instrumentál po s",
+      "source": "svetr",
       "options": [
         "košile",
         "košili",
@@ -1464,7 +1418,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "dat-48",
+      "id": "dati-3d2119",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1474,6 +1428,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Kombinuj svetr s ___ (kabát).",
       "hint": "Instrumentál po s",
+      "source": "svetr",
       "options": [
         "kabát",
         "kabátu",
@@ -1485,11 +1440,76 @@ const QUESTION_BANK = {
         "cs": "Instrumentál sg. masc. inanim. vzor hrad: kabát → kabátem.",
         "en": "Instrumental sg. masc. inanim. pattern hrad: kabát → kabátem."
       }
+    },
+    {
+      "id": "dati-a48ad8",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "fem",
+        "noun"
+      ],
+      "prompt": "UTC už nebude svázán s ___ (rotace).",
+      "hint": "Instrumentál po s",
+      "source": "cas",
+      "options": [
+        "rotace",
+        "rotaci",
+        "rotací",
+        "rotacím"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Instrumentál sg. fem. vzor růže: rotace → rotací. Po s.",
+        "en": "Instrumental sg. fem. pattern růže: rotace → rotací. After s."
+      }
+    },
+    {
+      "id": "dati-892df5",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "instrumentál",
+        "neut",
+        "noun"
+      ],
+      "prompt": "Hodiny se srovnaly s ___ (otáčení) planety.",
+      "hint": "Instrumentál po s",
+      "source": "cas",
+      "options": [
+        "otáčení",
+        "otáčením",
+        "otáčenímu",
+        "otáčeních"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Instrumentál sg. neut. vzor stavení: otáčení → otáčením.",
+        "en": "Instrumental sg. neut. pattern stavení: otáčení → otáčením."
+      }
+    },
+    {
+      "id": "dati-1852da",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "dativ",
+        "fem",
+        "noun"
+      ],
+      "prompt": "Napiš instrumentál slova rotace (po s).",
+      "hint": "Instrumentál",
+      "source": "Instrumental sg. fem. pattern růže: rotace → rotací.",
+      "answer": "rotací",
+      "explanation": {
+        "en": "Instrumentál sg. fem. vzor růže: rotace → rotací."
+      }
     }
   ],
   "genitive_accusative": [
     {
-      "id": "gen-01",
+      "id": "geni-5d4e27",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1522,7 +1542,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-02",
+      "id": "geni-6b42d6",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1554,7 +1574,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-03",
+      "id": "geni-44dbbe",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1586,7 +1606,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-04",
+      "id": "geni-6720dc",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1618,7 +1638,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-05",
+      "id": "geni-237296",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1650,7 +1670,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-06",
+      "id": "geni-839b8e",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -1682,7 +1702,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-07",
+      "id": "geni-f32a61",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1714,7 +1734,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-08",
+      "id": "geni-557a57",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -1746,7 +1766,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-09",
+      "id": "geni-6dafdf",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1778,7 +1798,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-10",
+      "id": "geni-5b1c06",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1810,7 +1830,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-11",
+      "id": "geni-6d9c58",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1842,7 +1862,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-12",
+      "id": "geni-9938e2",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1878,7 +1898,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-13",
+      "id": "geni-9d645a",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -1905,7 +1925,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-14",
+      "id": "geni-331641",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1937,7 +1957,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-ti-01",
+      "id": "geni-0731a6",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -1952,13 +1972,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Genitiv",
+      "source": "Genitive sg. fem.: voda → vody.",
       "answer": "vody",
       "explanation": {
         "en": "Genitiv sg. fem.: voda → vody."
       }
     },
     {
-      "id": "gen-15",
+      "id": "geni-c3694a",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -1986,7 +2007,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-16",
+      "id": "geni-88eccc",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -2014,7 +2035,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-17",
+      "id": "geni-d5d9ab",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2042,7 +2063,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-18",
+      "id": "geni-33fb87",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2074,7 +2095,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-19",
+      "id": "geni-11d5cc",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2102,7 +2123,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-20",
+      "id": "geni-40d596",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2123,7 +2144,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-21",
+      "id": "geni-b5b3bd",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -2155,7 +2176,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-22",
+      "id": "geni-1d0407",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2187,7 +2208,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-23",
+      "id": "geni-889a25",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2219,7 +2240,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-24",
+      "id": "geni-cba2cd",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2247,7 +2268,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-25",
+      "id": "geni-7f068a",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2275,7 +2296,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-26",
+      "id": "geni-bac6aa",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2307,7 +2328,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-27",
+      "id": "geni-13f09a",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2339,7 +2360,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-28",
+      "id": "geni-ed45b2",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2371,7 +2392,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-29",
+      "id": "geni-f34245",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2399,7 +2420,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-30",
+      "id": "geni-c42698",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2427,7 +2448,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-31",
+      "id": "geni-e7999f",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2455,7 +2476,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-ti-02",
+      "id": "geni-ada055",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -2476,7 +2497,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-ti-03",
+      "id": "geni-4bec06",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -2497,7 +2518,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-ti-04",
+      "id": "geni-f40cbf",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -2518,7 +2539,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-ti-05",
+      "id": "geni-98800b",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -2539,7 +2560,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-ti-06",
+      "id": "geni-c16350",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -2560,7 +2581,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-32",
+      "id": "geni-60317b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2576,6 +2597,7 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Genitiv po koncem",
+      "source": "kometa",
       "options": [
         "listopad",
         "listopadu",
@@ -2589,7 +2611,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-33",
+      "id": "geni-f909a5",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -2605,13 +2627,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Genitiv pl. po od",
+      "source": "Genitive pl. neut. pattern město: světlo → světel. After od.",
       "answer": "světel",
       "explanation": {
         "en": "Genitiv pl. neut. vzor město: světlo → světel. Po od."
       }
     },
     {
-      "id": "gen-34",
+      "id": "geni-05edf9",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2627,6 +2650,7 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Akuzativ",
+      "source": "kometa",
       "options": [
         "kometa",
         "kometu",
@@ -2640,7 +2664,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-35",
+      "id": "geni-66790f",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2650,6 +2674,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Rotace ___ (Země) se mění.",
       "hint": "Genitiv",
+      "source": "cas",
       "options": [
         "Země",
         "Zemi",
@@ -2663,7 +2688,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-36",
+      "id": "geni-ce505b",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -2673,13 +2698,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Napiš genitiv slova měření.",
       "hint": "Genitiv",
+      "source": "Genitive sg. neut. pattern stavení: měření is unchanged.",
       "answer": "měření",
       "explanation": {
         "en": "Genitiv sg. neut. vzor stavení: měření se nemění."
       }
     },
     {
-      "id": "gen-37",
+      "id": "geni-3dada7",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2689,6 +2715,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Experti chtěli vložit ___ (přestupná sekunda).",
       "hint": "Akuzativ",
+      "source": "cas",
       "options": [
         "přestupná sekunda",
         "přestupnou sekundu",
@@ -2702,7 +2729,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-38",
+      "id": "geni-77efd8",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2712,6 +2739,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Zásah do počítačových ___ (systém) nebyl testován.",
       "hint": "Genitiv plurál",
+      "source": "cas",
       "options": [
         "systém",
         "systémů",
@@ -2725,7 +2753,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-39",
+      "id": "geni-4c3b89",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -2735,13 +2763,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Napiš genitiv plurálu slova systém.",
       "hint": "Genitiv plurál",
+      "source": "Genitive pl. masc. inanim. pattern hrad: systém → systémů.",
       "answer": "systémů",
       "explanation": {
         "en": "Genitiv pl. muž. neživ. vzor hrad: systém → systémů."
       }
     },
     {
-      "id": "gen-40",
+      "id": "geni-f0e2bd",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2751,6 +2780,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Odborníci přišli z ___ (celý svět).",
       "hint": "Genitiv po z",
+      "source": "cas",
       "options": [
         "celý svět",
         "celého světa",
@@ -2764,7 +2794,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-41",
+      "id": "geni-77a303",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2774,6 +2804,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Od ___ (rok) 1972 se přestupná sekunda vkládá.",
       "hint": "Genitiv po od",
+      "source": "cas",
       "options": [
         "rok",
         "roku",
@@ -2787,7 +2818,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-42",
+      "id": "geni-b47b58",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2797,6 +2828,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Hodiny oddělily čas od ___ (lidská událost).",
       "hint": "Genitiv po od",
+      "source": "cas",
       "options": [
         "lidská událost",
         "lidské události",
@@ -2810,7 +2842,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "gen-43",
+      "id": "geni-9ec658",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -2820,6 +2852,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Napiš genitiv plurálu slova událost.",
       "hint": "Genitiv pl. (vzor kost)",
+      "source": "Genitive pl. fem. pattern kost: událost → událostí.",
       "answer": "událostí",
       "explanation": {
         "en": "Genitiv pl. fem. vzor kost: událost → událostí."
@@ -2828,7 +2861,7 @@ const QUESTION_BANK = {
   ],
   "locative": [
     {
-      "id": "lok-01",
+      "id": "loca-ccb0c7",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2860,7 +2893,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-02",
+      "id": "loca-dbbcf7",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2888,7 +2921,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-03",
+      "id": "loca-315bc3",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2920,7 +2953,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-04",
+      "id": "loca-1f6beb",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2956,7 +2989,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-05",
+      "id": "loca-f26c2e",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -2988,7 +3021,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-06",
+      "id": "loca-14d902",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -3020,7 +3053,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-07",
+      "id": "loca-bd31f0",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3052,7 +3085,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-08",
+      "id": "loca-736320",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -3089,7 +3122,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-09",
+      "id": "loca-3daa3d",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3121,7 +3154,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-10",
+      "id": "loca-697705",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3153,7 +3186,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-ti-01",
+      "id": "loca-723d5a",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -3168,13 +3201,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Lokál",
+      "source": "Locative sg. neuter: Brno → Brně.",
       "answer": "Brně",
       "explanation": {
         "en": "Lokál sg. neutra: Brno → Brně."
       }
     },
     {
-      "id": "lok-11",
+      "id": "loca-3dd0ec",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3206,7 +3240,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-12",
+      "id": "loca-6dcf49",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3234,7 +3268,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-13",
+      "id": "loca-80beab",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3263,7 +3297,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-14",
+      "id": "loca-706fd3",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -3285,7 +3319,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-15",
+      "id": "loca-f7f193",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3313,7 +3347,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-16",
+      "id": "loca-7828d3",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3342,7 +3376,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-17",
+      "id": "loca-fbe1ea",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3370,7 +3404,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-18",
+      "id": "loca-2e0e84",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -3398,7 +3432,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-19",
+      "id": "loca-c45c45",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3426,7 +3460,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-20",
+      "id": "loca-b40513",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3454,7 +3488,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-21",
+      "id": "loca-52574c",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -3482,7 +3516,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-22",
+      "id": "loca-5523b3",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -3510,7 +3544,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-23",
+      "id": "loca-206744",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3538,7 +3572,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-24",
+      "id": "loca-9ccc84",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3566,7 +3600,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-25",
+      "id": "loca-dd4297",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3594,7 +3628,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-26",
+      "id": "loca-214612",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3622,7 +3656,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-27",
+      "id": "loca-64a50d",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3654,7 +3688,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-28",
+      "id": "loca-1eb453",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3687,7 +3721,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-29",
+      "id": "loca-ed1fb2",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -3719,7 +3753,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-30",
+      "id": "loca-4da790",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3747,7 +3781,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-ti-02",
+      "id": "loca-e46a2f",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -3769,7 +3803,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-ti-03",
+      "id": "loca-216faf",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -3790,7 +3824,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-ti-04",
+      "id": "loca-a30d32",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -3811,7 +3845,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-ti-05",
+      "id": "loca-cf3305",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -3832,7 +3866,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-ti-06",
+      "id": "loca-3502e8",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -3853,7 +3887,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-31",
+      "id": "loca-be959f",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3869,6 +3903,7 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Lokál po v",
+      "source": "kometa",
       "options": [
         "Česko",
         "Česka",
@@ -3882,7 +3917,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-32",
+      "id": "loca-95f963",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3898,6 +3933,7 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Lokál po na",
+      "source": "kometa",
       "options": [
         "obloha",
         "oblohy",
@@ -3911,7 +3947,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-33",
+      "id": "loca-90b8bf",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -3927,13 +3963,14 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Lokál po v",
+      "source": "Locative sg. neut. pattern stavení: souhvězdí is unchanged. After v.",
       "answer": "souhvězdí",
       "explanation": {
         "en": "Lokál sg. neut. vzor stavení: souhvězdí se nemění. Po v."
       }
     },
     {
-      "id": "lok-34",
+      "id": "loca-0b6cdd",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3943,6 +3980,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Poprvé v ___ (historie) nebude čas ukotven v pohybu planety.",
       "hint": "Lokál po v",
+      "source": "cas",
       "options": [
         "historie",
         "historii",
@@ -3956,7 +3994,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-35",
+      "id": "loca-9688f8",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -3966,6 +4004,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Čas nebude ukotven v ___ (pohyb) planety.",
       "hint": "Lokál po v",
+      "source": "cas",
       "options": [
         "pohyb",
         "pohybu",
@@ -3979,7 +4018,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-36",
+      "id": "loca-754b8c",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -3989,13 +4028,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Napiš lokál slova historie (po v).",
       "hint": "Lokál",
+      "source": "Locative sg. fem. pattern růže: historie → historii.",
       "answer": "historii",
       "explanation": {
         "en": "Lokál sg. fem. vzor růže: historie → historii."
       }
     },
     {
-      "id": "lok-37",
+      "id": "loca-4df042",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4005,6 +4045,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Historik Mumford to napsal v ___ (rok) 1934.",
       "hint": "Lokál po v",
+      "source": "cas",
       "options": [
         "rok",
         "roku",
@@ -4018,7 +4059,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-38",
+      "id": "loca-1574a0",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4028,6 +4069,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "V posledních ___ (rok) se Země mírně zrychluje.",
       "hint": "Lokál pl. (nepravid.)",
+      "source": "cas",
       "options": [
         "rokách",
         "rocích",
@@ -4041,7 +4083,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "lok-39",
+      "id": "loca-43ae8b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4051,6 +4093,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Čas nebude ukotven v pohybu ___ (naše planeta).",
       "hint": "Lokál po v (posesivum)",
+      "source": "cas",
       "options": [
         "naše planeta",
         "naší planetě",
@@ -4066,7 +4109,7 @@ const QUESTION_BANK = {
   ],
   "past_tense": [
     {
-      "id": "min-01",
+      "id": "past-5c584f",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4087,7 +4130,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-02",
+      "id": "past-2fdd12",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4108,7 +4151,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-03",
+      "id": "past-900b9e",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4129,7 +4172,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-04",
+      "id": "past-e74da0",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4150,7 +4193,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-05",
+      "id": "past-bc182b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4171,7 +4214,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-06",
+      "id": "past-131942",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4193,7 +4236,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-07",
+      "id": "past-9512a0",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4215,7 +4258,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-08",
+      "id": "past-7a6860",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4236,7 +4279,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-09",
+      "id": "past-393aa4",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4258,7 +4301,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-10",
+      "id": "past-dbcb59",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4279,7 +4322,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-11",
+      "id": "past-9889d9",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4300,7 +4343,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-ti-01",
+      "id": "past-cd59f0",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -4315,7 +4358,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-12",
+      "id": "past-df24d8",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4336,7 +4379,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-13",
+      "id": "past-56a9cb",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4357,7 +4400,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-14",
+      "id": "past-725a68",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4378,7 +4421,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-15",
+      "id": "past-c387ec",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4399,7 +4442,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-16",
+      "id": "past-a82ca2",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4420,7 +4463,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-17",
+      "id": "past-93d1ef",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4441,7 +4484,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-18",
+      "id": "past-d0c69f",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4462,7 +4505,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-19",
+      "id": "past-5eeebb",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4484,7 +4527,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-20",
+      "id": "past-3ef2b8",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4506,7 +4549,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-21",
+      "id": "past-402b85",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4527,7 +4570,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-22",
+      "id": "past-7c8688",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4549,7 +4592,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-23",
+      "id": "past-daa21b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4571,7 +4614,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-24",
+      "id": "past-bc639f",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4592,7 +4635,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-25",
+      "id": "past-289095",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4613,7 +4656,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-26",
+      "id": "past-83f0f5",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4635,7 +4678,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-27",
+      "id": "past-808d1c",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4657,7 +4700,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-28",
+      "id": "past-16876a",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4678,7 +4721,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-29",
+      "id": "past-5e04ac",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4699,7 +4742,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-30",
+      "id": "past-62ba34",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4720,7 +4763,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-31",
+      "id": "past-c541c1",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4742,7 +4785,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-ti-02",
+      "id": "past-0456cd",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -4757,7 +4800,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-ti-03",
+      "id": "past-a82728",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -4772,7 +4815,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-ti-04",
+      "id": "past-82d523",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -4788,7 +4831,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-ti-05",
+      "id": "past-f319b8",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -4804,7 +4847,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-ti-06",
+      "id": "past-67b7b3",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -4819,7 +4862,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-32",
+      "id": "past-250fe2",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -4828,13 +4871,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Astronom Martin Ratcliffe ___ (říct), že kometa bude nejblíže v listopadu.",
       "hint": "Minulý čas 3. os. sg. muž.",
+      "source": "Past 3rd sg. masc. of říct: řekl.",
       "answer": "řekl",
       "explanation": {
         "en": "Minulý čas 3. os. sg. muž. od říct: řekl."
       }
     },
     {
-      "id": "min-33",
+      "id": "past-617e61",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4843,6 +4887,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Kometa ___ (být) nejblíže Slunci v listopadu.",
       "hint": "Minulý čas 3. os. sg. fem.",
+      "source": "kometa",
       "options": [
         "byl",
         "byla",
@@ -4856,7 +4901,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-34",
+      "id": "past-3c8912",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -4865,13 +4910,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Lidé ___ (vidět) kometu v listopadu.",
       "hint": "Minulý čas 3. os. pl. muž. živ.",
+      "source": "Past 3rd pl. masc. anim. of vidět: viděli. (lidé is masc. anim. plural)",
       "answer": "viděli",
       "explanation": {
         "en": "Minulý čas 3. os. pl. muž. živ. od vidět: viděli. (lidé je mask. anim. plurál)"
       }
     },
     {
-      "id": "min-35",
+      "id": "past-07858a",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4880,6 +4926,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Odborníci se ve Versailles ___.",
       "hint": "Minulý čas 3. os. pl. muž. živ.",
+      "source": "cas",
       "options": [
         "sešli",
         "sešly",
@@ -4893,7 +4940,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-36",
+      "id": "past-f1b1ce",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -4902,13 +4949,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Vědci se ___ (rozhodnout) zrušit přestupné sekundy.",
       "hint": "Minulý čas 3. os. pl. muž. živ.",
+      "source": "Past 3rd pl. masc. anim. of rozhodnout se: rozhodli.",
       "answer": "rozhodli",
       "explanation": {
         "en": "Minulý čas 3. os. pl. muž. živ. od rozhodnout se: rozhodli."
       }
     },
     {
-      "id": "min-37",
+      "id": "past-bd17a4",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4918,6 +4966,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Hodiny se ___ (srovnat) s otáčením planety.",
       "hint": "Minulý čas 3. os. pl. fem.",
+      "source": "cas",
       "options": [
         "srovnali",
         "srovnaly",
@@ -4931,7 +4980,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-38",
+      "id": "past-c1a9e8",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -4940,13 +4989,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Historik Lewis Mumford to ___ (napsat) v roce 1934.",
       "hint": "Minulý čas 3. os. sg. muž.",
+      "source": "Past 3rd sg. masc. of napsat: napsal.",
       "answer": "napsal",
       "explanation": {
         "en": "Minulý čas 3. os. sg. muž. od napsat: napsal."
       }
     },
     {
-      "id": "min-39",
+      "id": "past-4b9be3",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4956,6 +5006,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Hodiny už dávno ___ (oddělit) čas od lidských událostí.",
       "hint": "Minulý čas 3. os. pl. fem.",
+      "source": "cas",
       "options": [
         "oddělili",
         "oddělily",
@@ -4969,7 +5020,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-40",
+      "id": "past-bb1978",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -4978,13 +5029,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Co se ___ (stát se) v roce 1934?",
       "hint": "Minulý čas 3. os. sg. neut.",
+      "source": "Past 3rd sg. neut. of stát se: stalo se.",
       "answer": "stalo",
       "explanation": {
         "en": "Minulý čas 3. os. sg. neut. od stát se: stalo se."
       }
     },
     {
-      "id": "min-41",
+      "id": "past-7c7aa4",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -4993,6 +5045,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Vědci ___ (muset) vložit přestupnou sekundu.",
       "hint": "Minulý čas 3. os. pl. muž. živ.",
+      "source": "cas",
       "options": [
         "musel",
         "musela",
@@ -5006,7 +5059,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "min-42",
+      "id": "past-19673b",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -5015,38 +5068,16 @@ const QUESTION_BANK = {
       ],
       "prompt": "Lewis Mumford ___ (napsat) citát v roce 1934.",
       "hint": "Minulý čas 3. os. sg. muž.",
+      "source": "Past 3rd sg. masc. of napsat: napsal.",
       "answer": "napsal",
       "explanation": {
         "en": "Minulý čas 3. os. sg. muž. od napsat: napsal."
-      }
-    },
-    {
-      "id": "min-43",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "minulý_čas",
-        "fem",
-        "plur"
-      ],
-      "prompt": "Hodiny se ___ (srovnat) s otáčením planety.",
-      "hint": "Minulý čas 3. os. pl. fem.",
-      "options": [
-        "srovnali",
-        "srovnaly",
-        "srovnala",
-        "srovnalo"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "Minulý čas 3. os. pl. fem. od srovnat: srovnaly. (hodiny = fem. pl.)",
-        "en": "Past 3rd pl. fem. of srovnat: srovnaly. (hodiny = fem. pl.)"
       }
     }
   ],
   "verb_case": [
     {
-      "id": "vc-01",
+      "id": "verb-d6f99b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5073,7 +5104,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-02",
+      "id": "verb-0a292b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5105,7 +5136,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-03",
+      "id": "verb-09cb11",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5136,7 +5167,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-04",
+      "id": "verb-8190da",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5163,7 +5194,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-05",
+      "id": "verb-5465a8",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5190,7 +5221,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-06",
+      "id": "verb-8c3d98",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5221,7 +5252,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-07",
+      "id": "verb-26e3b0",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -5249,7 +5280,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-08",
+      "id": "verb-5e1d97",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5277,7 +5308,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-09",
+      "id": "verb-77f904",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5309,7 +5340,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-10",
+      "id": "verb-38d2af",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5336,7 +5367,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-11",
+      "id": "verb-d7f1c9",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5363,7 +5394,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-12",
+      "id": "verb-b3d8b0",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -5394,7 +5425,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-13",
+      "id": "verb-7d81f9",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5422,7 +5453,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-14",
+      "id": "verb-fdca51",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5458,7 +5489,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-15",
+      "id": "verb-a5a9a3",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -5485,7 +5516,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-16",
+      "id": "verb-31f0ba",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5516,7 +5547,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-17",
+      "id": "verb-97241f",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -5544,7 +5575,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-18",
+      "id": "verb-e37240",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -5575,7 +5606,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-ti-01",
+      "id": "verb-3e3125",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -5596,7 +5627,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-ti-02",
+      "id": "verb-c62d8f",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -5618,7 +5649,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-19",
+      "id": "verb-7d7642",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5633,6 +5664,7 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "potřebovat + akuzativ",
+      "source": "kometa",
       "options": [
         "dalekohled",
         "dalekohledu",
@@ -5646,7 +5678,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-20",
+      "id": "verb-2b2fb5",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5661,6 +5693,7 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "vidět + akuzativ",
+      "source": "kometa",
       "options": [
         "kometa",
         "kometu",
@@ -5674,7 +5707,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-21",
+      "id": "verb-7e42f7",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5689,6 +5722,7 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "blížit se k + dativ",
+      "source": "kometa",
       "options": [
         "Slunce",
         "Slunci",
@@ -5702,95 +5736,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-22",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "slovesa",
-        "akuzativ"
-      ],
-      "prompt": "Vědci chtěli ___ (vložit) přestupnou sekundu.",
-      "hint": "vložit + akuzativ",
-      "options": [
-        "vložit",
-        "vložili",
-        "vložen",
-        "vkládat"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "vložit + akuzativ: vložit přestupnou sekundu.",
-        "en": "vložit + accusative: vložit přestupnou sekundu."
-      }
-    },
-    {
-      "id": "vc-23",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "slovesa",
-        "akuzativ"
-      ],
-      "prompt": "Experti se rozhodli přestupné sekundy úplně ___ (zrušit).",
-      "hint": "zrušit + akuzativ",
-      "options": [
-        "zrušit",
-        "zrušili",
-        "zrušen",
-        "rušit"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "zrušit + akuzativ: zrušit přestupné sekundy.",
-        "en": "zrušit + accusative: zrušit přestupné sekundy."
-      }
-    },
-    {
-      "id": "vc-24",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "slovesa",
-        "akuzativ"
-      ],
-      "prompt": "Nikdo nikdy ___ (netestovat) zápornou přestupnou sekundu.",
-      "hint": "testovat + akuzativ",
-      "options": [
-        "netestoval",
-        "netestovala",
-        "netestovalo",
-        "netestovali"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "testovat + akuzativ: testovat zápornou sekundu. (subjekt je „nikdo“ — 3. os. sg. muž.)",
-        "en": "testovat + accusative: testovat a negative second. (subject is „nikdo“ — 3rd sg. masc.)"
-      }
-    },
-    {
-      "id": "vc-25",
-      "type": "multiple_choice",
-      "level": "B1",
-      "tags": [
-        "slovesa",
-        "instrumentál"
-      ],
-      "prompt": "Čas se stal ___ (problém) pro astronomy.",
-      "hint": "stát se + instrumentál",
-      "options": [
-        "problém",
-        "problému",
-        "problémem",
-        "problémy"
-      ],
-      "correct": 2,
-      "explanation": {
-        "cs": "stát se + instrumentál: co se stalo čím → problémem.",
-        "en": "stát se + instrumental: what became what → problémem."
-      }
-    },
-    {
-      "id": "vc-26",
+      "id": "verb-db6f21",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5800,6 +5746,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Rolák ___ (ty) bude slušet.",
       "hint": "slušet + dativ",
+      "source": "svetr",
       "options": [
         "tobě",
         "ty",
@@ -5813,7 +5760,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-27",
+      "id": "verb-f30485",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5823,6 +5770,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Černá barva sluší ___ (blondýnky).",
       "hint": "slušet + dativ",
+      "source": "svetr",
       "options": [
         "blondýnkám",
         "blondýnky",
@@ -5836,7 +5784,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-28",
+      "id": "verb-1427e0",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5846,6 +5794,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Ten klobouk sluší ___ (moje sestra).",
       "hint": "slušet + dativ",
+      "source": "svetr",
       "options": [
         "mojí sestře",
         "mojí sestrou",
@@ -5859,7 +5808,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-29",
+      "id": "verb-a42ee8",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5869,6 +5818,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Šaty mi ___ (sedět) dobře.",
       "hint": "sedět + dativ",
+      "source": "svetr",
       "options": [
         "sedí",
         "sedět",
@@ -5882,7 +5832,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-30",
+      "id": "verb-a3b834",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5892,6 +5842,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Svetr by ___ (vy) měl v pase sedět.",
       "hint": "sedět + dativ",
+      "source": "svetr",
       "options": [
         "vy",
         "vás",
@@ -5905,7 +5856,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-31",
+      "id": "verb-2e3f93",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5915,6 +5866,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Oversized svetr padne ___ (většina žen).",
       "hint": "padnout + dativ",
+      "source": "svetr",
       "options": [
         "většině žen",
         "většina žen",
@@ -5928,7 +5880,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-32",
+      "id": "verb-dccd03",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5938,6 +5890,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Ten kabát padne ___ (já) v ramenou.",
       "hint": "padnout + dativ",
+      "source": "svetr",
       "options": [
         "mně",
         "mě",
@@ -5951,7 +5904,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-33",
+      "id": "verb-b5e6d2",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5961,6 +5914,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Béžový svetr se hodí ___ (všechno).",
       "hint": "hodit se + k + dativ",
+      "source": "svetr",
       "options": [
         "ke všemu",
         "k všemu",
@@ -5974,7 +5928,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-34",
+      "id": "verb-97460d",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -5984,6 +5938,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Dobrý svetr se hodí ___ (džíny).",
       "hint": "hodit se + k + dativ",
+      "source": "svetr",
       "options": [
         "k džínám",
         "k džíny",
@@ -5997,7 +5952,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-35",
+      "id": "verb-25c666",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6007,6 +5962,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Bunda se hodí ___ (podzim).",
       "hint": "hodit se + k + dativ",
+      "source": "svetr",
       "options": [
         "k podzimu",
         "na podzim",
@@ -6020,7 +5976,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-36",
+      "id": "verb-dd79d5",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6030,6 +5986,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Svetr můžete kombinovat ___ (džíny).",
       "hint": "kombinovat s + instrumentál",
+      "source": "svetr",
       "options": [
         "džíny",
         "džínům",
@@ -6043,7 +6000,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-37",
+      "id": "verb-d301de",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6053,6 +6010,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Kombinuj to ___ (všechno).",
       "hint": "kombinovat s + instrumentál",
+      "source": "svetr",
       "options": [
         "všechno",
         "všemu",
@@ -6066,7 +6024,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-38",
+      "id": "verb-0c3203",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6076,6 +6034,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Kombinuj svetr ___ (kalhoty).",
       "hint": "kombinovat s + instrumentál",
+      "source": "svetr",
       "options": [
         "kalhoty",
         "kalhotám",
@@ -6089,7 +6048,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-39",
+      "id": "verb-3c2b00",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6099,6 +6058,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Měkoučký svetr můžete obléknout ___ (džíny).",
       "hint": "obléknout k + dativ",
+      "source": "svetr",
       "options": [
         "džíny",
         "džínům",
@@ -6112,7 +6072,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-40",
+      "id": "verb-b2039f",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6122,6 +6082,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Svetr si oblékni ___ (sukně).",
       "hint": "obléknout k + dativ",
+      "source": "svetr",
       "options": [
         "sukně",
         "sukni",
@@ -6135,7 +6096,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-41",
+      "id": "verb-c7c016",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6145,6 +6106,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Někdy je nejlepší vsadit ___ (klasika).",
       "hint": "vsadit na + akuzativ",
+      "source": "svetr",
       "options": [
         "klasika",
         "klasiky",
@@ -6158,7 +6120,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-42",
+      "id": "verb-49d91b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6168,6 +6130,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Vsaďte ___ (kvalita).",
       "hint": "vsadit na + akuzativ",
+      "source": "svetr",
       "options": [
         "kvalita",
         "kvality",
@@ -6181,7 +6144,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-43",
+      "id": "verb-abc0e9",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6191,6 +6154,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Soustřeďte se ___ (složení).",
       "hint": "soustředit se na + akuzativ",
+      "source": "svetr",
       "options": [
         "složení",
         "složenímu",
@@ -6204,7 +6168,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-44",
+      "id": "verb-9fd68b",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6214,6 +6178,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Soustřeď se ___ (práce)!",
       "hint": "soustředit se na + akuzativ",
+      "source": "svetr",
       "options": [
         "práce",
         "práci",
@@ -6227,7 +6192,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "vc-45",
+      "id": "verb-4df493",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -6237,6 +6202,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Dejte si záležet ___ (výběr).",
       "hint": "dát si záležet na + lokál",
+      "source": "svetr",
       "options": [
         "výběr",
         "výběru",
@@ -6248,11 +6214,103 @@ const QUESTION_BANK = {
         "cs": "dát si záležet na + lokál: výběr → výběru.",
         "en": "dát si záležet na + locative: výběr → výběru."
       }
+    },
+    {
+      "id": "verb-406cf8",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ"
+      ],
+      "prompt": "Vědci chtěli ___ (vložit) přestupnou sekundu.",
+      "hint": "vložit + akuzativ",
+      "source": "cas",
+      "options": [
+        "vložit",
+        "vložili",
+        "vložen",
+        "vkládat"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "vložit + akuzativ: vložit přestupnou sekundu.",
+        "en": "vložit + accusative: vložit přestupnou sekundu."
+      }
+    },
+    {
+      "id": "verb-57a3b1",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ"
+      ],
+      "prompt": "Experti se rozhodli přestupné sekundy úplně ___ (zrušit).",
+      "hint": "zrušit + akuzativ",
+      "source": "cas",
+      "options": [
+        "zrušit",
+        "zrušili",
+        "zrušen",
+        "rušit"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "zrušit + akuzativ: zrušit přestupné sekundy.",
+        "en": "zrušit + accusative: zrušit přestupné sekundy."
+      }
+    },
+    {
+      "id": "verb-5e90e8",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "slovesa",
+        "akuzativ"
+      ],
+      "prompt": "Nikdo nikdy ___ (netestovat) zápornou přestupnou sekundu.",
+      "hint": "testovat + akuzativ",
+      "source": "cas",
+      "options": [
+        "netestoval",
+        "netestovala",
+        "netestovalo",
+        "netestovali"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "testovat + akuzativ: testovat zápornou sekundu. (subjekt je „nikdo“ — 3. os. sg. muž.)",
+        "en": "testovat + accusative: testovat a negative second. (subject is „nikdo“ — 3rd sg. masc.)"
+      }
+    },
+    {
+      "id": "verb-58f2ea",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "slovesa",
+        "instrumentál"
+      ],
+      "prompt": "Čas se stal ___ (problém) pro astronomy.",
+      "hint": "stát se + instrumentál",
+      "source": "cas",
+      "options": [
+        "problém",
+        "problému",
+        "problémem",
+        "problémy"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "stát se + instrumentál: co se stalo čím → problémem.",
+        "en": "stát se + instrumental: what became what → problémem."
+      }
     }
   ],
   "plural_nominative": [
     {
-      "id": "pl-01",
+      "id": "plur-79553c",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6279,7 +6337,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-02",
+      "id": "plur-e9c8d0",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6307,7 +6365,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-03",
+      "id": "plur-169067",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6335,7 +6393,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-04",
+      "id": "plur-03fd7b",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6362,7 +6420,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-05",
+      "id": "plur-c87de0",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6389,7 +6447,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-06",
+      "id": "plur-d7ed0d",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6416,7 +6474,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-07",
+      "id": "plur-d55d17",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6443,7 +6501,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-08",
+      "id": "plur-86807e",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6471,7 +6529,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-09",
+      "id": "plur-9c9da4",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6498,7 +6556,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-10",
+      "id": "plur-2b1bb7",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6525,7 +6583,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-11",
+      "id": "plur-67c751",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6552,7 +6610,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-12",
+      "id": "plur-ef0da4",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6579,7 +6637,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-13",
+      "id": "plur-98fea6",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -6606,7 +6664,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-14",
+      "id": "plur-f437ad",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6633,7 +6691,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-15",
+      "id": "plur-7b9850",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6660,7 +6718,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-16",
+      "id": "plur-918d8d",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6687,7 +6745,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-17",
+      "id": "plur-ea57a6",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -6714,7 +6772,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-ti-01",
+      "id": "plur-5091b6",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -6735,7 +6793,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-ti-02",
+      "id": "plur-1836c3",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -6756,7 +6814,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-ti-03",
+      "id": "plur-71503c",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -6778,7 +6836,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-18",
+      "id": "plur-f1664d",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -6793,6 +6851,7 @@ const QUESTION_BANK = {
         }
       ],
       "hint": "Nepravidelné",
+      "source": "kometa",
       "answer": "lidé",
       "accept": [
         "lidi"
@@ -6803,7 +6862,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-19",
+      "id": "plur-f22c01",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6812,6 +6871,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jedno světlo, dvě ___.",
       "hint": "Neut. -o",
+      "source": "kometa",
       "options": [
         "světla",
         "světel",
@@ -6825,7 +6885,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-20",
+      "id": "plur-4ecada",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -6834,13 +6894,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Napiš nominativ plurál: odborník.",
       "hint": "Masc. anim.",
+      "source": "Masc. anim. nom. pl.: odborník → odborníci (k→c).",
       "answer": "odborníci",
       "explanation": {
         "en": "Masc. anim. nom. pl.: odborník → odborníci (k→c)."
       }
     },
     {
-      "id": "pl-21",
+      "id": "plur-55a330",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6849,6 +6910,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jeden systém, dva ___.",
       "hint": "Masc. inanim.",
+      "source": "cas",
       "options": [
         "systémy",
         "systémové",
@@ -6862,7 +6924,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-22",
+      "id": "plur-522e21",
       "type": "type_in",
       "level": "A1",
       "tags": [
@@ -6871,13 +6933,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Napiš nominativ plurál: vědec.",
       "hint": "Masc. anim.",
+      "source": "Nom. pl. masc. anim.: vědec → vědci (drops -e-).",
       "answer": "vědci",
       "explanation": {
         "en": "Nom. pl. masc. anim.: vědec → vědci (vypuštění -e-)."
       }
     },
     {
-      "id": "pl-23",
+      "id": "plur-bd67ad",
       "type": "type_in",
       "level": "A2",
       "tags": [
@@ -6886,13 +6949,14 @@ const QUESTION_BANK = {
       ],
       "prompt": "Napiš nominativ plurál: historik.",
       "hint": "Masc. anim. (k→c)",
+      "source": "Nom. pl. masc. anim.: historik → historici (k→c).",
       "answer": "historici",
       "explanation": {
         "en": "Nom. pl. masc. anim.: historik → historici (k→c)."
       }
     },
     {
-      "id": "pl-24",
+      "id": "plur-9b0f2c",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -6901,6 +6965,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jeden stroj, dva ___.",
       "hint": "Masc. inanim. měkké",
+      "source": "cas",
       "options": [
         "stroje",
         "strojů",
@@ -6914,7 +6979,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-25",
+      "id": "plur-e156be",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6923,6 +6988,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jedna minuta, dvě ___.",
       "hint": "Fem. -a",
+      "source": "cas",
       "options": [
         "minuta",
         "minuty",
@@ -6936,7 +7002,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "pl-26",
+      "id": "plur-f6aa62",
       "type": "multiple_choice",
       "level": "A1",
       "tags": [
@@ -6945,6 +7011,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jeden produkt, dva ___.",
       "hint": "Masc. inanim.",
+      "source": "cas",
       "options": [
         "produkty",
         "produktové",
@@ -6958,1118 +7025,9 @@ const QUESTION_BANK = {
       }
     }
   ],
-  "text_01_kometa": [
-    {
-      "id": "txt1-01",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "akuzativ",
-        "fem"
-      ],
-      "prompt": "Napiš 4. pád slova kometa.",
-      "hover_refs": [
-        {
-          "word": "kometa",
-          "table": "žena"
-        }
-      ],
-      "hint": "Akuzativ",
-      "answer": "kometu",
-      "explanation": {
-        "en": "Akuzativ sg. fem. vzor žena: kometa → kometu."
-      }
-    },
-    {
-      "id": "txt1-02",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "akuzativ",
-        "fem"
-      ],
-      "prompt": "Lidé mohou vidět ___ (kometa) na obloze.",
-      "hover_refs": [
-        {
-          "word": "kometa",
-          "table": "žena"
-        }
-      ],
-      "hint": "Akuzativ",
-      "options": [
-        "kometa",
-        "kometu",
-        "kometou",
-        "kometě"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "Akuzativ sg. fem.: vidět koho/co → kometu.",
-        "en": "Accusative sg. fem.: vidět koho/co → kometu."
-      }
-    },
-    {
-      "id": "txt1-03",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "dativ",
-        "fem"
-      ],
-      "prompt": "Kometa se vrací k ___ (Země).",
-      "hover_refs": [
-        {
-          "word": "Země",
-          "table": "růže"
-        }
-      ],
-      "hint": "Dativ po k",
-      "answer": "Zemi",
-      "explanation": {
-        "en": "Dativ sg. fem. vzor růže: Země → Zemi. Po předložce k."
-      }
-    },
-    {
-      "id": "txt1-04",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "dativ",
-        "neut"
-      ],
-      "prompt": "Nejblíže k ___ (Slunce) bude 27. listopadu.",
-      "hover_refs": [
-        {
-          "word": "Slunce",
-          "table": "moře"
-        }
-      ],
-      "hint": "Dativ po k",
-      "options": [
-        "Slunci",
-        "Slunce",
-        "Sluncem",
-        "Sluncí"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Dativ sg. neut. vzor moře: Slunce → Slunci. Po k.",
-        "en": "Dative sg. neut. pattern moře: Slunce → Slunci. After k."
-      }
-    },
-    {
-      "id": "txt1-05",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "genitiv",
-        "masc"
-      ],
-      "prompt": "Koncem ___ (listopad) bude nejblíže Slunci.",
-      "hover_refs": [
-        {
-          "word": "listopad",
-          "table": "hrad"
-        }
-      ],
-      "hint": "Genitiv po koncem",
-      "answer": "listopadu",
-      "explanation": {
-        "en": "Genitiv sg. muž. neživ. vzor hrad: listopad → listopadu. Po koncem."
-      }
-    },
-    {
-      "id": "txt1-06",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "lokál",
-        "neut"
-      ],
-      "prompt": "Lidé v ___ (Česko) uvidí kometu.",
-      "hover_refs": [
-        {
-          "word": "Česko",
-          "table": "město"
-        }
-      ],
-      "hint": "Lokál po v",
-      "options": [
-        "Česku",
-        "Česka",
-        "Českem",
-        "Česko"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Lokál sg. neut. vzor město: Česko → Česku. Po v.",
-        "en": "Locative sg. neut. pattern město: Česko → Česku. After v."
-      }
-    },
-    {
-      "id": "txt1-07",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "lokál",
-        "fem"
-      ],
-      "prompt": "Kometa bude na ___ (obloha) v souhvězdí Orla.",
-      "hover_refs": [
-        {
-          "word": "obloha",
-          "table": "žena"
-        }
-      ],
-      "hint": "Lokál po na",
-      "options": [
-        "obloha",
-        "oblohy",
-        "obloze",
-        "oblohou"
-      ],
-      "correct": 2,
-      "explanation": {
-        "cs": "Lokál sg. fem. vzor žena: obloha → obloze (h→z). Po na.",
-        "en": "Locative sg. fem. pattern žena: obloha → obloze (h→z). After na."
-      }
-    },
-    {
-      "id": "txt1-08",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "lokál",
-        "neut"
-      ],
-      "prompt": "Vidět ji můžete v ___ (souhvězdí) Orla.",
-      "hover_refs": [
-        {
-          "word": "souhvězdí",
-          "table": "stavení"
-        }
-      ],
-      "hint": "Lokál po v",
-      "answer": "souhvězdí",
-      "explanation": {
-        "en": "Lokál sg. neut. vzor stavení: souhvězdí se nemění. Po v."
-      }
-    },
-    {
-      "id": "txt1-09",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "akuzativ",
-        "masc"
-      ],
-      "prompt": "Lidé potřebují ___ (dalekohled).",
-      "hover_refs": [
-        {
-          "word": "dalekohled",
-          "table": "hrad"
-        }
-      ],
-      "hint": "Akuzativ",
-      "answer": "dalekohled",
-      "explanation": {
-        "en": "Akuzativ sg. muž. neživ. vzor hrad: dalekohled (stejný tvar jako nom.)."
-      }
-    },
-    {
-      "id": "txt1-10",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "genitiv",
-        "plur"
-      ],
-      "prompt": "Musíte být daleko od městských ___ (světlo).",
-      "hover_refs": [
-        {
-          "word": "světlo",
-          "table": "město"
-        }
-      ],
-      "hint": "Genitiv plurál",
-      "options": [
-        "světel",
-        "světla",
-        "světlům",
-        "světly"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Genitiv pl. neut. vzor město: světlo → světel. Po od.",
-        "en": "Genitive pl. neut. pattern město: světlo → světel. After od."
-      }
-    },
-    {
-      "id": "txt1-11",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "nominativ_plurál",
-        "irregular"
-      ],
-      "prompt": "Napiš nominativ plurál slova člověk. (nepravidelné)",
-      "hover_refs": [
-        {
-          "word": "člověk",
-          "table": "člověk"
-        }
-      ],
-      "hint": "Nepravidelné",
-      "answer": "lidé",
-      "accept": [
-        "lidi"
-      ],
-      "explanation": {
-        "cs": "Nominativ pl. nepravidelné: člověk → lidé / lidi.",
-        "en": "Nominative pl. irregular: člověk → lidé / lidi."
-      }
-    },
-    {
-      "id": "txt1-12",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "nominativ",
-        "plur"
-      ],
-      "prompt": "___ v Česku uvidí kometu.",
-      "hint": "Kdo? (nominativ pl.)",
-      "options": [
-        "Lidé",
-        "Lidí",
-        "Lidem",
-        "Lidmi"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Nominativ pl. od člověk je lidé.",
-        "en": "Nominative pl. of člověk is lidé."
-      }
-    },
-    {
-      "id": "txt1-13",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "dativ",
-        "pronoun"
-      ],
-      "prompt": "Kometa se k ___ (my) už nevrátí.",
-      "hover_refs": [
-        {
-          "word": "my",
-          "table": "my"
-        }
-      ],
-      "hint": "Dativ po k",
-      "answer": "nám",
-      "explanation": {
-        "en": "Dativ pl. zájmena my: my → nám. Po k."
-      }
-    },
-    {
-      "id": "txt1-14",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "akuzativ",
-        "pronoun"
-      ],
-      "prompt": "Lidé mohou vidět ___ (ona) na obloze.",
-      "hint": "Akuzativ fem sg",
-      "options": [
-        "ji",
-        "jí",
-        "ní",
-        "ni"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Akuzativ sg. fem. zájmena ona: ona → ji (klitikon).",
-        "en": "Accusative sg. fem. of ona: ona → ji (clitic)."
-      }
-    },
-    {
-      "id": "txt1-15",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "preposition",
-        "dativ"
-      ],
-      "prompt": "Jaký pád vyžaduje předložka „k“?",
-      "hint": "Pád po k",
-      "options": [
-        "genitiv",
-        "dativ",
-        "akuzativ",
-        "lokál"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "Předložka k + dativ (k Zemi, k Slunci).",
-        "en": "Preposition k + dative (k Zemi, k Slunci)."
-      }
-    },
-    {
-      "id": "txt1-16",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "preposition",
-        "genitiv"
-      ],
-      "prompt": "Jaký pád vyžaduje předložka „koncem“?",
-      "hint": "Pád po koncem",
-      "options": [
-        "genitiv",
-        "dativ",
-        "akuzativ",
-        "lokál"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Předložka koncem + genitiv (koncem listopadu).",
-        "en": "Preposition koncem + genitive (koncem listopadu)."
-      }
-    },
-    {
-      "id": "txt1-17",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "verb",
-        "present"
-      ],
-      "prompt": "Kometa se ___ (vracet) k Zemi.",
-      "hint": "Přítomný čas 3. os. sg.",
-      "options": [
-        "vrací",
-        "vracet",
-        "vrátí",
-        "vracela"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Přítomný čas 3. os. sg. slovesa vracet se: vrací se.",
-        "en": "Present 3rd sg. of vracet se: vrací se."
-      }
-    },
-    {
-      "id": "txt1-18",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "verb",
-        "future"
-      ],
-      "prompt": "Zítra ___ (být) kometa nejblíže Slunci.",
-      "hint": "Budoucí čas 3. os. sg.",
-      "options": [
-        "bude",
-        "je",
-        "byl",
-        "byly"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Budoucí čas 3. os. sg. slovesa být: bude.",
-        "en": "Future 3rd sg. of být: bude."
-      }
-    },
-    {
-      "id": "txt1-19",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "verb",
-        "past"
-      ],
-      "prompt": "Astronom Martin Ratcliffe ___ (říct), že kometa bude nejblíže v listopadu.",
-      "hint": "Minulý čas 3. os. sg. muž.",
-      "answer": "řekl",
-      "explanation": {
-        "en": "Minulý čas 3. os. sg. muž. od říct: řekl."
-      }
-    },
-    {
-      "id": "txt1-20",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "verb",
-        "infinitive"
-      ],
-      "prompt": "Lidé mohou ___ (vidět) kometu na obloze.",
-      "hint": "Infinitiv",
-      "answer": "vidět",
-      "explanation": {
-        "en": "Infinitiv od vidět: vidět. Po modalitě mohou."
-      }
-    },
-    {
-      "id": "txt1-21",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "verb",
-        "future"
-      ],
-      "prompt": "Kometa se k nám už ___ (nevrátit).",
-      "hint": "Budoucí čas 3. os. sg.",
-      "options": [
-        "nevrátí",
-        "nevrací",
-        "nevrátil",
-        "nevrátila"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Budoucí čas 3. os. sg. od nevrátit se: nevrátí se.",
-        "en": "Future 3rd sg. of nevrátit se: nevrátí se."
-      }
-    },
-    {
-      "id": "txt1-22",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "superlativ"
-      ],
-      "prompt": "Jaký je superlativ od příslovce „blízko“?",
-      "hint": "Stupňování příslovce",
-      "options": [
-        "blíže",
-        "nejblíže",
-        "blízce",
-        "nejblízce"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "Stupňování: blízko → blíže → nejblíže.",
-        "en": "Comparison: blízko → blíže → nejblíže."
-      }
-    },
-    {
-      "id": "txt1-23",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "komparativ"
-      ],
-      "prompt": "Jaký je komparativ od „jasný“ (fem. sg.)?",
-      "hint": "Stupňování příd. jména",
-      "options": [
-        "jasnější",
-        "nejjasnější",
-        "jasná",
-        "jasném"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Stupňování: jasný → jasnější → nejjasnější.",
-        "en": "Comparison: jasný → jasnější → nejjasnější."
-      }
-    },
-    {
-      "id": "txt1-24",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "number",
-        "date"
-      ],
-      "prompt": "Jak se čte „27. listopadu“?",
-      "hint": "Čtení data",
-      "options": [
-        "dvacet sedmého listopadu",
-        "dvacátého sedmého listopadu",
-        "dvacet sedmý listopad",
-        "dvacátý sedmý listopad"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "Datum v genitivu: dvacátého sedmého listopadu.",
-        "en": "Date in genitive: dvacátého sedmého listopadu."
-      }
-    },
-    {
-      "id": "txt1-25",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "aspect"
-      ],
-      "prompt": "Jaká je vidová dvojice ke slovesu „vracet se“?",
-      "hint": "Vidová dvojice",
-      "options": [
-        "vrátit se",
-        "navracet se",
-        "obracet se",
-        "otáčet se"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Vidová dvojice: vracet se (nedok.) → vrátit se (dok.).",
-        "en": "Aspect pair: vracet se (impf.) → vrátit se (pf.)."
-      }
-    },
-    {
-      "id": "txt1-26",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "aspect"
-      ],
-      "prompt": "Jaká je vidová dvojice ke slovesu „řekl“?",
-      "hint": "Vidová dvojice",
-      "options": [
-        "říkat",
-        "říci",
-        "mluvit",
-        "říkávat"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Vidová dvojice: říct / řekl (dok.) → říkat (nedok.).",
-        "en": "Aspect pair: říct / řekl (pf.) → říkat (impf.)."
-      }
-    },
-    {
-      "id": "txt1-27",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "past",
-        "fem"
-      ],
-      "prompt": "Kometa ___ (být) nejblíže Slunci v listopadu.",
-      "hint": "Minulý čas 3. os. sg. fem.",
-      "answer": "byla",
-      "explanation": {
-        "en": "Minulý čas 3. os. sg. fem. od být: byla. (kometa je femininum)"
-      }
-    },
-    {
-      "id": "txt1-28",
-      "type": "type_in",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "past",
-        "plur"
-      ],
-      "prompt": "Lidé ___ (vidět) kometu v listopadu.",
-      "hint": "Minulý čas 3. os. pl. muž. živ.",
-      "answer": "viděli",
-      "explanation": {
-        "en": "Minulý čas 3. os. pl. muž. živ. od vidět: viděli. (lidé je mask. anim. plurál)"
-      }
-    },
-    {
-      "id": "txt1-29",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "nominativ_plurál",
-        "neut"
-      ],
-      "prompt": "Jedno souhvězdí, dvě ___.",
-      "hint": "Neut. -í (beze změny)",
-      "options": [
-        "souhvězdí",
-        "souhvězdím",
-        "souhvězdími",
-        "souhvězdích"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Vzor stavení: souhvězdí se nemění.",
-        "en": "Pattern stavení: souhvězdí is unchanged."
-      }
-    },
-    {
-      "id": "txt1-30",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_kometa",
-        "nominativ_plurál",
-        "neut"
-      ],
-      "prompt": "Jedno světlo, dvě ___.",
-      "hint": "Neut. -o",
-      "options": [
-        "světla",
-        "světel",
-        "světlům",
-        "světly"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Vzor město: světlo → světla.",
-        "en": "Pattern město: světlo → světla."
-      }
-    }
-  ],
-  "text_02_cas": [
-    {
-      "id": "txt2-01",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Kde se sešli odborníci na měření času?",
-      "hint": "Porozumění textu",
-      "options": [
-        "V Praze",
-        "Ve Versailles",
-        "V Bruselu",
-        "V New Yorku"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "V textu: sešli se ve Versailles.",
-        "en": "In the text: they met at Versailles."
-      }
-    },
-    {
-      "id": "txt2-02",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Co se stalo s Koordinovaným světovým časem (UTC)?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Byl zrušen",
-        "Už nebude svázán s rotací Země",
-        "Bude se posouvat o hodinu",
-        "Přejde na letní čas"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "UTC už nebude svázán s rotací Země.",
-        "en": "UTC will no longer be tied to Earth's rotation."
-      }
-    },
-    {
-      "id": "txt2-03",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Proč se dříve vkládala přestupná sekunda?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Aby se hodiny srovnaly s otáčením planety",
-        "Aby se prodloužil den",
-        "Aby se zrychlil čas",
-        "Aby se zkrátila noc"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Přestupná sekunda sladila hodiny s otáčením Země.",
-        "en": "Leap seconds aligned clocks with Earth's rotation."
-      }
-    },
-    {
-      "id": "txt2-04",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Co je „záporná přestupná sekunda\"?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Ubrání jedné sekundy (den by měl o sekundu méně)",
-        "Přidání jedné sekundy",
-        "Zastavení hodin",
-        "Zrychlení dne"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Záporná = ubrání jedné sekundy.",
-        "en": "Negative = subtracting one second."
-      }
-    },
-    {
-      "id": "txt2-05",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Co se stane s oficiálním časem po rozhodnutí expertů?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Nebude ukotven v pohybu planety",
-        "Bude se řídit Sluncem",
-        "Bude se měnit každý den",
-        "Vrátí se k slunečnímu času"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Poprvé v historii nebude oficiální čas ukotven v pohybu planety.",
-        "en": "For the first time in history, official time will not be anchored in the planet's movement."
-      }
-    },
-    {
-      "id": "txt2-06",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Kdy byl zaveden systém přestupné sekundy?",
-      "hint": "Porozumění textu",
-      "options": [
-        "V roce 1934",
-        "V roce 1972",
-        "V roce 1998",
-        "V roce 2022"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "V textu: institut přestupné sekundy zaveden roku 1972.",
-        "en": "In the text: the leap second system was introduced in 1972."
-      }
-    },
-    {
-      "id": "txt2-07",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Kolikrát se přibližně vložila přestupná sekunda od roku 1972?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Asi dvakrát",
-        "Asi desetkrát",
-        "Asi sedmadvacetkrát",
-        "Asi stokrát"
-      ],
-      "correct": 2,
-      "explanation": {
-        "cs": "V textu: zhruba sedmadvacetkrát.",
-        "en": "In the text: roughly twenty-seven times."
-      }
-    },
-    {
-      "id": "txt2-08",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Co podle historika Mumforda hodiny udělaly?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Zrychlily čas",
-        "Oddělily čas od lidských událostí",
-        "Zpomalily čas",
-        "Zastavily čas"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "Mumford: hodiny „oddělily čas od lidských událostí“.",
-        "en": "Mumford: clocks „separated time from human events“."
-      }
-    },
-    {
-      "id": "txt2-09",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Proč se experti rozhodli přestupné sekundy zrušit?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Kvůli obavě ze záporné přestupné sekundy",
-        "Kvůli finančním nákladům",
-        "Kvůli tlaku veřejnosti",
-        "Kvůli nové definici sekundy"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "Hlavní obava: možná záporná přestupná sekunda, kterou nikdo netestoval.",
-        "en": "Main concern: possible negative leap second, never tested."
-      }
-    },
-    {
-      "id": "txt2-10",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Co znamená rozhodnutí pro běžný život?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Lidé si budou muset zvyknout na nový čas",
-        "Nebude to mít žádný vliv",
-        "Změní se čas každý den",
-        "Zmizí letní čas"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "Pro běžný život to neznamená žádnou změnu.",
-        "en": "For ordinary life it means no change at all."
-      }
-    },
-    {
-      "id": "txt2-11",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Kdy se sešli odborníci na měření času?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Minulý týden",
-        "Minulý měsíc",
-        "Minulý rok",
-        "Před pěti lety"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "V textu: minulý týden.",
-        "en": "In the text: last week."
-      }
-    },
-    {
-      "id": "txt2-12",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_cas",
-        "komprehensivní"
-      ],
-      "prompt": "Odkud přišli odborníci na konferenci?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Z celého světa",
-        "Jen z Francie",
-        "Jen z Evropy",
-        "Jen z USA"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "V textu: z celého světa.",
-        "en": "In the text: from all over the world."
-      }
-    }
-  ],
-  "text_03_svetr": [
-    {
-      "id": "txt3-01",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_svetr",
-        "komprehensivní"
-      ],
-      "prompt": "Na co je podle textu někdy nejlepší vsadit?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Na výrazné barvy",
-        "Na klasiku",
-        "Na vzory",
-        "Na módní doplňky"
-      ],
-      "correct": 1,
-      "explanation": {
-        "cs": "V textu: někdy je nejlepší vsadit na klasiku.",
-        "en": "In the text: sometimes it's best to bet on a classic."
-      }
-    },
-    {
-      "id": "txt3-02",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_svetr",
-        "komprehensivní"
-      ],
-      "prompt": "K čemu se hodí dobrý svetr?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Jen k sukni",
-        "Jen ke koženým kalhotám",
-        "Ke všemu",
-        "Jen k formálním kalhotám"
-      ],
-      "correct": 2,
-      "explanation": {
-        "cs": "V textu: svetr, který se hodí ke všemu.",
-        "en": "In the text: a sweater that goes with everything."
-      }
-    },
-    {
-      "id": "txt3-03",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_svetr",
-        "komprehensivní"
-      ],
-      "prompt": "Co byste měli zkontrolovat při výběru svetru?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Jestli vám sedí",
-        "Jestli je značkový",
-        "Jestli je z dovozu",
-        "Jestli má zip"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "V textu: jestli vám svetr skutečně sedí.",
-        "en": "In the text: whether the sweater actually fits you."
-      }
-    },
-    {
-      "id": "txt3-04",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_svetr",
-        "komprehensivní"
-      ],
-      "prompt": "Co znamená „jednoduché neznamená nudné“?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Kvalitní jednoduchý svetr v dobrém odstínu přinese komplimenty",
-        "Jednoduché svetry jsou vždy nudné",
-        "Jen drahé svetry jsou hezké",
-        "Jednoduché svetry se nenosí"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "V textu: kvalitní svetr v krásném odstínu zaručeně přinese komplimenty.",
-        "en": "In the text: a quality sweater in a beautiful shade will surely bring compliments."
-      }
-    },
-    {
-      "id": "txt3-05",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_svetr",
-        "komprehensivní"
-      ],
-      "prompt": "Jaké barvy jsou klasické?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Šedá krémová a béžová",
-        "Jen černá a bílá",
-        "Jen jasně červená",
-        "Jen kobaltově modrá"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "V textu: klasikou jsou šedé, krémové a béžové tóny.",
-        "en": "In the text: classics are grey, cream and beige tones."
-      }
-    },
-    {
-      "id": "txt3-06",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_svetr",
-        "komprehensivní"
-      ],
-      "prompt": "Co byste měli zkontrolovat u složení svetru?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Jestli je z vlny nebo z kašmíru",
-        "Jestli má zip",
-        "Jestli je z dovozu",
-        "Jestli má kapuci"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "V textu: vlna nebo kašmír potěší.",
-        "en": "In the text: wool or cashmere will please."
-      }
-    },
-    {
-      "id": "txt3-07",
-      "type": "multiple_choice",
-      "level": "A2",
-      "tags": [
-        "text_svetr",
-        "komprehensivní"
-      ],
-      "prompt": "Co znamená „jednoduchý svetr nestárne“?",
-      "hint": "Porozumění textu",
-      "options": [
-        "Že je nadčasový a nevyjde z módy",
-        "Že se nedá vyprat",
-        "Že se rychle opotřebuje",
-        "Že je jen pro mladé"
-      ],
-      "correct": 0,
-      "explanation": {
-        "cs": "V textu: jednoduchý svetr nestárne — zůstává nadčasový.",
-        "en": "In the text: a simple sweater doesn't age — it stays timeless."
-      }
-    }
-  ],
   "verbal_aspect": [
     {
-      "id": "aspect-01",
+      "id": "verb-efa83d",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8091,7 +7049,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-02",
+      "id": "verb-c34494",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8113,7 +7071,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-03",
+      "id": "verb-e9b787",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8135,7 +7093,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-04",
+      "id": "verb-b60378",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8157,7 +7115,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-05",
+      "id": "verb-ba0bf9",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8179,7 +7137,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-06",
+      "id": "verb-74324a",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8201,7 +7159,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-07",
+      "id": "verb-2950c6",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8223,7 +7181,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-08",
+      "id": "verb-cb1fed",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8245,7 +7203,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-09",
+      "id": "verb-e27d19",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8267,7 +7225,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-10",
+      "id": "verb-e7c89a",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -8289,7 +7247,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-11",
+      "id": "verb-a0ae2a",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -8298,6 +7256,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Proč je ve větě „Zítra uvidíme kometu“ použito dokonavé sloveso?",
       "hint": "Vid a budoucnost",
+      "source": "uvidí…",
       "options": [
         "Protože dokonavá slovesa vyjadřují budoucí ukončený děj.",
         "Protože jde o minulý děj.",
@@ -8306,12 +7265,12 @@ const QUESTION_BANK = {
       ],
       "correct": 0,
       "explanation": {
-        "cs": "Dokonavá slovesa tvoří budoucí čas přítomným tvarem: uvidím, uvidíš, uvidí…",
-        "en": "Perfective verbs form the future using the present-tense form: uvidím, uvidíš, uvidí…"
+        "cs": "Dokonavá slovesa tvoří budoucí čas přítomným tvarem: uvidím",
+        "en": " uvidíš"
       }
     },
     {
-      "id": "aspect-12",
+      "id": "verb-62e2ff",
       "type": "multiple_choice",
       "level": "B1",
       "tags": [
@@ -8320,6 +7279,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jaký je rozdíl mezi „Včera jsem viděl“ a „Včera jsem uviděl“?",
       "hint": "Vid a průběh",
+      "source": "Imperfective „viděl“ = ongoing / repeated; perfective „uviděl“ = single, completed event.",
       "options": [
         "Viděl = průběh (díval se), uviděl = okamžik (zahlédl).",
         "Viděl = dokonavé, uviděl = nedokonavé.",
@@ -8328,12 +7288,12 @@ const QUESTION_BANK = {
       ],
       "correct": 0,
       "explanation": {
-        "cs": "Nedokonavé „viděl“ = průběh / opakování; dokonavé „uviděl“ = jednorázový, ukončený děj.",
-        "en": "Imperfective „viděl“ = ongoing / repeated; perfective „uviděl“ = single, completed event."
+        "cs": "Nedokonavé „viděl“ = průběh / opakování; dokonavé „uviděl“ = jednorázový",
+        "en": " ukončený děj."
       }
     },
     {
-      "id": "aspect-13",
+      "id": "verb-a61aab",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8342,6 +7302,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jaká je vidová dvojice ke slovesu „vložit“?",
       "hint": "Vidová dvojice",
+      "source": "cas",
       "options": [
         "vkládat",
         "vkládat se",
@@ -8355,7 +7316,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-14",
+      "id": "verb-1f6cde",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8364,6 +7325,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jaká je vidová dvojice ke slovesu „zrušit“?",
       "hint": "Vidová dvojice",
+      "source": "cas",
       "options": [
         "rušit",
         "zrušit se",
@@ -8377,7 +7339,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-15",
+      "id": "verb-e4aa4a",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8386,6 +7348,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jaká je vidová dvojice ke slovesu „zpomalovat“?",
       "hint": "Vidová dvojice",
+      "source": "cas",
       "options": [
         "zpomalit",
         "zrychlit",
@@ -8399,7 +7362,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-16",
+      "id": "verb-ae4660",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8408,6 +7371,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jaká je vidová dvojice ke slovesu „zrychlovat“?",
       "hint": "Vidová dvojice",
+      "source": "cas",
       "options": [
         "zrychlit",
         "zpomalit",
@@ -8421,7 +7385,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-17",
+      "id": "verb-0ed998",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8430,6 +7394,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jaká je vidová dvojice ke slovesu „stát se“?",
       "hint": "Vidová dvojice",
+      "source": "cas",
       "options": [
         "stávat se",
         "stanout",
@@ -8443,7 +7408,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-18",
+      "id": "verb-b6a50e",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8452,6 +7417,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jaká je vidová dvojice ke slovesu „napsat“?",
       "hint": "Vidová dvojice",
+      "source": "cas",
       "options": [
         "psát",
         "číst",
@@ -8465,7 +7431,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-19",
+      "id": "verb-6c980e",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8474,6 +7440,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jaká je vidová dvojice ke slovesu „ukotvit“?",
       "hint": "Vidová dvojice",
+      "source": "cas",
       "options": [
         "ukotvovat",
         "připevnit",
@@ -8487,7 +7454,7 @@ const QUESTION_BANK = {
       }
     },
     {
-      "id": "aspect-20",
+      "id": "verb-788408",
       "type": "multiple_choice",
       "level": "A2",
       "tags": [
@@ -8496,6 +7463,7 @@ const QUESTION_BANK = {
       ],
       "prompt": "Jaká je vidová dvojice ke slovesu „poháněný“ (od pohánět)?",
       "hint": "Vidová dvojice",
+      "source": "cas",
       "options": [
         "pohnat",
         "hnát",
@@ -8506,6 +7474,1701 @@ const QUESTION_BANK = {
       "explanation": {
         "cs": "pohánět (nedok.) ↔ pohnat (dok.).",
         "en": "pohánět (impf.) ↔ pohnat (pf.)."
+      }
+    }
+  ],
+  "text_01_kometa": [
+    {
+      "id": "text-433134",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "akuzativ",
+        "fem"
+      ],
+      "prompt": "Napiš 4. pád slova kometa.",
+      "hover_refs": [
+        {
+          "word": "kometa",
+          "table": "žena"
+        }
+      ],
+      "hint": "Akuzativ",
+      "source": "Accusative sg. fem. pattern žena: kometa → kometu.",
+      "answer": "kometu",
+      "explanation": {
+        "en": "Akuzativ sg. fem. vzor žena: kometa → kometu."
+      }
+    },
+    {
+      "id": "text-f0800e",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "akuzativ",
+        "fem"
+      ],
+      "prompt": "Lidé mohou vidět ___ (kometa) na obloze.",
+      "hover_refs": [
+        {
+          "word": "kometa",
+          "table": "žena"
+        }
+      ],
+      "hint": "Akuzativ",
+      "source": "kometa",
+      "options": [
+        "kometa",
+        "kometu",
+        "kometou",
+        "kometě"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Akuzativ sg. fem.: vidět koho/co → kometu.",
+        "en": "Accusative sg. fem.: vidět koho/co → kometu."
+      }
+    },
+    {
+      "id": "text-676903",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "dativ",
+        "fem"
+      ],
+      "prompt": "Kometa se vrací k ___ (Země).",
+      "hover_refs": [
+        {
+          "word": "Země",
+          "table": "růže"
+        }
+      ],
+      "hint": "Dativ po k",
+      "source": "Dative sg. fem. pattern růže: Země → Zemi. After preposition k.",
+      "answer": "Zemi",
+      "explanation": {
+        "en": "Dativ sg. fem. vzor růže: Země → Zemi. Po předložce k."
+      }
+    },
+    {
+      "id": "text-0e643a",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "dativ",
+        "neut"
+      ],
+      "prompt": "Nejblíže k ___ (Slunce) bude 27. listopadu.",
+      "hover_refs": [
+        {
+          "word": "Slunce",
+          "table": "moře"
+        }
+      ],
+      "hint": "Dativ po k",
+      "source": "kometa",
+      "options": [
+        "Slunci",
+        "Slunce",
+        "Sluncem",
+        "Sluncí"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Dativ sg. neut. vzor moře: Slunce → Slunci. Po k.",
+        "en": "Dative sg. neut. pattern moře: Slunce → Slunci. After k."
+      }
+    },
+    {
+      "id": "text-b436fc",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "genitiv",
+        "masc"
+      ],
+      "prompt": "Koncem ___ (listopad) bude nejblíže Slunci.",
+      "hover_refs": [
+        {
+          "word": "listopad",
+          "table": "hrad"
+        }
+      ],
+      "hint": "Genitiv po koncem",
+      "source": "Genitive sg. masc. inanim. pattern hrad: listopad → listopadu. After koncem.",
+      "answer": "listopadu",
+      "explanation": {
+        "en": "Genitiv sg. muž. neživ. vzor hrad: listopad → listopadu. Po koncem."
+      }
+    },
+    {
+      "id": "text-196077",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "lokál",
+        "neut"
+      ],
+      "prompt": "Lidé v ___ (Česko) uvidí kometu.",
+      "hover_refs": [
+        {
+          "word": "Česko",
+          "table": "město"
+        }
+      ],
+      "hint": "Lokál po v",
+      "source": "kometa",
+      "options": [
+        "Česku",
+        "Česka",
+        "Českem",
+        "Česko"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Lokál sg. neut. vzor město: Česko → Česku. Po v.",
+        "en": "Locative sg. neut. pattern město: Česko → Česku. After v."
+      }
+    },
+    {
+      "id": "text-5b6643",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "lokál",
+        "fem"
+      ],
+      "prompt": "Kometa bude na ___ (obloha) v souhvězdí Orla.",
+      "hover_refs": [
+        {
+          "word": "obloha",
+          "table": "žena"
+        }
+      ],
+      "hint": "Lokál po na",
+      "source": "kometa",
+      "options": [
+        "obloha",
+        "oblohy",
+        "obloze",
+        "oblohou"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Lokál sg. fem. vzor žena: obloha → obloze (h→z). Po na.",
+        "en": "Locative sg. fem. pattern žena: obloha → obloze (h→z). After na."
+      }
+    },
+    {
+      "id": "text-3a7557",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "lokál",
+        "neut"
+      ],
+      "prompt": "Vidět ji můžete v ___ (souhvězdí) Orla.",
+      "hover_refs": [
+        {
+          "word": "souhvězdí",
+          "table": "stavení"
+        }
+      ],
+      "hint": "Lokál po v",
+      "source": "Locative sg. neut. pattern stavení: souhvězdí is unchanged. After v.",
+      "answer": "souhvězdí",
+      "explanation": {
+        "en": "Lokál sg. neut. vzor stavení: souhvězdí se nemění. Po v."
+      }
+    },
+    {
+      "id": "text-b2779a",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "akuzativ",
+        "masc"
+      ],
+      "prompt": "Lidé potřebují ___ (dalekohled).",
+      "hover_refs": [
+        {
+          "word": "dalekohled",
+          "table": "hrad"
+        }
+      ],
+      "hint": "Akuzativ",
+      "source": "Accusative sg. masc. inanim. pattern hrad: dalekohled (same form as nom.).",
+      "answer": "dalekohled",
+      "explanation": {
+        "en": "Akuzativ sg. muž. neživ. vzor hrad: dalekohled (stejný tvar jako nom.)."
+      }
+    },
+    {
+      "id": "text-1c0c03",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "genitiv",
+        "plur"
+      ],
+      "prompt": "Musíte být daleko od městských ___ (světlo).",
+      "hover_refs": [
+        {
+          "word": "světlo",
+          "table": "město"
+        }
+      ],
+      "hint": "Genitiv plurál",
+      "source": "kometa",
+      "options": [
+        "světel",
+        "světla",
+        "světlům",
+        "světly"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Genitiv pl. neut. vzor město: světlo → světel. Po od.",
+        "en": "Genitive pl. neut. pattern město: světlo → světel. After od."
+      }
+    },
+    {
+      "id": "text-4fb9c1",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "nominativ_plurál",
+        "irregular"
+      ],
+      "prompt": "Napiš nominativ plurál slova člověk. (nepravidelné)",
+      "hover_refs": [
+        {
+          "word": "člověk",
+          "table": "člověk"
+        }
+      ],
+      "hint": "Nepravidelné",
+      "source": "kometa",
+      "answer": "lidé",
+      "accept": [
+        "lidi"
+      ],
+      "explanation": {
+        "cs": "Nominativ pl. nepravidelné: člověk → lidé / lidi.",
+        "en": "Nominative pl. irregular: člověk → lidé / lidi."
+      }
+    },
+    {
+      "id": "text-4e0eca",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "nominativ",
+        "plur"
+      ],
+      "prompt": "___ v Česku uvidí kometu.",
+      "hint": "Kdo? (nominativ pl.)",
+      "source": "kometa",
+      "options": [
+        "Lidé",
+        "Lidí",
+        "Lidem",
+        "Lidmi"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Nominativ pl. od člověk je lidé.",
+        "en": "Nominative pl. of člověk is lidé."
+      }
+    },
+    {
+      "id": "text-b38833",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "dativ",
+        "pronoun"
+      ],
+      "prompt": "Kometa se k ___ (my) už nevrátí.",
+      "hover_refs": [
+        {
+          "word": "my",
+          "table": "my"
+        }
+      ],
+      "hint": "Dativ po k",
+      "source": "Dative pl. of my: my → nám. After k.",
+      "answer": "nám",
+      "explanation": {
+        "en": "Dativ pl. zájmena my: my → nám. Po k."
+      }
+    },
+    {
+      "id": "text-b6744f",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "akuzativ",
+        "pronoun"
+      ],
+      "prompt": "Lidé mohou vidět ___ (ona) na obloze.",
+      "hint": "Akuzativ fem sg",
+      "source": "kometa",
+      "options": [
+        "ji",
+        "jí",
+        "ní",
+        "ni"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Akuzativ sg. fem. zájmena ona: ona → ji (klitikon).",
+        "en": "Accusative sg. fem. of ona: ona → ji (clitic)."
+      }
+    },
+    {
+      "id": "text-6f73fd",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "preposition",
+        "dativ"
+      ],
+      "prompt": "Jaký pád vyžaduje předložka „k“?",
+      "hint": "Pád po k",
+      "source": "kometa",
+      "options": [
+        "genitiv",
+        "dativ",
+        "akuzativ",
+        "lokál"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Předložka k + dativ (k Zemi, k Slunci).",
+        "en": "Preposition k + dative (k Zemi, k Slunci)."
+      }
+    },
+    {
+      "id": "text-ebecd6",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "preposition",
+        "genitiv"
+      ],
+      "prompt": "Jaký pád vyžaduje předložka „koncem“?",
+      "hint": "Pád po koncem",
+      "source": "kometa",
+      "options": [
+        "genitiv",
+        "dativ",
+        "akuzativ",
+        "lokál"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Předložka koncem + genitiv (koncem listopadu).",
+        "en": "Preposition koncem + genitive (koncem listopadu)."
+      }
+    },
+    {
+      "id": "text-7d00d5",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "verb",
+        "present"
+      ],
+      "prompt": "Kometa se ___ (vracet) k Zemi.",
+      "hint": "Přítomný čas 3. os. sg.",
+      "source": "kometa",
+      "options": [
+        "vrací",
+        "vracet",
+        "vrátí",
+        "vracela"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Přítomný čas 3. os. sg. slovesa vracet se: vrací se.",
+        "en": "Present 3rd sg. of vracet se: vrací se."
+      }
+    },
+    {
+      "id": "text-f91af2",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "verb",
+        "future"
+      ],
+      "prompt": "Zítra ___ (být) kometa nejblíže Slunci.",
+      "hint": "Budoucí čas 3. os. sg.",
+      "source": "kometa",
+      "options": [
+        "bude",
+        "je",
+        "byl",
+        "byly"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Budoucí čas 3. os. sg. slovesa být: bude.",
+        "en": "Future 3rd sg. of být: bude."
+      }
+    },
+    {
+      "id": "text-cfcd3b",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "verb",
+        "past"
+      ],
+      "prompt": "Astronom Martin Ratcliffe ___ (říct), že kometa bude nejblíže v listopadu.",
+      "hint": "Minulý čas 3. os. sg. muž.",
+      "source": "Past 3rd sg. masc. of říct: řekl.",
+      "answer": "řekl",
+      "explanation": {
+        "en": "Minulý čas 3. os. sg. muž. od říct: řekl."
+      }
+    },
+    {
+      "id": "text-fce9c4",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "verb",
+        "infinitive"
+      ],
+      "prompt": "Lidé mohou ___ (vidět) kometu na obloze.",
+      "hint": "Infinitiv",
+      "source": "Infinitive of vidět: vidět. After modal mohou.",
+      "answer": "vidět",
+      "explanation": {
+        "en": "Infinitiv od vidět: vidět. Po modalitě mohou."
+      }
+    },
+    {
+      "id": "text-262392",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "verb",
+        "future"
+      ],
+      "prompt": "Kometa se k nám už ___ (nevrátit).",
+      "hint": "Budoucí čas 3. os. sg.",
+      "source": "kometa",
+      "options": [
+        "nevrátí",
+        "nevrací",
+        "nevrátil",
+        "nevrátila"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Budoucí čas 3. os. sg. od nevrátit se: nevrátí se.",
+        "en": "Future 3rd sg. of nevrátit se: nevrátí se."
+      }
+    },
+    {
+      "id": "text-ca5e91",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "superlativ"
+      ],
+      "prompt": "Jaký je superlativ od příslovce „blízko“?",
+      "hint": "Stupňování příslovce",
+      "source": "kometa",
+      "options": [
+        "blíže",
+        "nejblíže",
+        "blízce",
+        "nejblízce"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Stupňování: blízko → blíže → nejblíže.",
+        "en": "Comparison: blízko → blíže → nejblíže."
+      }
+    },
+    {
+      "id": "text-f3448d",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "komparativ"
+      ],
+      "prompt": "Jaký je komparativ od „jasný“ (fem. sg.)?",
+      "hint": "Stupňování příd. jména",
+      "source": "kometa",
+      "options": [
+        "jasnější",
+        "nejjasnější",
+        "jasná",
+        "jasném"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Stupňování: jasný → jasnější → nejjasnější.",
+        "en": "Comparison: jasný → jasnější → nejjasnější."
+      }
+    },
+    {
+      "id": "text-6c3197",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "number",
+        "date"
+      ],
+      "prompt": "Jak se čte „27. listopadu“?",
+      "hint": "Čtení data",
+      "source": "kometa",
+      "options": [
+        "dvacet sedmého listopadu",
+        "dvacátého sedmého listopadu",
+        "dvacet sedmý listopad",
+        "dvacátý sedmý listopad"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Datum v genitivu: dvacátého sedmého listopadu.",
+        "en": "Date in genitive: dvacátého sedmého listopadu."
+      }
+    },
+    {
+      "id": "text-2bd7b2",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "aspect"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „vracet se“?",
+      "hint": "Vidová dvojice",
+      "source": "kometa",
+      "options": [
+        "vrátit se",
+        "navracet se",
+        "obracet se",
+        "otáčet se"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Vidová dvojice: vracet se (nedok.) → vrátit se (dok.).",
+        "en": "Aspect pair: vracet se (impf.) → vrátit se (pf.)."
+      }
+    },
+    {
+      "id": "text-684f8a",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "aspect"
+      ],
+      "prompt": "Jaká je vidová dvojice ke slovesu „řekl“?",
+      "hint": "Vidová dvojice",
+      "source": "kometa",
+      "options": [
+        "říkat",
+        "říci",
+        "mluvit",
+        "říkávat"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Vidová dvojice: říct / řekl (dok.) → říkat (nedok.).",
+        "en": "Aspect pair: říct / řekl (pf.) → říkat (impf.)."
+      }
+    },
+    {
+      "id": "text-622641",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "past",
+        "fem"
+      ],
+      "prompt": "Kometa ___ (být) nejblíže Slunci v listopadu.",
+      "hint": "Minulý čas 3. os. sg. fem.",
+      "source": "Past 3rd sg. fem. of být: byla. (kometa is feminine)",
+      "answer": "byla",
+      "explanation": {
+        "en": "Minulý čas 3. os. sg. fem. od být: byla. (kometa je femininum)"
+      }
+    },
+    {
+      "id": "text-1fc1b9",
+      "type": "type_in",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "past",
+        "plur"
+      ],
+      "prompt": "Lidé ___ (vidět) kometu v listopadu.",
+      "hint": "Minulý čas 3. os. pl. muž. živ.",
+      "source": "Past 3rd pl. masc. anim. of vidět: viděli. (lidé is masc. anim. plural)",
+      "answer": "viděli",
+      "explanation": {
+        "en": "Minulý čas 3. os. pl. muž. živ. od vidět: viděli. (lidé je mask. anim. plurál)"
+      }
+    },
+    {
+      "id": "text-3dca2f",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "nominativ_plurál",
+        "neut"
+      ],
+      "prompt": "Jedno souhvězdí, dvě ___.",
+      "hint": "Neut. -í (beze změny)",
+      "source": "kometa",
+      "options": [
+        "souhvězdí",
+        "souhvězdím",
+        "souhvězdími",
+        "souhvězdích"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Vzor stavení: souhvězdí se nemění.",
+        "en": "Pattern stavení: souhvězdí is unchanged."
+      }
+    },
+    {
+      "id": "text-adf629",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_kometa",
+        "nominativ_plurál",
+        "neut"
+      ],
+      "prompt": "Jedno světlo, dvě ___.",
+      "hint": "Neut. -o",
+      "source": "kometa",
+      "options": [
+        "světla",
+        "světel",
+        "světlům",
+        "světly"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Vzor město: světlo → světla.",
+        "en": "Pattern město: světlo → světla."
+      }
+    }
+  ],
+  "numbers_genitive": [
+    {
+      "id": "numb-1d1334",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "genitiv",
+        "plurál"
+      ],
+      "prompt": "Prasklina byla pět ___ dlouhá.",
+      "hint": "Po číslech 5 a více → genitiv plurálu.",
+      "source": "pohotovost",
+      "options": [
+        "milimetry",
+        "milimetrů"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Po pěti (5+) → genitiv plurálu: pět milimetrů.",
+        "en": "After five (5+) → genitive plural: pět milimetrů."
+      }
+    },
+    {
+      "id": "numb-f45b4d",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "nominativ",
+        "plurál"
+      ],
+      "prompt": "Byla asi dva ___ široká.",
+      "hint": "Po číslech 2–4 → nominativ plurálu.",
+      "source": "pohotovost",
+      "options": [
+        "milimetry",
+        "milimetrů"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Po dvou (2–4) → nominativ plurálu: dva milimetry.",
+        "en": "After two (2–4) → nominative plural: dva milimetry."
+      }
+    },
+    {
+      "id": "numb-632024",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "genitiv",
+        "plurál"
+      ],
+      "prompt": "Kotel je vysoký čtyřicet ___.",
+      "hint": "Po číslech 5 a více → genitiv plurálu.",
+      "source": "pohotovost",
+      "options": [
+        "metry",
+        "metrů"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Po čtyřiceti (5+) → genitiv plurálu: čtyřicet metrů.",
+        "en": "After forty (5+) → genitive plural: čtyřicet metrů."
+      }
+    },
+    {
+      "id": "numb-14efa1",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "genitiv",
+        "plurál"
+      ],
+      "prompt": "V kotli je padesát tisíc ___ vody.",
+      "hint": "Po číslech 5 a více → genitiv plurálu.",
+      "source": "pohotovost",
+      "options": [
+        "litry",
+        "litrů"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Po padesáti tisících (5+) → genitiv plurálu: padesát tisíc litrů.",
+        "en": "After fifty thousand (5+) → genitive plural: padesát tisíc litrů."
+      }
+    },
+    {
+      "id": "numb-4430e2",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "genitiv",
+        "plurál"
+      ],
+      "prompt": "Vyměnili jsme pět ___.",
+      "hint": "Po pěti (5+) následuje genitiv plurálu.",
+      "source": "pohotovost",
+      "options": [
+        "trubky",
+        "trubek"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Po pěti (5+) → genitiv plurálu: pět trubek.",
+        "en": "After five (5+) → genitive plural: pět trubek."
+      }
+    },
+    {
+      "id": "numb-1a17f2",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "genitiv",
+        "plurál"
+      ],
+      "prompt": "Pracoval jsem tam osm ___.",
+      "hint": "Po osmi (5+) následuje genitiv plurálu.",
+      "source": "pohotovost",
+      "options": [
+        "hodiny",
+        "hodin"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Po osmi (5+) → genitiv plurálu: osm hodin.",
+        "en": "After eight (5+) → genitive plural: osm hodin."
+      }
+    },
+    {
+      "id": "numb-e340c0",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "genitiv",
+        "plurál"
+      ],
+      "prompt": "Uniklo pět tisíc ___ vody.",
+      "hint": "Po pěti tisících (5+) následuje genitiv plurálu.",
+      "source": "pohotovost",
+      "options": [
+        "litry",
+        "litrů"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Po pěti tisících (5+) → genitiv plurálu: pět tisíc litrů.",
+        "en": "After five thousand (5+) → genitive plural: pět tisíc litrů."
+      }
+    },
+    {
+      "id": "numb-5f8ef2",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "genitiv",
+        "plurál"
+      ],
+      "prompt": "Ztráceli jsme pět set ___ za hodinu.",
+      "hint": "Po pěti stech (5+) následuje genitiv plurálu.",
+      "source": "pohotovost",
+      "options": [
+        "litry",
+        "litrů"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Po pěti stech (5+) → genitiv plurálu: pět set litrů.",
+        "en": "After five hundred (5+) → genitive plural: pět set litrů."
+      }
+    },
+    {
+      "id": "numb-875fab",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "genitiv",
+        "plurál"
+      ],
+      "prompt": "Tlak je šedesát ___.",
+      "hint": "Po šedesáti (5+) následuje genitiv plurálu.",
+      "source": "pohotovost",
+      "options": [
+        "bary",
+        "barů"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Po šedesáti (5+) → genitiv plurálu: šedesát barů.",
+        "en": "After sixty (5+) → genitive plural: šedesát barů."
+      }
+    },
+    {
+      "id": "numb-170d9a",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "nominativ",
+        "plurál"
+      ],
+      "prompt": "Sehnal jsem tři ___ na úklid.",
+      "hint": "Po číslech 2–4 → nominativ plurálu (životné).",
+      "source": "pohotovost",
+      "options": [
+        "pracovníky",
+        "pracovníků"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Po třech (2–4, životné m.) → nominativ plurálu: tři pracovníci (zde akuzativ: pracovníky).",
+        "en": "After three (2–4, animate masc.) → nominative plural: tři pracovníci (accusative here: pracovníky)."
+      }
+    },
+    {
+      "id": "numb-9c157b",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "nominativ",
+        "plurál"
+      ],
+      "prompt": "Našli jsme dvě ___.",
+      "hint": "Po číslech 2–4 → nominativ plurálu (ženský rod).",
+      "source": "pohotovost",
+      "options": [
+        "praskliny",
+        "prasklin"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Po dvou (2–4, ženský rod) → nominativ plurálu: dvě praskliny.",
+        "en": "After two (2–4, feminine) → nominative plural: dvě praskliny."
+      }
+    },
+    {
+      "id": "numb-d2e190",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "čísla",
+        "genitiv",
+        "plurál"
+      ],
+      "prompt": "Odpovídá to hloubce dvaceti ___.",
+      "hint": "Po dvaceti (5+) následuje genitiv plurálu.",
+      "source": "pohotovost",
+      "options": [
+        "metry",
+        "metrů"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Po dvaceti (5+) → genitiv plurálu: dvaceti metrů.",
+        "en": "After twenty (5+) → genitive plural: dvaceti metrů."
+      }
+    }
+  ],
+  "genitive_dative_mix": [
+    {
+      "id": "geni-9f48d5",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "předložky"
+      ],
+      "prompt": "Bál jsem se ___.",
+      "hint": "Bát se + genitiv.",
+      "source": "pohotovost",
+      "options": [
+        "prasklině",
+        "prasklinu",
+        "praskliny"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Bát se + genitiv: bál jsem se praskliny.",
+        "en": "bát se + genitive: bál jsem se praskliny."
+      }
+    },
+    {
+      "id": "geni-7ec4f6",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "předložky"
+      ],
+      "prompt": "Kvůli vysokému ___ jsme museli kotel zavřít.",
+      "hint": "Kvůli + dativ.",
+      "source": "pohotovost",
+      "options": [
+        "tlak",
+        "tlaku",
+        "tlakem"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Kvůli + dativ: kvůli vysokému tlaku.",
+        "en": "kvůli + dative: kvůli vysokému tlaku."
+      }
+    },
+    {
+      "id": "geni-bbe370",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "předložky"
+      ],
+      "prompt": "Tlak odpovídá ___ dvaceti metrů.",
+      "hint": "Odpovídat + dativ (dvaceti metrů je genitiv míry).",
+      "source": "pohotovost",
+      "options": [
+        "hloubce",
+        "hloubku",
+        "hloubky"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Odpovídat + dativ: odpovídá hloubce dvaceti metrů.",
+        "en": "odpovídat + dative: odpovídá hloubce dvaceti metrů."
+      }
+    },
+    {
+      "id": "geni-4f2b77",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "předložky"
+      ],
+      "prompt": "Věnovali jsme se ___ celý pátek.",
+      "hint": "Věnovat se + dativ.",
+      "source": "pohotovost",
+      "options": [
+        "opravu",
+        "opravy",
+        "opravě"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "Věnovat se + dativ: věnovali jsme se opravě.",
+        "en": "věnovat se + dative: věnovali jsme se opravě."
+      }
+    },
+    {
+      "id": "geni-90b5ba",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "předložky"
+      ],
+      "prompt": "Nemohli jsme pokračovat bez ___.",
+      "hint": "Bez + genitiv.",
+      "source": "pohotovost",
+      "options": [
+        "přípravy",
+        "přípravě"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Bez + genitiv: bez přípravy.",
+        "en": "bez + genitive: bez přípravy."
+      }
+    },
+    {
+      "id": "geni-64763b",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "předložky"
+      ],
+      "prompt": "Díky ___ jsme to opravili včas.",
+      "hint": "Díky + dativ.",
+      "source": "pohotovost",
+      "options": [
+        "přípravě",
+        "přípravu",
+        "přípravy"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Díky + dativ: díky přípravě.",
+        "en": "díky + dative: díky přípravě."
+      }
+    },
+    {
+      "id": "geni-7b61ea",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "předložky"
+      ],
+      "prompt": "Kolem ___ jsme měřili.",
+      "hint": "Kolem + genitiv.",
+      "source": "pohotovost",
+      "options": [
+        "praskliny",
+        "prasklině"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Kolem + genitiv: kolem praskliny.",
+        "en": "kolem + genitive: kolem praskliny."
+      }
+    },
+    {
+      "id": "geni-d80f8c",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "předložky"
+      ],
+      "prompt": "Všimli jsme si ___.",
+      "hint": "Všimnout si + genitiv.",
+      "source": "pohotovost",
+      "options": [
+        "prasklině",
+        "praskliny"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Všimnout si + genitiv: všimli jsme si praskliny.",
+        "en": "všimnout si + genitive: všimli jsme si praskliny."
+      }
+    },
+    {
+      "id": "geni-5f9307",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "slovesa"
+      ],
+      "prompt": "Voda nám ___.",
+      "hint": "Škodit + dativ.",
+      "source": "pohotovost",
+      "options": [
+        "škodila",
+        "škodila nás"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Škodit + dativ: voda nám škodila.",
+        "en": "škodit + dative: voda nám škodila."
+      }
+    },
+    {
+      "id": "geni-7ae6cd",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "slovesa"
+      ],
+      "prompt": "Pět tisíc litrů by ___ na malé koupaliště.",
+      "hint": "Podmět 5 000 → střední rod jednotného čísla.",
+      "source": "pohotovost",
+      "options": [
+        "stačilo",
+        "stačil"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Pět tisíc litrů (n. sg.) → stačilo.",
+        "en": "Pět tisíc litrů (n. sg.) → stačilo."
+      }
+    },
+    {
+      "id": "geni-3d41bd",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "slovesa"
+      ],
+      "prompt": "Zabránili jsme ___.",
+      "hint": "Zabránit + dativ.",
+      "source": "pohotovost",
+      "options": [
+        "nehodu",
+        "nehodě"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Zabránit + dativ: zabránili jsme nehodě.",
+        "en": "zabránit + dative: zabránili jsme nehodě."
+      }
+    },
+    {
+      "id": "geni-3fc2e3",
+      "type": "multiple_choice",
+      "level": "B1",
+      "tags": [
+        "genitiv",
+        "dativ",
+        "akuzativ"
+      ],
+      "prompt": "Potřeboval jsem sehnat ___ na úklid.",
+      "hint": "Sehnat + akuzativ (kontrolní otázka — ani genitiv, ani dativ).",
+      "source": "pohotovost",
+      "options": [
+        "pracovníků",
+        "pracovníky"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Sehnat + akuzativ: sehnat pracovníky.",
+        "en": "sehnat + accusative: sehnat pracovníky."
+      }
+    }
+  ],
+  "text_03_svetr": [
+    {
+      "id": "text-6552fa",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Na co je podle textu někdy nejlepší vsadit?",
+      "hint": "Porozumění textu",
+      "source": "svetr",
+      "options": [
+        "Na výrazné barvy",
+        "Na klasiku",
+        "Na vzory",
+        "Na módní doplňky"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "V textu: někdy je nejlepší vsadit na klasiku.",
+        "en": "In the text: sometimes it's best to bet on a classic."
+      }
+    },
+    {
+      "id": "text-2895ab",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "K čemu se hodí dobrý svetr?",
+      "hint": "Porozumění textu",
+      "source": "svetr",
+      "options": [
+        "Jen k sukni",
+        "Jen ke koženým kalhotám",
+        "Ke všemu",
+        "Jen k formálním kalhotám"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "V textu: svetr, který se hodí ke všemu.",
+        "en": "In the text: a sweater that goes with everything."
+      }
+    },
+    {
+      "id": "text-d31267",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Co byste měli zkontrolovat při výběru svetru?",
+      "hint": "Porozumění textu",
+      "source": "svetr",
+      "options": [
+        "Jestli vám sedí",
+        "Jestli je značkový",
+        "Jestli je z dovozu",
+        "Jestli má zip"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: jestli vám svetr skutečně sedí.",
+        "en": "In the text: whether the sweater actually fits you."
+      }
+    },
+    {
+      "id": "text-849560",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Co znamená „jednoduché neznamená nudné“?",
+      "hint": "Porozumění textu",
+      "source": "svetr",
+      "options": [
+        "Kvalitní jednoduchý svetr v dobrém odstínu přinese komplimenty",
+        "Jednoduché svetry jsou vždy nudné",
+        "Jen drahé svetry jsou hezké",
+        "Jednoduché svetry se nenosí"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: kvalitní svetr v krásném odstínu zaručeně přinese komplimenty.",
+        "en": "In the text: a quality sweater in a beautiful shade will surely bring compliments."
+      }
+    },
+    {
+      "id": "text-3dee03",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Jaké barvy jsou klasické?",
+      "hint": "Porozumění textu",
+      "source": "svetr",
+      "options": [
+        "Šedá krémová a béžová",
+        "Jen černá a bílá",
+        "Jen jasně červená",
+        "Jen kobaltově modrá"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: klasikou jsou šedé, krémové a béžové tóny.",
+        "en": "In the text: classics are grey, cream and beige tones."
+      }
+    },
+    {
+      "id": "text-45521e",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Co byste měli zkontrolovat u složení svetru?",
+      "hint": "Porozumění textu",
+      "source": "svetr",
+      "options": [
+        "Jestli je z vlny nebo z kašmíru",
+        "Jestli má zip",
+        "Jestli je z dovozu",
+        "Jestli má kapuci"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: vlna nebo kašmír potěší.",
+        "en": "In the text: wool or cashmere will please."
+      }
+    },
+    {
+      "id": "text-0d71c1",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_svetr",
+        "komprehensivní"
+      ],
+      "prompt": "Co znamená „jednoduchý svetr nestárne“?",
+      "hint": "Porozumění textu",
+      "source": "svetr",
+      "options": [
+        "Že je nadčasový a nevyjde z módy",
+        "Že se nedá vyprat",
+        "Že se rychle opotřebuje",
+        "Že je jen pro mladé"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: jednoduchý svetr nestárne — zůstává nadčasový.",
+        "en": "In the text: a simple sweater doesn't age — it stays timeless."
+      }
+    }
+  ],
+  "text_02_cas": [
+    {
+      "id": "text-d4e76f",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Kde se sešli odborníci na měření času?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "V Praze",
+        "Ve Versailles",
+        "V Bruselu",
+        "V New Yorku"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "V textu: sešli se ve Versailles.",
+        "en": "In the text: they met at Versailles."
+      }
+    },
+    {
+      "id": "text-7ba883",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Co se stalo s Koordinovaným světovým časem (UTC)?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "Byl zrušen",
+        "Už nebude svázán s rotací Země",
+        "Bude se posouvat o hodinu",
+        "Přejde na letní čas"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "UTC už nebude svázán s rotací Země.",
+        "en": "UTC will no longer be tied to Earth's rotation."
+      }
+    },
+    {
+      "id": "text-a0b6df",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Proč se dříve vkládala přestupná sekunda?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "Aby se hodiny srovnaly s otáčením planety",
+        "Aby se prodloužil den",
+        "Aby se zrychlil čas",
+        "Aby se zkrátila noc"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Přestupná sekunda sladila hodiny s otáčením Země.",
+        "en": "Leap seconds aligned clocks with Earth's rotation."
+      }
+    },
+    {
+      "id": "text-590804",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Co je „záporná přestupná sekunda\"?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "Ubrání jedné sekundy (den by měl o sekundu méně)",
+        "Přidání jedné sekundy",
+        "Zastavení hodin",
+        "Zrychlení dne"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Záporná = ubrání jedné sekundy.",
+        "en": "Negative = subtracting one second."
+      }
+    },
+    {
+      "id": "text-d3eadc",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Co se stane s oficiálním časem po rozhodnutí expertů?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "Nebude ukotven v pohybu planety",
+        "Bude se řídit Sluncem",
+        "Bude se měnit každý den",
+        "Vrátí se k slunečnímu času"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Poprvé v historii nebude oficiální čas ukotven v pohybu planety.",
+        "en": "For the first time in history, official time will not be anchored in the planet's movement."
+      }
+    },
+    {
+      "id": "text-cb72ac",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Kdy byl zaveden systém přestupné sekundy?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "V roce 1934",
+        "V roce 1972",
+        "V roce 1998",
+        "V roce 2022"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "V textu: institut přestupné sekundy zaveden roku 1972.",
+        "en": "In the text: the leap second system was introduced in 1972."
+      }
+    },
+    {
+      "id": "text-27238a",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Kolikrát se přibližně vložila přestupná sekunda od roku 1972?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "Asi dvakrát",
+        "Asi desetkrát",
+        "Asi sedmadvacetkrát",
+        "Asi stokrát"
+      ],
+      "correct": 2,
+      "explanation": {
+        "cs": "V textu: zhruba sedmadvacetkrát.",
+        "en": "In the text: roughly twenty-seven times."
+      }
+    },
+    {
+      "id": "text-54eb47",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Co podle historika Mumforda hodiny udělaly?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "Zrychlily čas",
+        "Oddělily čas od lidských událostí",
+        "Zpomalily čas",
+        "Zastavily čas"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Mumford: hodiny „oddělily čas od lidských událostí“.",
+        "en": "Mumford: clocks „separated time from human events“."
+      }
+    },
+    {
+      "id": "text-1813bb",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Proč se experti rozhodli přestupné sekundy zrušit?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "Kvůli obavě ze záporné přestupné sekundy",
+        "Kvůli finančním nákladům",
+        "Kvůli tlaku veřejnosti",
+        "Kvůli nové definici sekundy"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "Hlavní obava: možná záporná přestupná sekunda, kterou nikdo netestoval.",
+        "en": "Main concern: possible negative leap second, never tested."
+      }
+    },
+    {
+      "id": "text-d1b223",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Co znamená rozhodnutí pro běžný život?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "Lidé si budou muset zvyknout na nový čas",
+        "Nebude to mít žádný vliv",
+        "Změní se čas každý den",
+        "Zmizí letní čas"
+      ],
+      "correct": 1,
+      "explanation": {
+        "cs": "Pro běžný život to neznamená žádnou změnu.",
+        "en": "For ordinary life it means no change at all."
+      }
+    },
+    {
+      "id": "text-6d8528",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Kdy se sešli odborníci na měření času?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "Minulý týden",
+        "Minulý měsíc",
+        "Minulý rok",
+        "Před pěti lety"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: minulý týden.",
+        "en": "In the text: last week."
+      }
+    },
+    {
+      "id": "text-19a710",
+      "type": "multiple_choice",
+      "level": "A2",
+      "tags": [
+        "text_cas",
+        "komprehensivní"
+      ],
+      "prompt": "Odkud přišli odborníci na konferenci?",
+      "hint": "Porozumění textu",
+      "source": "cas",
+      "options": [
+        "Z celého světa",
+        "Jen z Francie",
+        "Jen z Evropy",
+        "Jen z USA"
+      ],
+      "correct": 0,
+      "explanation": {
+        "cs": "V textu: z celého světa.",
+        "en": "In the text: from all over the world."
       }
     }
   ]

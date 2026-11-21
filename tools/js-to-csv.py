@@ -14,7 +14,7 @@ bank = json.loads(m.group(1))
 
 fieldnames = [
     "id","topic","type","level","tags","prompt","hint","options","correct",
-    "answer","accept","explanation_cs","explanation_en",
+    "answer","accept","explanation_cs","explanation_en","source",
 ]
 
 def add_markers(prompt, refs):
@@ -41,6 +41,7 @@ for topic, qs in bank.items():
             "accept": "|".join(q.get("accept", [])),
             "explanation_cs": exp.get("cs",""),
             "explanation_en": exp.get("en",""),
+            "source": q.get("source",""),
         })
 
 with dst.open("w", encoding="utf-8", newline="") as f:
